@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Portfolio">
+
+<head>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+  <link rel="icon" href="images/lib/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Welcome. | Taycir Yahmed</title>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body>
+
+<div id="navbar" class="navbar-fixed scrollspy">
+  <nav  class="white">
+    <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down">
+        <li><a class="head-link" href="#navbar">About Me</a></li>
+        <li><a class="head-link" href="#skills">Skills</a></li>
+        <li><a class="head-link" href="#resume">Resume</a></li>
+        <li><a class="head-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2"><br>Taycir Yahmed</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">ICT engineering student</h5>
+        </div>
+         </div>
+    </div> 
+    <div class="parallax"><img src="images/lib/grey_concrete.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center" style="color:#333"><i class="mdi-av-new-releases"></i></h2>
+            <h5 class="center">Technical</h5>
+            <p class="light">
+          Sublime Text is my editor of choice for adding styles and Javascript to my sites and applications. If I'm building an application, AngularJS has become my framework of choice. </p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center" style="color:#333"><i class="mdi-hardware-cast"></i></h2>
+            <h5 class="center">Agile</h5>
+            <p class="light">
+          I am accustomed to following an Agile development process. Flowing communication between myself and other members of the team allows me to work efficiently. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center" style="color:#333"><i class="mdi-hardware-keyboard-alt"></i></h2>
+            <h5 class="center">Creative</h5>
+            <p class="light">
+          I can find inspiration anywhere, I like solving problems and I am always looking for innovative, self-driven and fresh new challenges.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+        <div class="parallax"><img src="images/lib/img.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+
+
+<!-- skills section-->
+<div class="container" id="skills">
+    <div class="section">
+      <br>
+       <h2 class="header" style="color:#CC0066"><center>Skills</center></h2>
+        <div class="row" ng-controller="MyController">
+           <div class="col s12 m4" ng-repeat="Element in listOfElements | filter:Element">
+                  <skill-widget text="{{Element.field}}" percent="{{Element.details}}"></skill-widget>
+             </div>
+        </div> 
+        </div>
+       </div> 
+     </div>
+<!--end of skills section-->
+
+
+<!--resume-->
+<div><br><br><br></div>
+    <div class="parallax-container valign-wrapper section scrollspy" id="resume">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="center row col s3">
+           <h3><br>Resume</h3>
+       </div>
+       <br><div class="center row col s12">
+          <p>I am an ICT engineering student, organized and extremely motivated. I am always eager to learn and I often take courses at online universities. I take great pride in my work, am extremely focused, and always meet my deadlines. My passions are for new technologies, literature and gymnastics.  <br><br></p>
+             </div>
+                 <div>
+          <center>
+        <a class="waves-effect waves-light btn purple lighten-1">Check my CV</a>
+      </center>
+      </div>
+       </div>
+    </div>
+    <div class="parallax"><img src="images/lib/grey_concrete.jpg"alt="Unsplashed background img 2" alt="img"></div>
+  </div>
+<!-- end od resume-->
+
+
+<!-- contact section -->
+<div class="container section scrollspy" id="contact">
+  <div class="section">
+    <br>
+  <br>
+  <h2>Contact me</h2> 
+  
+<div class="row">
+    
+  <form class="col s8">
+      <div class="row">
+      <div class="input-field col s6">
+        <input id="name" type="text" class="validate">
+        <label for="name">Your Name</label>
+      </div> 
+      <div class="input-field col s6">
+        <input id="email" type="email" class="validate">
+        <label for="email">Your Email</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="message-sub" type="email" class="validate">
+        <label for="message-sub">Message Subject</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+         <textarea id="text_area" class="materialize-textarea"></textarea>
+        <label for="text_area">Your Message</label>
+      </div>
+    </div>
+    <div>
+        <a class="waves-effect waves-light btn purple lighten-1">Send Message<i class="mdi-content-send right"></i></a>
+      </div>
+     </form>
+          <div class="col s12 m4">
+                    <p>
+                     <b>  Here's where to find me </b> <br>
+                     Check out my Github account and connect with me on LinkedIn. I'm always interested in connecting with other developers. 
+                    </p>
+                   <ul class="share-buttons">
+  <li><a href="https://tn.linkedin.com/in/tayciryahmed" target="_blank"><img src="images/flat_web_icon_set/inverted/LinkedIn.png"></a></li>
+  <li><a href="https://github.com/tayciryahmed/" target="_blank"><img src="images/lib/GitHub-Mark.png" width="30px"></a></li>
+  <li><a href="https://plus.google.com/114718105304980694911/posts" target="_blank" ><img src="images/flat_web_icon_set/inverted/GooglePlus.png"></a></li>
+                   </ul>
+      </div>
+</div>
+  </div>
+</div>
+<!-- end od contact section-->
+
+
+  <footer class="page-footer purple lighten-1">
+       <div class="footer-copyright">
+      <div class="container">
+       <p>Copyright © TY</p>
+       </div>
+    </div>
+  </footer>
+ 
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/main.js"></script>
+             
+  </body>
+</html>
