@@ -75,28 +75,6 @@
     </div>
   </div>
 
-  <div id="index-banner" class="parallax-container">
-        <div class="parallax"><img src="images/lib/img.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-
-
-<!-- skills section-->
-<div class="container" id="skills">
-    <div class="section">
-      <br>
-       <h2 class="header" style="color:#CC0066"><center>Skills</center></h2>
-        <div class="row" ng-controller="MyController">
-           <div class="col s12 m4" ng-repeat="Element in listOfElements | filter:Element">
-                  <skill-widget text="{{Element.field}}" percent="{{Element.details}}"></skill-widget>
-             </div>
-        </div> 
-        </div>
-       </div> 
-     </div>
-<!--end of skills section-->
-
 
 <!--resume-->
 <div><br><br><br></div>
@@ -120,6 +98,25 @@
     <div class="parallax"><img src="images/lib/grey_concrete.jpg"alt="Unsplashed background img 2" alt="img"></div>
   </div>
 <!-- end od resume-->
+
+
+
+<!-- skills section-->
+<div class="container" id="skills">
+    <div class="section">
+      <br>
+       <h2 class="header" style="color:#CC0066"><center>Skills</center></h2>
+        <div class="row" ng-controller="MyController">
+           <div class="col s12 m4" ng-repeat="Element in listOfElements | filter:Element">
+                  <skill-widget text="{{Element.field}}" percent="{{Element.details}}"></skill-widget>
+             </div>
+        </div> 
+        </div>
+       </div> 
+     </div>
+<!--end of skills section-->
+
+
 
 
   <footer class="page-footer purple lighten-1">
