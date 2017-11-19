@@ -51,22 +51,22 @@ angular.module('cards', [])
      getElements: function(){
          
          return  [ 
-            { "field" : "HTML5, JavaScript",
+            { "field" : "Machine learning",
                 "details" : 75
               },
-              {  "field" : "OPP, MVC,REST",
+              {  "field" : "Data analysis",
                 "details" : 80
               }, 
-              { "field" : "JQuery, DOJO",
+              { "field" : "Software development",
                 "details" : 60
               },
-              { "field" : "SQL, MySQL",
+              { "field" : "Web development",
                 "details" : 75
               },   
-              { "field" : "C, Java",
+              { "field" : "Big data",
                 "details" : 80
               },  
-              { "field" : "XML, JSON",
+              { "field" : "Data science",
                 "details" : 70
  
               } ];
