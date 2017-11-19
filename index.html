@@ -11,6 +11,13 @@
   <title>Taycir Yahmed</title>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
 </head>
 
 
@@ -21,8 +28,7 @@
     <div class="nav-wrapper container">
       <ul class="right hide-on-med-and-down">
         <li><a class="head-link" href="#projects">Projects</a></li>
-        <li><a class="head-link" href="#resume">Resume</a></li>
-        <li><a class="head-link" href="#skills">Skills</a></li>
+        <li><a class="head-link" href="https://www.linkedin.com/in/tayciryahmed/">Resume</a></li>
         <li><a class="head-link" href="#footer">Contact</a></li>
       </ul>
     </div>
@@ -34,12 +40,12 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2"><br>Taycir Yahmed</h1>
+        <h1 class="header center pink-text text-darken-4" ><br>Taycir Yahmed</h1>
         <div class="row center">
           <h5 class="header col s12 light">Happy AI and machine learning engineer</h5>
         </div>
          </div>
-    </div> 
+    </div>
     <div class="parallax"><img src="images/lib/grey_concrete.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
@@ -77,62 +83,66 @@
   </div>
 
 
-<!--resume-->
-<div id="resume"><br><br><br></div>
-    <div class="parallax-container valign-wrapper section scrollspy" id="resume">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="center row col s3">
-           <h3><br>Resume</h3>
-       </div>
-       <br><div class="center row col s12">
-          <p>Autonomous, always eager to learn and passionate about solving business challenges using machine learning and big data analytics, I am willing to bring my solid academic background and hands-on experience to build valuable data products.
-<br><br></p>
-             </div>
-                 <div>
-          <center>
-        <a href="https://www.linkedin.com/in/tayciryahmed/"  class="waves-effect waves-light btn purple lighten-1">Check my CV</a>
-      </center>
-      </div>
-       </div>
-    </div>
-    <div class="parallax"><img src="images/lib/grey_concrete.jpg"alt="Unsplashed background img 2" alt="img"></div>
+
+  <footer id="footer"  class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3>Taycir<span>Yahmed</span></h3>
+
+    <p class="footer-links">
+      <a href="#">Home</a>
+      ·
+      <a href="#projects">Projects</a>
+      ·
+      <a href="#fouter">Contact</a>
+    </p>
+
+    <p class="footer-company-name">Taycir Yahmed &copy; 2017</p>
   </div>
-<!-- end od resume-->
 
+  <div class="footer-center">
 
-
-<!-- skills section-->
-<div class="container" id="skills">
-    <div class="section">
-      <br>
-       <h2 class="header" style="color:#CC0066"><center>Skills</center></h2>
-        <div class="row" ng-controller="MyController">
-           <div class="col s12 m4" ng-repeat="Element in listOfElements | filter:Element">
-                  <skill-widget text="{{Element.field}}" percent="{{Element.details}}"></skill-widget>
-             </div>
-        </div> 
-        </div>
-       </div> 
-     </div>
-<!--end of skills section-->
-
-
-<br><br>
-
-  <footer id="footer" class="page-footer purple lighten-1">
-       <div class="footer-copyright">
-      <div class="container">
-       <p>Copyright © Taycir Yahmed - Machine learning engineer. </p>
-       </div>
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span></span> Paris, France</p>
     </div>
-  </footer>
- 
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>(+33) 0783890129</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:taycir.yahmed@gmail.com">taycir.yahmed@gmail.com</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>About me</span>
+      Autonomous, always eager to learn and passionate about solving business challenges using machine learning and big data analytics.
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://www.linkedin.com/in/tayciryahmed/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/tayciryahmed"><i class="fa fa-github"></i></a>
+
+    </div>
+
+  </div>
+
+</footer>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/main.js"></script>
-             
+
   </body>
 </html>
