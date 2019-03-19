@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en" ng-app="Portfolio">
    <head>
@@ -95,7 +93,15 @@
          </span>
          <br><br>
          <span class="grey-text text-darken-2">
-         <b><font size="+1">Fake news identification: </font></b> The goal of this project is to develop prediction models able to identify which news is fake on www.politifact.com. The input contains of short statements of public figures (and sometimes anomymous bloggers), plus some metadata. The output is a truth level, judged by journalists at Politifact. They use six truth levels which are coded into integers to obtain an ordinal regression problem: 0: 'Pants on Fire!’, 1: 'False', 2: 'Mostly False', 3: 'Half-True', 4: 'Mostly True' and 5: 'True'.
+         <b><font size="+1">Fake news identification: </font></b> The goal of this project is to develop prediction models able to identify which news are fake on <a href="https://www.politifact.com/">Politifact </a>. 
+         It was organized as a <a href="https://www.ramp.studio/">RAMP</a> competition, with 131 participants from various universities.  
+         The idea is that given a number of short statement of public figures and anonymous bloggers, we need to predict a truth level of that statement. 
+         This is a very important application nowadays, considering the growing number of rumors and fake news spread on social media. 
+         To do so, the technical setup was a supervised learning approach. 
+         So, we use data tagged by journalists at  Politifact, to generate a truth level between 1 and 5, corresponding to the following targets 
+         (from the least correct to the most correct respectively: Pants on Fire!,  False, Mostly False, Half-True, Mostly True and True), 
+         using ordinal regression. To solve this problem, I used RNN layers initialized with pre-trained word embeddings  (GloVe) and a multi-label output layer. 
+         I also combined the statements embeddings with metadata feature embeddings, for variables, such as the statement’s author, source, etc. I scored top 10, in the competition. 
          </span>
          <br><br>
          <span class="grey-text text-darken-2">
@@ -206,4 +212,3 @@
       <script src="js/main.js"></script>
    </body>
 </html>
-
