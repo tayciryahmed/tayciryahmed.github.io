@@ -1,0 +1,46 @@
+title: Taycir Yahmed
+author: Taycir Yahmed
+email: taycir.yahmed@gmail.com
+remote_theme: thelehhman/texture
+theme: texture
+description: > # this means to ignore newlines until "show_exerpts:"
+  NLP and Machine Learning engineer.. 
+  Autonomous, always eager to learn and passionate 
+  about solving business challenges using NLP and Machine Learning, 
+  I thrive in building valuable data products and designing innovative AI solutions for various business use cases.
+show_excerpts: true # set to true to show excerpts on the homepage
+#baseurl: /test
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Taycir Yahmed
+  tagline: Machine Learning, NLP
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: true
+  showPicker: false
+
+  social_links:
+    twitter: TaycirYahmed
+    github:  tayciryahmed
+    linkedIn: in/tayciryahmed/
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - about.md
+
+# Build settings
+theme: texture
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
