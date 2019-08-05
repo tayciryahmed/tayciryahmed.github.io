@@ -10,7 +10,7 @@ bilingual corpora, leading to the construction of reliable training datasets for
 machine translation systems.
 
 However, the problem is still prominent for the below use-cases:
-* Low-resource setup: Although for some language pairs, we have parallel datasets with a convenient size (e.g. around 50 millions sentences for French - English), this is not the case for all language pairs. Indeed, low resource languages 1 do not have as much parallel data making it hard to
+* Low-resource setup: Although for some language pairs, we have parallel datasets with a convenient size (e.g. around 50 millions sentences for French - English), this is not the case for all language pairs. Indeed, low resource languages do not have as much parallel data making it hard to
 train reliable translation models to and from these languages.
 * Specialization setup: Furthermore, machine translation is sensitive to context. Thus, any available specialized data can have a strong influence on the model’s performance for a specific domain. For instance, using medical data when training the model enhances its performance on prescriptions’ translation. Note that there are various [domain control](https://arxiv.org/abs/1612.06140) strategies for machine translation, such as adding the domain tag as an additional feature or adding a special token to the sentence when training and translating; this is not, however, the core of this article. 
 
@@ -29,7 +29,7 @@ Bag-Of-Words to a cross-lingual setup, where we represent all documents in the s
 
 ![Implementation of CLBOW: Cross-Lingual Bag of Words]({{site.baseurl}}/assets/images/algo1.png)
 
-Illustration of CLBOW: Cross-Lingual Bag-Of-Words:
+Illustration of Cross-Lingual Bag-Of-Words (CLBOW):
 
 <img src="{{site.baseurl}}/assets/images/cbow.png" alt="Illustration of CLBOW: Cross-Lingual Bag-Of-Words" width="700"/>
 
