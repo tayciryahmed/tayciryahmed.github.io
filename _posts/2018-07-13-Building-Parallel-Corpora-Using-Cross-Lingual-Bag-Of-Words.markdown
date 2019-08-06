@@ -34,11 +34,11 @@ in the multidimensional representation space.
 Although most recent research [works](https://arxiv.org/abs/1710.04087) focus on multilingual word embeddings as a numerical representation of text data, here we present a generalization of
 Bag-Of-Words to a cross-lingual setup, where we represent all documents in the same space irrespectively of their language. Below is the explicit implementation of the algorithm:
 
-![Implementation of CLBOW: Cross-Lingual Bag of Words]({{site.baseurl}}/assets/images/algo1.png)
+![Implementation of CLBOW: Cross-Lingual Bag of Words]({{site.baseurl}}assets/images/algo1.png)
 
 Illustration of Cross-Lingual Bag-Of-Words (CLBOW):
 
-<img src="{{site.baseurl}}/assets/images/cbow.png" alt="Illustration of CLBOW: Cross-Lingual Bag-Of-Words" width="700"/>
+<img src="{{site.baseurl}}assets/images/cbow.png" alt="Illustration of CLBOW: Cross-Lingual Bag-Of-Words" width="700"/>
 
 Notes:
 * In the above illustration, the decoding of only two languages is presented for simplicity purposes; nevertheless the suggested implementation is extended to many languages.
@@ -68,7 +68,7 @@ can be represented as the following:
 Below is the detailed algorithm:
 
 
-![Multilingual document matching]({{site.baseurl}}/assets/images/algo2.png)
+![Multilingual document matching]({{site.baseurl}}assets/images/algo2.png)
 
 
 To build bilingual corpora, I consider sequentially pairs of languages. Then on each pair of documents, I apply sentence alignment using the algorithm [BLEUAlign](http://mt-archive.info/AMTA-2010-Sennrich.pdf). This will provide a bilingual parallel corpus for each data source relevant to a specific domain. These corpora are then used to train and specialize machine translation systems and using them enabled a good enhancement in [BLEU](https://www.aclweb.org/anthology/P02-1040) score. Generally, if ∆BLEU is the difference between the BLEU on a standard dataset and a specialized dataset of the general model, you should expect to gain around ∆BLEU on the specialized dataset using the augmented model.

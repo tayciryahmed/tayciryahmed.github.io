@@ -27,13 +27,13 @@ These rules are formulated within a Treebank.
 
 In linguistics, a treebank is a syntactic or semantic sentence structure annotator. The introduction of the first parsed corpora in the 90s, revolutionized computational linguistics, particularly after publishing [Penn Treebank](https://repository.upenn.edu/cgi/viewcontent.cgi?article=2068&context=cis_reports), the first large-scale treebank. Indeed, annotated treebank data has been crucial in syntactic research to test linguistic theories of sentence structure. In addition, there are variants of treebanks, including phrase structure annotators and dependency structure annotators. Note that in these experiments, phrase structure annotators are used.
 
-![Variants of syntactic treebanks]({{site.baseurl}}/assets/images/anno.jpg)
+![Variants of syntactic treebanks]({{site.baseurl}}assets/images/anno.jpg)
 
 Since this experiment deals with French to English translation scenario, a French Treebank is needed. Due to license constraints and the need for phrase annotators, Paris 7 French Treebank was chosen. This Treebank was initiated in 1997, with the collaboration of IUF, CNRS and CNRTL. It consists of 1 million words of the newspaper Le Monde (1989-1995). The full list of the generated tags is accessible [here](http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php).
 
 **Clauses segmentation:** The first step is identifying the usually dropped sentences, those with more than 50 tokens (words). Afterwards, these sentences are annotated each with phrase tags using the French treebank. Below is an example:
 
-<img src="{{site.baseurl}}/assets/images/tree.png" alt="Clause detection and segmentation: French and English examples" width="800"/>
+<img src="{{site.baseurl}}assets/images/tree.png" alt="Clause detection and segmentation: French and English examples" width="800"/>
 
 To select the clauses, specific tags are selected:
 * Selected tags for English:
@@ -60,7 +60,7 @@ Below are the different steps applied to get the clauses' translation:
 
     *Example attention weights generated with translation can be found below:*
 
-    <img src="{{site.baseurl}}/assets/images/Image1.png" alt="Attention weights generated with translation" width="400"/>
+    <img src="{{site.baseurl}}assets/images/Image1.png" alt="Attention weights generated with translation" width="400"/>
 
     Here the source sentence is "Nous esperons qu' il s’agit la d’une preuve de sa pertinence politique." and the target prediction is "We hope that this is proof of its political relevance.".
 
@@ -71,20 +71,20 @@ Below are the different steps applied to get the clauses' translation:
 
     *Example attention matrix of Japanese to English translation:*
 
-    <img src="{{site.baseurl}}/assets/images/Image12.png" alt="Attention matrix of Japanese to English translation" width="400"/>
+    <img src="{{site.baseurl}}assets/images/Image12.png" alt="Attention matrix of Japanese to English translation" width="400"/>
 
 3. Apply the following algorithm to retrieve the clauses’ translation.
 
-![Clauses synthetic translation]({{site.baseurl}}/assets/images/algo.png)
+![Clauses synthetic translation]({{site.baseurl}}assets/images/algo.png)
 
 **Note:** the thresholds 0.4 and 0.7 are selected after experiments on the alignment
 between French and English languages. *See below an illustration of synthetic translation of the first clause "Nous esperons":*
 
-<img src="{{site.baseurl}}/assets/images/Image2.png" alt="Illustration of synthetic translation of the first clause 'Nous esperons'" width="700"/>
+<img src="{{site.baseurl}}assets/images/Image2.png" alt="Illustration of synthetic translation of the first clause 'Nous esperons'" width="700"/>
 
 Note that, in the graph on the right, the horizontal axis represents the position of words in the target sentence and the vertical axis represents the contribution of the corresponding target word in the translation of the clause (here: "Nous esperons"). The image below illustrates the *Information transfer through the source and target sentences:*
 
-![Information transfer through the source and target sentences.]({{site.baseurl}}/assets/images/transfer.png)
+![Information transfer through the source and target sentences.]({{site.baseurl}}assets/images/transfer.png)
 
 ## Model training with clauses
 Using the previously described processes, a bilingual corpus of clauses is constructed. However, in the following experiment, only 35,821 clauses are used, which makes around 3% of the available clauses. Furthermore, each set of clauses is concatenated to the corresponding corpus among the source (French) and the target (English). Afterwards, the two corpora are jointly randomized so that

@@ -190,11 +190,11 @@ in the multidimensional representation space.</p>
 <p>Although most recent research <a href="https://arxiv.org/abs/1710.04087">works</a> focus on multilingual word embeddings as a numerical representation of text data, here we present a generalization of
 Bag-Of-Words to a cross-lingual setup, where we represent all documents in the same space irrespectively of their language. Below is the explicit implementation of the algorithm:</p>
 
-<p><img src="//assets/images/algo1.png" alt="Implementation of CLBOW: Cross-Lingual Bag of Words" /></p>
+<p><img src="/assets/images/algo1.png" alt="Implementation of CLBOW: Cross-Lingual Bag of Words" /></p>
 
 <p>Illustration of Cross-Lingual Bag-Of-Words (CLBOW):</p>
 
-<p><img src="//assets/images/cbow.png" alt="Illustration of CLBOW: Cross-Lingual Bag-Of-Words" width="700" /></p>
+<p><img src="/assets/images/cbow.png" alt="Illustration of CLBOW: Cross-Lingual Bag-Of-Words" width="700" /></p>
 
 <p>Notes:</p>
 <ul>
@@ -223,7 +223,7 @@ can be represented as the following:</p>
 
 <p>Below is the detailed algorithm:</p>
 
-<p><img src="//assets/images/algo2.png" alt="Multilingual document matching" /></p>
+<p><img src="/assets/images/algo2.png" alt="Multilingual document matching" /></p>
 
 <p>To build bilingual corpora, I consider sequentially pairs of languages. Then on each pair of documents, I apply sentence alignment using the algorithm <a href="http://mt-archive.info/AMTA-2010-Sennrich.pdf">BLEUAlign</a>. This will provide a bilingual parallel corpus for each data source relevant to a specific domain. These corpora are then used to train and specialize machine translation systems and using them enabled a good enhancement in <a href="https://www.aclweb.org/anthology/P02-1040">BLEU</a> score. Generally, if ∆BLEU is the difference between the BLEU on a standard dataset and a specialized dataset of the general model, you should expect to gain around ∆BLEU on the specialized dataset using the augmented model.</p>
 
