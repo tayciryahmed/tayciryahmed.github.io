@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-06T09:02:07-05:00</updated><id>http://localhost:4000/</id><title type="html">Taycir Yahmed</title><subtitle>NLP &amp; Machine Learning</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="http://localhost:4000/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>http://localhost:4000/acl2019</id><content type="html" xml:base="http://localhost:4000/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind and they reflect &lt;em&gt;my understanding&lt;/em&gt; of the subject matter.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://tayciryahmed.com:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tayciryahmed.com:4000/" rel="alternate" type="text/html" /><updated>2019-08-06T09:44:37-05:00</updated><id>http://tayciryahmed.com:4000/</id><title type="html">Taycir Yahmed</title><subtitle>NLP &amp; Machine Learning</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="http://tayciryahmed.com:4000/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>http://tayciryahmed.com:4000/acl2019</id><content type="html" xml:base="http://tayciryahmed.com:4000/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind and they reflect &lt;em&gt;my understanding&lt;/em&gt; of the subject matter.&lt;/p&gt;
 
 &lt;p&gt;The conference accepted 660 &lt;a href=&quot;http://www.acl2019.org/EN/program.xhtml&quot;&gt;papers&lt;/a&gt; with an acceptance rate of 22.7% and had over 3K participants. It was sponsored by various industrial big players from the NLP research community (&lt;a href=&quot;http://www.acl2019.org/EN/exhibitors-sponsors.xhtml&quot;&gt;Full list of sponsors&lt;/a&gt;).&lt;/p&gt;
 
@@ -46,7 +46,7 @@
   &lt;li&gt;Live twitter : &lt;a href=&quot;https://twitter.com/caro__lawrence&quot;&gt;Carolin Lawrence&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/PiotrZelasko&quot;&gt;Piotr Żelasko&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/AlvinGrissomII&quot;&gt;Alvin Grissom II&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/emilymbender&quot;&gt;Emily M. Bender&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/alienelf&quot;&gt;Jade Abbott&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Best papers nominations can be found &lt;a href=&quot;http://www.acl2019.org/EN/nominations-for-acl-2019-best-paper-awards.xhtml&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~neulab//2019/07/25/neulab-presentations-at-acl-2019.html&quot;&gt;NeuLab Presentations at ACL 2019&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>taycir</name></author><summary type="html">This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind and they reflect my understanding of the subject matter.</summary></entry><entry><title type="html">mcQA - Multiple Choice Question Answering</title><link href="http://localhost:4000/mcQA" rel="alternate" type="text/html" title="mcQA - Multiple Choice Question Answering" /><published>2019-07-10T02:25:36-05:00</published><updated>2019-07-10T02:25:36-05:00</updated><id>http://localhost:4000/mcQA</id><content type="html" xml:base="http://localhost:4000/mcQA">&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>taycir</name></author><summary type="html">This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind and they reflect my understanding of the subject matter.</summary></entry><entry><title type="html">mcQA - Multiple Choice Question Answering</title><link href="http://tayciryahmed.com:4000/mcQA" rel="alternate" type="text/html" title="mcQA - Multiple Choice Question Answering" /><published>2019-07-10T02:25:36-05:00</published><updated>2019-07-10T02:25:36-05:00</updated><id>http://tayciryahmed.com:4000/mcQA</id><content type="html" xml:base="http://tayciryahmed.com:4000/mcQA">&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
 
 &lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
@@ -103,7 +103,7 @@ pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quo
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accuracy_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;preds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="http://localhost:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>http://localhost:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words</id><content type="html" xml:base="http://localhost:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="http://tayciryahmed.com:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>http://tayciryahmed.com:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words</id><content type="html" xml:base="http://tayciryahmed.com:4000/Building-Parallel-Corpora-Using-Cross-Lingual-Bag-Of-Words">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
 Consequently, there has been many works suggesting different methods to build
 bilingual corpora, leading to the construction of reliable training datasets for
 machine translation systems.&lt;/p&gt;
@@ -128,11 +128,11 @@ in the multidimensional representation space.&lt;/p&gt;
 &lt;p&gt;Although most recent research &lt;a href=&quot;https://arxiv.org/abs/1710.04087&quot;&gt;works&lt;/a&gt; focus on multilingual word embeddings as a numerical representation of text data, here we present a generalization of
 Bag-Of-Words to a cross-lingual setup, where we represent all documents in the same space irrespectively of their language. Below is the explicit implementation of the algorithm:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/algo1.png&quot; alt=&quot;Implementation of CLBOW: Cross-Lingual Bag of Words&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/algo1.png&quot; alt=&quot;Implementation of CLBOW: Cross-Lingual Bag of Words&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Illustration of Cross-Lingual Bag-Of-Words (CLBOW):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/cbow.png&quot; alt=&quot;Illustration of CLBOW: Cross-Lingual Bag-Of-Words&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/cbow.png&quot; alt=&quot;Illustration of CLBOW: Cross-Lingual Bag-Of-Words&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
@@ -161,12 +161,12 @@ can be represented as the following:&lt;/p&gt;
 
 &lt;p&gt;Below is the detailed algorithm:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/algo2.png&quot; alt=&quot;Multilingual document matching&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/algo2.png&quot; alt=&quot;Multilingual document matching&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To build bilingual corpora, I consider sequentially pairs of languages. Then on each pair of documents, I apply sentence alignment using the algorithm &lt;a href=&quot;http://mt-archive.info/AMTA-2010-Sennrich.pdf&quot;&gt;BLEUAlign&lt;/a&gt;. This will provide a bilingual parallel corpus for each data source relevant to a specific domain. These corpora are then used to train and specialize machine translation systems and using them enabled a good enhancement in &lt;a href=&quot;https://www.aclweb.org/anthology/P02-1040&quot;&gt;BLEU&lt;/a&gt; score. Generally, if ∆BLEU is the difference between the BLEU on a standard dataset and a specialized dataset of the general model, you should expect to gain around ∆BLEU on the specialized dataset using the augmented model.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;The here-presented pipeline enabled the construction of a specialized bilingual corpus, that I used to enhance the performance of translation models both on standard datasets and on specialized data (financial, medical, etc.). Other improvements are however to be tested in the near future, including neural encoding of multilingual documents.&lt;/p&gt;</content><author><name>taycir</name></author><summary type="html">Training machine translation models requires a huge amount of parallel data. Consequently, there has been many works suggesting different methods to build bilingual corpora, leading to the construction of reliable training datasets for machine translation systems.</summary></entry><entry><title type="html">Clause Augmentation for Better NMT</title><link href="http://localhost:4000/Clause-Augmentation-for-Better-NMT" rel="alternate" type="text/html" title="Clause Augmentation for Better NMT" /><published>2018-04-01T02:25:36-05:00</published><updated>2018-04-01T02:25:36-05:00</updated><id>http://localhost:4000/Clause-Augmentation-for-Better-NMT</id><content type="html" xml:base="http://localhost:4000/Clause-Augmentation-for-Better-NMT">&lt;p&gt;Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;eos&amp;gt;&lt;/code&gt; will not be high enough to stop the output generation when translating a short sequences.&lt;/p&gt;
+&lt;p&gt;The here-presented pipeline enabled the construction of a specialized bilingual corpus, that I used to enhance the performance of translation models both on standard datasets and on specialized data (financial, medical, etc.). Other improvements are however to be tested in the near future, including neural encoding of multilingual documents.&lt;/p&gt;</content><author><name>taycir</name></author><summary type="html">Training machine translation models requires a huge amount of parallel data. Consequently, there has been many works suggesting different methods to build bilingual corpora, leading to the construction of reliable training datasets for machine translation systems.</summary></entry><entry><title type="html">Clause Augmentation for Better NMT</title><link href="http://tayciryahmed.com:4000/Clause-Augmentation-for-Better-NMT" rel="alternate" type="text/html" title="Clause Augmentation for Better NMT" /><published>2018-04-01T02:25:36-05:00</published><updated>2018-04-01T02:25:36-05:00</updated><id>http://tayciryahmed.com:4000/Clause-Augmentation-for-Better-NMT</id><content type="html" xml:base="http://tayciryahmed.com:4000/Clause-Augmentation-for-Better-NMT">&lt;p&gt;Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;eos&amp;gt;&lt;/code&gt; will not be high enough to stop the output generation when translating a short sequences.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Illustration of n-grams repetition on clauses translation:&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -186,13 +186,13 @@ These rules are formulated within a Treebank.&lt;/p&gt;
 
 &lt;p&gt;In linguistics, a treebank is a syntactic or semantic sentence structure annotator. The introduction of the first parsed corpora in the 90s, revolutionized computational linguistics, particularly after publishing &lt;a href=&quot;https://repository.upenn.edu/cgi/viewcontent.cgi?article=2068&amp;amp;context=cis_reports&quot;&gt;Penn Treebank&lt;/a&gt;, the first large-scale treebank. Indeed, annotated treebank data has been crucial in syntactic research to test linguistic theories of sentence structure. In addition, there are variants of treebanks, including phrase structure annotators and dependency structure annotators. Note that in these experiments, phrase structure annotators are used.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/anno.jpg&quot; alt=&quot;Variants of syntactic treebanks&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/anno.jpg&quot; alt=&quot;Variants of syntactic treebanks&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since this experiment deals with French to English translation scenario, a French Treebank is needed. Due to license constraints and the need for phrase annotators, Paris 7 French Treebank was chosen. This Treebank was initiated in 1997, with the collaboration of IUF, CNRS and CNRTL. It consists of 1 million words of the newspaper Le Monde (1989-1995). The full list of the generated tags is accessible &lt;a href=&quot;http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Clauses segmentation:&lt;/strong&gt; The first step is identifying the usually dropped sentences, those with more than 50 tokens (words). Afterwards, these sentences are annotated each with phrase tags using the French treebank. Below is an example:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tree.png&quot; alt=&quot;Clause detection and segmentation: French and English examples&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/tree.png&quot; alt=&quot;Clause detection and segmentation: French and English examples&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To select the clauses, specific tags are selected:&lt;/p&gt;
 &lt;ul&gt;
@@ -229,7 +229,7 @@ This segmentation step results in a corpus of short sequences in the source lang
 
     &lt;p&gt;&lt;em&gt;Example attention weights generated with translation can be found below:&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/images/Image1.png&quot; alt=&quot;Attention weights generated with translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;//assets/images/Image1.png&quot; alt=&quot;Attention weights generated with translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;Here the source sentence is “Nous esperons qu’ il s’agit la d’une preuve de sa pertinence politique.” and the target prediction is “We hope that this is proof of its political relevance.”.&lt;/p&gt;
 
@@ -240,21 +240,21 @@ This segmentation step results in a corpus of short sequences in the source lang
 
     &lt;p&gt;&lt;em&gt;Example attention matrix of Japanese to English translation:&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/images/Image12.png&quot; alt=&quot;Attention matrix of Japanese to English translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;//assets/images/Image12.png&quot; alt=&quot;Attention matrix of Japanese to English translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Apply the following algorithm to retrieve the clauses’ translation.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/algo.png&quot; alt=&quot;Clauses synthetic translation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/algo.png&quot; alt=&quot;Clauses synthetic translation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the thresholds 0.4 and 0.7 are selected after experiments on the alignment
 between French and English languages. &lt;em&gt;See below an illustration of synthetic translation of the first clause “Nous esperons”:&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Image2.png&quot; alt=&quot;Illustration of synthetic translation of the first clause 'Nous esperons'&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/Image2.png&quot; alt=&quot;Illustration of synthetic translation of the first clause 'Nous esperons'&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Note that, in the graph on the right, the horizontal axis represents the position of words in the target sentence and the vertical axis represents the contribution of the corresponding target word in the translation of the clause (here: “Nous esperons”). The image below illustrates the &lt;em&gt;Information transfer through the source and target sentences:&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/transfer.png&quot; alt=&quot;Information transfer through the source and target sentences.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/transfer.png&quot; alt=&quot;Information transfer through the source and target sentences.&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;model-training-with-clauses&quot;&gt;Model training with clauses&lt;/h2&gt;
 &lt;p&gt;Using the previously described processes, a bilingual corpus of clauses is constructed. However, in the following experiment, only 35,821 clauses are used, which makes around 3% of the available clauses. Furthermore, each set of clauses is concatenated to the corresponding corpus among the source (French) and the target (English). Afterwards, the two corpora are jointly randomized so that
