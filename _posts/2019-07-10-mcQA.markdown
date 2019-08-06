@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "mcQA : Multiple Choice Question Answering"
-date:   2019-07-10 07:25:36 +0530
-categories: NLP Python
+current: post
+cover: assets/images/writing.jpg
+navigation: True
+title: mcQA - Multiple Choice Question Answering
+date: 2019-07-10 07:25:36 
+tags:
+class: post-template
+subclass: 'post'
+author: taycir
 ---
 
 

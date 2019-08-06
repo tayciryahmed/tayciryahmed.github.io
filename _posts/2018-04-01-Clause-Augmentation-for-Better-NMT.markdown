@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  Clause Augmentation for Better NMT
-date:   2018-04-01 07:25:36 +0530
-categories: NMT Augmentation
+current: post
+cover: assets/images/advanced.jpg
+navigation: True
+title: Clause Augmentation for Better NMT
+date: 2018-04-01 07:25:36
+tags:
+class: post-template
+subclass: 'post'
+author: taycir
 ---
 
 Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token `<eos>` will not be high enough to stop the output generation when translating a short sequences.

@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "Building Parallel Corpora Using Cross-Lingual BOW"
-date:   2018-07-13 07:25:36 +0530
-categories: NMT CLBOW
+current: post
+cover: assets/images/tags.jpg
+navigation: True
+title: Building Parallel Corpora Using Cross-Lingual BOW
+date: 2018-07-13 07:25:36
+tags:
+class: post-template
+subclass: 'post'
+author: taycir
 ---
 
 Training machine translation models requires a huge amount of parallel data.
