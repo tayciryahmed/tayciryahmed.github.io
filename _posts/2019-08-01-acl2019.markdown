@@ -11,7 +11,7 @@ subclass: 'post'
 author: taycir
 ---
 
-This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind and they reflect *my understanding* of the subject matter.
+This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.
 
 The conference accepted 660 [papers](http://www.acl2019.org/EN/program.xhtml) with an acceptance rate of 22.7% and had over 3K participants. It was sponsored by various industrial big players from the NLP research community ([Full list of sponsors](http://www.acl2019.org/EN/exhibitors-sponsors.xhtml)).
 
