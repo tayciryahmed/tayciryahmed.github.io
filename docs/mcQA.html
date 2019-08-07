@@ -43,7 +43,7 @@
     <meta property="og:site_name" content="Taycir Yahmed" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="mcQA - Multiple Choice Question Answering" />
-    <meta property="og:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData &lt;br&gt; mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset =" />
+    <meta property="og:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv'," />
     <meta property="og:url" content="/mcQA" />
     <meta property="og:image" content="/assets/images/writing.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -52,7 +52,7 @@
     <meta property="article:modified_time" content="2019-07-10T02:25:36-05:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="mcQA - Multiple Choice Question Answering" />
-    <meta name="twitter:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData &lt;br&gt; mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset =" />
+    <meta name="twitter:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv'," />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/writing.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -82,7 +82,7 @@
         "@type": "WebPage",
         "@id": "/mcQA"
     },
-    "description": "mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData &lt;br&gt; mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset ="
+    "description": "mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv',"
 }
     </script>
 
@@ -187,17 +187,18 @@ pip install <span class="nt">-e</span> <span class="nb">.</span>
 
 <p>See example data preparation below:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">mcqa.data</span> <span class="kn">import</span> <span class="n">MCQAData</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
-<span class="n">mcqa_data</span> <span class="o">=</span> <span class="n">MCQAData</span><span class="p">(</span><span class="n">bert_model</span><span class="o">=</span><span class="s">"bert-base-uncased"</span><span class="p">,</span> 
-                     <span class="n">lower_case</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-                     <span class="n">max_seq_length</span><span class="o">=</span><span class="mi">256</span><span class="p">)</span> 
+<pre><code class="language-python">
+from mcqa.data import MCQAData
+mcqa_data = MCQAData(bert_model="bert-base-uncased", 
+                     lower_case=True,
+                     max_seq_length=256) 
 
-<span class="n">train_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/train.csv'</span><span class="p">,</span> 
-                               <span class="n">is_training</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> 
-                               
-<span class="n">test_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/test.csv'</span><span class="p">,</span> 
-                              <span class="n">is_training</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span> 
-</code></pre></div></div>
+train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv', 
+                               is_training=True) 
+                        
+test_dataset = mcqa_data.read(data_file='swagaf/data/test.csv', 
+                              is_training=False) 
+</code></pre>
 
 <h3 id="model-training">Model training</h3>
 
@@ -217,8 +218,8 @@ pip install <span class="nt">-e</span> <span class="nb">.</span>
 
 <h3 id="evaluation">Evaluation</h3>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
-<span class="kn">from</span> <span class="nn">mcqa.data</span> <span class="kn">import</span> <span class="n">get_labels</span><span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
+<span class="kn">from</span> <span class="nn">mcqa.data</span> <span class="kn">import</span> <span class="n">get_labels</span>
 <span class="k">print</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">preds</span><span class="p">,</span> <span class="n">get_labels</span><span class="p">(</span><span class="n">train_dataset</span><span class="p">)))</span>
 </code></pre></div></div>
 

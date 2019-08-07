@@ -39,28 +39,15 @@ See example data preparation below:
 <pre><code class="language-python">
 from mcqa.data import MCQAData
 mcqa_data = MCQAData(bert_model="bert-base-uncased", 
-                lower_case=True,
-                max_seq_length=256) 
-
-train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv', 
-                        is_training=True) 
-                        
-test_dataset = mcqa_data.read(data_file='swagaf/data/test.csv', 
-                        is_training=False) 
-</code></pre>
-
-```python
-from mcqa.data import MCQAData
-mcqa_data = MCQAData(bert_model="bert-base-uncased", 
                      lower_case=True,
                      max_seq_length=256) 
 
 train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv', 
                                is_training=True) 
-                               
+                        
 test_dataset = mcqa_data.read(data_file='swagaf/data/test.csv', 
                               is_training=False) 
-```
+</code></pre>
 
 ### Model training 
 
