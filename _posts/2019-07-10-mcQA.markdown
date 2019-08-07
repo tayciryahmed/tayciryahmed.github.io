@@ -36,7 +36,7 @@ pip install -e .
 
 See example data preparation below:
 
-<pre><code class="language-python">img[src$=&quot;#full&quot;] {
+<pre><code class="language-python">
         from mcqa.data import MCQAData
         mcqa_data = MCQAData(bert_model="bert-base-uncased", 
                         lower_case=True,
@@ -47,7 +47,6 @@ See example data preparation below:
                                 
         test_dataset = mcqa_data.read(data_file='swagaf/data/test.csv', 
                                 is_training=False) 
-}
 </code></pre>
 
 ```python
