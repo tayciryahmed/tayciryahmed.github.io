@@ -53,8 +53,11 @@ There seems to be an important interest in building systems with in-domain data 
 
 Coming soon ... 
 
-## Resources 
+## See also 
 * [Video recordings](https://www.livecongress.it/sved/evt/aol_lnk.php?id=60B5FD70)
-* Live twitter : [Carolin Lawrence](https://twitter.com/caro__lawrence), [Piotr Żelasko](https://twitter.com/PiotrZelasko), [Alvin Grissom II](https://twitter.com/AlvinGrissomII), [Emily M. Bender](https://twitter.com/emilymbender), [Jade Abbott](https://twitter.com/alienelf)
-* Best papers nominations can be found [here](http://www.acl2019.org/EN/nominations-for-acl-2019-best-paper-awards.xhtml).
 * [NeuLab Presentations at ACL 2019](http://www.cs.cmu.edu/~neulab//2019/07/25/neulab-presentations-at-acl-2019.html)
+* [Unsupervised Cross-lingual Representation Learning tutorial](https://docs.google.com/presentation/d/1miPu0hkBFSRTAxP-Psg0xXOvAbVSJPhQXehMQdUI88I/edit#slide=id.p)
+* Best papers nominations [here](http://www.acl2019.org/EN/nominations-for-acl-2019-best-paper-awards.xhtml).
+* [Trends in Natural Language Processing: ACL 2019 In Review](https://www.mihaileric.com/posts/nlp-trends-acl-2019/) by Mihail Eric.
+* [Knowledge Graphs in Natural Language Processing @ ACL 2019](https://medium.com/@mgalkin/knowledge-graphs-in-natural-language-processing-acl-2019-7a14eb20fce8) by Michael Galkin.
+* [Notes on ACL 2019](http://noecasas.com/post/acl2019/) by Noe Casas.
