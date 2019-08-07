@@ -10,14 +10,14 @@ baseurl: /
 
 # Website info
 title: Taycir Yahmed
-description: NLP & Machine Learning 
+description: Machine Learning, NLP
 cover: assets/images/blog-cover.jpg
 #logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://tayciryahmed.com
 source_url: https://github.com/tayciryahmed/tayciryahmed/
-CNAME: #add cname for website to be created
+CNAME: tayciryahmed.com
 
 # Social info
 navigation: True # show the navbar links
@@ -32,12 +32,12 @@ disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-145236815-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
+#permalink: /author/:author
+#permalink: /tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
@@ -69,10 +69,10 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
+username: tayciryahmed
+repo: tayciryahmed.com
 branch: master
-relative_source: ../test/
+relative_source: ./
 destination: docs/
 production_url:  https://tayciryahmed.com
 source_url:  https://github.com/tayciryahmed/tayciryahmed.com
