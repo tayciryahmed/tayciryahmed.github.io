@@ -59,7 +59,7 @@ Below are the different steps applied to get the clauses' translation:
 
     <img src="{{site.baseurl}}assets/images/Image1.png" alt="Attention weights generated with translation" width="400"/>
 
-    Here the source sentence is "Nous esperons qu' il s’agit la d’une preuve de sa pertinence politique." and the target prediction is "We hope that this is proof of its political relevance.". Each cell αij , where 1 ≤ i ≤ n, 1 ≤ j ≤ m: n being the length of the source sentence and m being the length of the target sentence, represents the contribution of target word j in the translation of the source word i. Note that the lighter the cell, the more important the attention weight. <br>
+    Here the source sentence is "Nous esperons qu' il s’agit la d’une preuve de sa pertinence politique." and the target prediction is "We hope that this is proof of its political relevance.". Each cell αij , where 1 ≤ i ≤ n, 1 ≤ j ≤ m: n being the length of the source sentence and m being the length of the target sentence, represents the contribution of target word j in the translation of the source word i. Note that the lighter the cell, the more important the attention weight. <br><br>
 
     **Important remark:** Here, the matrix is predominantly **diagonal**: this indicates how much the French and English languages are aligned. An example of the attention matrix corresponding to non-aligned languages (Japanese to English) can be seen in the below figure. 
 
@@ -92,7 +92,7 @@ Below, I present the scores obtained using this method on WMT 2015 test set and 
 | Baseline  &nbsp; &nbsp; &nbsp;| 28.41 &nbsp; &nbsp; &nbsp;| 49.73 |
 | Augmented model &nbsp; &nbsp; &nbsp;| 28.85 &nbsp; &nbsp; &nbsp;| 58.31 |
 
-**Quantitative discussion:** Integrating the clauses improves the performance with 0.44 BLEU on WMT 2015 and 8.58 BLEU on a test set of clauses. Note that in this experiment, only 3% of the available clauses are used. <br>
+**Quantitative discussion:** Integrating the clauses improves the performance with 0.44 BLEU on WMT 2015 and 8.58 BLEU on a test set of clauses. Note that in this experiment, only 3% of the available clauses are used. <br><br>
 **Qualitative discussion:** Integrating the clauses has an influence mostly on translating short sequences. The method was suggested to solve the problem of n-gram repetition and indeed it did. Below is an example illustrating how the augmented model translates short sequences:
 * **Source:** et il croit depuis lors a un taux de 5 % <br>
 * **Baseline translation:** since then and since then at 5 % at 5 % <br>
