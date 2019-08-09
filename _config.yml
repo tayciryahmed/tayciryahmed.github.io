@@ -58,7 +58,7 @@ feed:
 # ...
 
 # Settings for builing master branch with travis-ci
-# with jekyll-travis
+with jekyll-travis
 
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
