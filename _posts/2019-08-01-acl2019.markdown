@@ -69,3 +69,5 @@ Another interesting paper by [Strubell et al.](https://arxiv.org/abs/1906.02243)
 * [Knowledge Graphs in Natural Language Processing @ ACL 2019](https://medium.com/@mgalkin/knowledge-graphs-in-natural-language-processing-acl-2019-7a14eb20fce8) by Michael Galkin.
 * [Notes on ACL 2019](http://noecasas.com/post/acl2019/) by Noe Casas.
 * [ACL 2019, my take home messages](https://medium.com/@soramas/acl-2019-my-take-home-messages-a94bc00e9896) by Sergio Oramas.
+* [ACL 2019: Highlights and Trends](https://medium.com/@mariekhvalchik/acl-2019-1adf4c748711) by Maria Khvalchik.
+.
