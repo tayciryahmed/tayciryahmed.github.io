@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>ACL 2019 Highlights</title>
+        
+          <description>&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Aug 2019 16:03:36 -0500</pubDate>
+        <link>
+        /acl2019</link>
+        <guid isPermaLink="true">/acl2019</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>mcQA - Multiple Choice Question Answering</title>
         
           <description>&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
