@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-16T09:09:15-05:00</updated><id>/</id><title type="html">Taycir Yahmed</title><subtitle>Machine Learning, NLP</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>/acl2019</id><content type="html" xml:base="/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-16T09:19:25-05:00</updated><id>/</id><title type="html">Taycir Yahmed</title><subtitle>Machine Learning, NLP</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>/acl2019</id><content type="html" xml:base="/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
 
 &lt;p&gt;The conference accepted 660 &lt;a href=&quot;http://www.acl2019.org/EN/program.xhtml&quot;&gt;papers&lt;/a&gt; with an acceptance rate of 22.7%, had 6 parallel oral sessions plus one poster session and over 3K participants. It was sponsored by various industrial big players from the NLP research community (&lt;a href=&quot;http://www.acl2019.org/EN/exhibitors-sponsors.xhtml&quot;&gt;Full list of sponsors&lt;/a&gt;).&lt;/p&gt;
 
@@ -60,12 +60,6 @@
   &lt;li&gt;&lt;a href=&quot;https://medium.com/@mariekhvalchik/acl-2019-1adf4c748711&quot;&gt;ACL 2019: Highlights and Trends&lt;/a&gt; by Maria Khvalchik.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/syncedreview/acl-2019-best-papers-announced-e0141024a935&quot;&gt;ACL 2019 Best Papers Announced&lt;/a&gt; by Synced.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>taycir</name></author><summary type="html">This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.</summary></entry><entry><title type="html">mcQA - Multiple Choice Question Answering</title><link href="/mcQA" rel="alternate" type="text/html" title="mcQA - Multiple Choice Question Answering" /><published>2019-07-10T02:25:36-05:00</published><updated>2019-07-10T02:25:36-05:00</updated><id>/mcQA</id><content type="html" xml:base="/mcQA">&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://circleci.com/gh/mcQA-suite/mcQA&quot;&gt;&lt;img src=&quot;https://circleci.com/gh/mcQA-suite/mcQA.svg?style=svg&quot; alt=&quot;CircleCI&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://pypi.org/project/mcqa/&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/mcqa.svg&quot; alt=&quot;PyPI Version&quot; /&gt;&lt;/a&gt;
-&lt;img src=&quot;https://img.shields.io/github/license/mcqa-suite/mcqa.svg&quot; alt=&quot;GitHub&quot; /&gt;
-&lt;a href=&quot;https://codecov.io/gh/mcqa-suite/mcQA&quot;&gt;&lt;img src=&quot;https://codecov.io/gh/mcqa-suite/mcQA/branch/master/graph/badge.svg&quot; alt=&quot;codecov&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;http://makeapullrequest.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/PRs-welcome-brightgreen.svg&quot; alt=&quot;PRs Welcome&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
@@ -145,30 +139,7 @@ pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Type&lt;/th&gt;
-      &lt;th&gt;Title&lt;/th&gt;
-      &lt;th&gt;Author&lt;/th&gt;
-      &lt;th&gt;Year&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;:newspaper: Paper&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;Explain Yourself! Leveraging Language Models for Commonsense Reasoning&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong and Richard Socher&lt;/td&gt;
-      &lt;td&gt;ACL 2019&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;:newspaper: Paper&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1808.05326&quot;&gt;SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Rowan Zellers, Yonatan Bisk, Roy Schwartz and Yejin Choi&lt;/td&gt;
-      &lt;td&gt;2018&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="/Building-Parallel-Corpora-CLBOW" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>/Building-Parallel-Corpora-CLBOW</id><content type="html" xml:base="/Building-Parallel-Corpora-CLBOW">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
+&lt;p&gt;📰 Paper: &lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;Explain Yourself! Leveraging Language Models for Commonsense Reasoning&lt;/a&gt; by Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong and Richard Socher (ACL 2019).&lt;br /&gt; 📰 Paper: &lt;a href=&quot;https://arxiv.org/abs/1808.05326&quot;&gt;SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference&lt;/a&gt; by Rowan Zellers, Yonatan Bisk, Roy Schwartz and Yejin Choi (2018).&lt;/p&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="/Building-Parallel-Corpora-CLBOW" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>/Building-Parallel-Corpora-CLBOW</id><content type="html" xml:base="/Building-Parallel-Corpora-CLBOW">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
 Consequently, there has been many works suggesting different methods to build
 bilingual corpora, leading to the construction of reliable training datasets for
 machine translation systems.&lt;/p&gt;
