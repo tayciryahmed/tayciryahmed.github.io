@@ -81,4 +81,5 @@ print(accuracy_score(preds, get_labels(train_dataset)))
 ```
 ## References
 
-📰 Paper: [Explain Yourself! Leveraging Language Models for Commonsense Reasoning](https://arxiv.org/pdf/1906.02361.pdf) by Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong and Richard Socher (ACL 2019).<br> 📰 Paper: [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326) by Rowan Zellers, Yonatan Bisk, Roy Schwartz and Yejin Choi (2018).
+* [Explain Yourself! Leveraging Language Models for Commonsense Reasoning](https://arxiv.org/pdf/1906.02361.pdf) 
+* [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326)
