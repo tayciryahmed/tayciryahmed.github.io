@@ -43,7 +43,7 @@
     <meta property="og:site_name" content="Taycir Yahmed" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="mcQA - Multiple Choice Question Answering" />
-    <meta property="og:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv'," />
+    <meta property="og:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation To train a mcQA model, you need to create a csv file with n+2 columns, n being" />
     <meta property="og:url" content="/mcQA" />
     <meta property="og:image" content="/assets/images/writing.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -52,7 +52,7 @@
     <meta property="article:modified_time" content="2019-07-10T02:25:36-05:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="mcQA - Multiple Choice Question Answering" />
-    <meta name="twitter:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv'," />
+    <meta name="twitter:description" content="mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation To train a mcQA model, you need to create a csv file with n+2 columns, n being" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/writing.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -82,7 +82,7 @@
         "@type": "WebPage",
         "@id": "/mcQA"
     },
-    "description": "mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation See example data preparation below: from mcqa.data import MCQAData mcqa_data = MCQAData(bert_model="bert-base-uncased", lower_case=True, max_seq_length=256) train_dataset = mcqa_data.read(data_file='swagaf/data/train.csv',"
+    "description": "mcQA is a multiple choice question answering python library, using Language Models. Installation With pip pip install mcqa From source git clone https://github.com/mcqa-suite/mcqa.git cd mcQA pip install -e . Getting started Data preparation To train a mcQA model, you need to create a csv file with n+2 columns, n being"
 }
     </script>
 
@@ -167,16 +167,22 @@ into the {body} of the default.hbs template -->
                 <div class="kg-card-markdown">
                     <p>mcQA is a multiple choice question answering python library, using Language Models.</p>
 
+<p><a href="https://circleci.com/gh/mcQA-suite/mcQA"><img src="https://circleci.com/gh/mcQA-suite/mcQA.svg?style=svg" alt="CircleCI" /></a>
+<a href="https://pypi.org/project/mcqa/"><img src="https://img.shields.io/pypi/v/mcqa.svg" alt="PyPI Version" /></a>
+<img src="https://img.shields.io/github/license/mcqa-suite/mcqa.svg" alt="GitHub" />
+<a href="https://codecov.io/gh/mcqa-suite/mcQA"><img src="https://codecov.io/gh/mcqa-suite/mcQA/branch/master/graph/badge.svg" alt="codecov" /></a>
+<a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a></p>
+
 <h2 id="installation">Installation</h2>
 
 <h3 id="with-pip">With pip</h3>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install mcqa
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install mcqa
 </code></pre></div></div>
 
 <h3 id="from-source">From source</h3>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/mcqa-suite/mcqa.git
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/mcqa-suite/mcqa.git
 <span class="nb">cd </span>mcQA
 pip install <span class="nt">-e</span> <span class="nb">.</span>
 </code></pre></div></div>
@@ -185,13 +191,41 @@ pip install <span class="nt">-e</span> <span class="nb">.</span>
 
 <h3 id="data-preparation">Data preparation</h3>
 
+<p>To train a <code class="highlighter-rouge">mcQA</code> model, you need to create a csv file with n+2 columns, n being the number of choices for each question. The first column should be the context sentence, the n following columns should be the choices for that question and the last column is the selected answer.</p>
+
+<p>Below is an example of a 3 choice question (taken from the <a href="https://arxiv.org/pdf/1906.02361.pdf">CoS-E dataset</a>) :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Context sentence</th>
+      <th>Choice 1</th>
+      <th>Choice 2</th>
+      <th>Choice 3</th>
+      <th>Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>People do what during their time off from work?</td>
+      <td>take trips</td>
+      <td>brow shorter</td>
+      <td>become hysterical</td>
+      <td>take trips</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you have a trained <code class="highlighter-rouge">mcQA</code> model and want to infer on a dataset, it should have the same format as the train data, but the <code class="highlighter-rouge">label</code> column.</p>
+
 <p>See example data preparation below:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">mcqa.data</span> <span class="kn">import</span> <span class="n">MCQAData</span>
 
 <span class="n">mcqa_data</span> <span class="o">=</span> <span class="n">MCQAData</span><span class="p">(</span><span class="n">bert_model</span><span class="o">=</span><span class="s">"bert-base-uncased"</span><span class="p">,</span> <span class="n">lower_case</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">max_seq_length</span><span class="o">=</span><span class="mi">256</span><span class="p">)</span> 
-<span class="n">train_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/train.csv'</span><span class="p">,</span> <span class="n">is_training</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>                  
-<span class="n">test_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/test.csv'</span><span class="p">,</span> <span class="n">is_training</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span> 
+                     
+<span class="n">train_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/train.csv'</span><span class="p">,</span> <span class="n">is_training</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">test_dataset</span> <span class="o">=</span> <span class="n">mcqa_data</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">data_file</span><span class="o">=</span><span class="s">'swagaf/data/test.csv'</span><span class="p">,</span> <span class="n">is_training</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h3 id="model-training">Model training</h3>
@@ -199,6 +233,7 @@ pip install <span class="nt">-e</span> <span class="nb">.</span>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">mcqa.models</span> <span class="kn">import</span> <span class="n">Model</span>
 
 <span class="n">mdl</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="n">bert_model</span><span class="o">=</span><span class="s">"bert-base-uncased"</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s">"cuda"</span><span class="p">)</span> 
+            
 <span class="n">mdl</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train_dataset</span><span class="p">,</span> <span class="n">train_batch_size</span><span class="o">=</span><span class="mi">32</span><span class="p">,</span> <span class="n">num_train_epochs</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
 </code></pre></div></div>
 
@@ -214,6 +249,32 @@ pip install <span class="nt">-e</span> <span class="nb">.</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">preds</span><span class="p">,</span> <span class="n">get_labels</span><span class="p">(</span><span class="n">train_dataset</span><span class="p">)))</span>
 </code></pre></div></div>
+<h2 id="references">References</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>:newspaper: Paper</td>
+      <td><a href="https://arxiv.org/pdf/1906.02361.pdf">Explain Yourself! Leveraging Language Models for Commonsense Reasoning</a></td>
+      <td>Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong and Richard Socher</td>
+      <td>ACL 2019</td>
+    </tr>
+    <tr>
+      <td>:newspaper: Paper</td>
+      <td><a href="https://arxiv.org/abs/1808.05326">SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</a></td>
+      <td>Rowan Zellers, Yonatan Bisk, Roy Schwartz and Yejin Choi</td>
+      <td>2018</td>
+    </tr>
+  </tbody>
+</table>
 
                 </div>
             </section>

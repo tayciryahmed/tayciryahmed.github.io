@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-15T12:15:27-05:00</updated><id>/</id><title type="html">Taycir Yahmed</title><subtitle>Machine Learning, NLP</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>/acl2019</id><content type="html" xml:base="/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-16T09:09:15-05:00</updated><id>/</id><title type="html">Taycir Yahmed</title><subtitle>Machine Learning, NLP</subtitle><entry><title type="html">ACL 2019 Highlights</title><link href="/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T16:03:36-05:00</published><updated>2019-08-01T16:03:36-05:00</updated><id>/acl2019</id><content type="html" xml:base="/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
 
 &lt;p&gt;The conference accepted 660 &lt;a href=&quot;http://www.acl2019.org/EN/program.xhtml&quot;&gt;papers&lt;/a&gt; with an acceptance rate of 22.7%, had 6 parallel oral sessions plus one poster session and over 3K participants. It was sponsored by various industrial big players from the NLP research community (&lt;a href=&quot;http://www.acl2019.org/EN/exhibitors-sponsors.xhtml&quot;&gt;Full list of sponsors&lt;/a&gt;).&lt;/p&gt;
 
@@ -61,16 +61,22 @@
   &lt;li&gt;&lt;a href=&quot;https://medium.com/syncedreview/acl-2019-best-papers-announced-e0141024a935&quot;&gt;ACL 2019 Best Papers Announced&lt;/a&gt; by Synced.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>taycir</name></author><summary type="html">This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.</summary></entry><entry><title type="html">mcQA - Multiple Choice Question Answering</title><link href="/mcQA" rel="alternate" type="text/html" title="mcQA - Multiple Choice Question Answering" /><published>2019-07-10T02:25:36-05:00</published><updated>2019-07-10T02:25:36-05:00</updated><id>/mcQA</id><content type="html" xml:base="/mcQA">&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://circleci.com/gh/mcQA-suite/mcQA&quot;&gt;&lt;img src=&quot;https://circleci.com/gh/mcQA-suite/mcQA.svg?style=svg&quot; alt=&quot;CircleCI&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://pypi.org/project/mcqa/&quot;&gt;&lt;img src=&quot;https://img.shields.io/pypi/v/mcqa.svg&quot; alt=&quot;PyPI Version&quot; /&gt;&lt;/a&gt;
+&lt;img src=&quot;https://img.shields.io/github/license/mcqa-suite/mcqa.svg&quot; alt=&quot;GitHub&quot; /&gt;
+&lt;a href=&quot;https://codecov.io/gh/mcqa-suite/mcQA&quot;&gt;&lt;img src=&quot;https://codecov.io/gh/mcqa-suite/mcQA/branch/master/graph/badge.svg&quot; alt=&quot;codecov&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://makeapullrequest.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/PRs-welcome-brightgreen.svg&quot; alt=&quot;PRs Welcome&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
 &lt;h3 id=&quot;with-pip&quot;&gt;With pip&lt;/h3&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install mcqa
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install mcqa
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;from-source&quot;&gt;From source&lt;/h3&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/mcqa-suite/mcqa.git
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/mcqa-suite/mcqa.git
 &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;mcQA
 pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -79,13 +85,41 @@ pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quo
 
 &lt;h3 id=&quot;data-preparation&quot;&gt;Data preparation&lt;/h3&gt;
 
+&lt;p&gt;To train a &lt;code class=&quot;highlighter-rouge&quot;&gt;mcQA&lt;/code&gt; model, you need to create a csv file with n+2 columns, n being the number of choices for each question. The first column should be the context sentence, the n following columns should be the choices for that question and the last column is the selected answer.&lt;/p&gt;
+
+&lt;p&gt;Below is an example of a 3 choice question (taken from the &lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;CoS-E dataset&lt;/a&gt;) :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Context sentence&lt;/th&gt;
+      &lt;th&gt;Choice 1&lt;/th&gt;
+      &lt;th&gt;Choice 2&lt;/th&gt;
+      &lt;th&gt;Choice 3&lt;/th&gt;
+      &lt;th&gt;Label&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;People do what during their time off from work?&lt;/td&gt;
+      &lt;td&gt;take trips&lt;/td&gt;
+      &lt;td&gt;brow shorter&lt;/td&gt;
+      &lt;td&gt;become hysterical&lt;/td&gt;
+      &lt;td&gt;take trips&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you have a trained &lt;code class=&quot;highlighter-rouge&quot;&gt;mcQA&lt;/code&gt; model and want to infer on a dataset, it should have the same format as the train data, but the &lt;code class=&quot;highlighter-rouge&quot;&gt;label&lt;/code&gt; column.&lt;/p&gt;
+
 &lt;p&gt;See example data preparation below:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.data&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MCQAData&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MCQAData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bert_model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bert-base-uncased&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lower_case&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_seq_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/train.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                  
-&lt;span class=&quot;n&quot;&gt;test_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/test.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+                     
+&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/train.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;test_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/test.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;model-training&quot;&gt;Model training&lt;/h3&gt;
@@ -93,6 +127,7 @@ pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quo
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.models&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;mdl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bert_model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bert-base-uncased&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cuda&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+            
 &lt;span class=&quot;n&quot;&gt;mdl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_train_epochs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -107,7 +142,33 @@ pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quo
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.data&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_labels&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accuracy_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;preds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="/Building-Parallel-Corpora-CLBOW" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>/Building-Parallel-Corpora-CLBOW</id><content type="html" xml:base="/Building-Parallel-Corpora-CLBOW">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Author&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;:newspaper: Paper&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;Explain Yourself! Leveraging Language Models for Commonsense Reasoning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong and Richard Socher&lt;/td&gt;
+      &lt;td&gt;ACL 2019&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;:newspaper: Paper&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1808.05326&quot;&gt;SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rowan Zellers, Yonatan Bisk, Roy Schwartz and Yejin Choi&lt;/td&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>taycir</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="/Building-Parallel-Corpora-CLBOW" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T02:25:36-05:00</published><updated>2018-07-13T02:25:36-05:00</updated><id>/Building-Parallel-Corpora-CLBOW</id><content type="html" xml:base="/Building-Parallel-Corpora-CLBOW">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
 Consequently, there has been many works suggesting different methods to build
 bilingual corpora, leading to the construction of reliable training datasets for
 machine translation systems.&lt;/p&gt;
