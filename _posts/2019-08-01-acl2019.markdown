@@ -71,3 +71,4 @@ Another interesting paper by [Strubell et al.](https://arxiv.org/abs/1906.02243)
 * [ACL 2019, my take home messages](https://medium.com/@soramas/acl-2019-my-take-home-messages-a94bc00e9896) by Sergio Oramas.
 * [ACL 2019: Highlights and Trends](https://medium.com/@mariekhvalchik/acl-2019-1adf4c748711) by Maria Khvalchik.
 * [ACL 2019 Best Papers Announced](https://medium.com/syncedreview/acl-2019-best-papers-announced-e0141024a935) by Synced.
+* [ACL 2019 Thoughts and Notes](https://supernlp.github.io/2019/08/16/acl-2019/)
