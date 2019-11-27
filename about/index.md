@@ -16,4 +16,4 @@ During my studies, I have interned at IBM France Lab, IBM MENA, BNP Paribas and 
 
 Previously, I have worked with academic labs on several NLP and Machine Learning projects, including credit scoring, customer satisfaction evaluation through written reviews, gender recognition from face images, credit cards usage analysis, acoustic scenes identification, fake news detection, recommender systems and TV-series themed chatbots. 
 
-My driving motive is having a positive impact and making technology more accessible. Have a look at my resume for more information.
+My driving motive is having a positive impact and making technology more accessible. Have a look at my [resume](mailto:taycir.yahmed+website@gmail.com?subject=Request for Taycir Yahmed resume&body=Hi Taycir, Can you please send me an updated version of you resume? Thanks.) for more information.
