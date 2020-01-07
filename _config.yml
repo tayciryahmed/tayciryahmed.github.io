@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /tayciryahmed.com/
 
 # Website info
 title: Taycir Yahmed
@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 #logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://tayciryahmed.com
-source_url: https://github.com/tayciryahmed/tayciryahmed/
+production_url: https://tayciryahmed.github.io/tayciryahmed.com/
+source_url: https://github.com/tayciryahmed/tayciryahmed.com/
 CNAME: tayciryahmed.com
 
 # Social info
@@ -29,7 +29,7 @@ github: tayciryahmed # replace by your username
 
 # Disqus
 disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus_shortname: tayciryahmed # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-145236815-1 # replace with your GA tracking identifier
@@ -72,9 +72,9 @@ lsi: False
 username: tayciryahmed
 repo: tayciryahmed.com
 branch: master
-relative_source: ./
-destination: docs/
-production_url:  https://tayciryahmed.com
+relative_source: ../tayciryahmed.com
+destination: ../tayciryahmed.com-pages/
+production_url:  https://tayciryahmed.github.io/tayciryahmed.com
 source_url:  https://github.com/tayciryahmed/tayciryahmed.com
 
 exclude:
