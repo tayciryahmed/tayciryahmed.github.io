@@ -8,7 +8,7 @@ date: 2018-07-13 07:25:36
 tags:
 class: post-template
 subclass: 'post'
-author: taycir
+author: tayciryahmed
 ---
 
 Training machine translation models requires a huge amount of parallel data.
