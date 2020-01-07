@@ -4,6 +4,10 @@ cache: bundler
 rvm:
 - 2.5.1
 
+before_install:
+  - rvm @global do gem uninstall bundler -a -x
+  - rvm @global do gem install bundler -v 1.17.3
+  
 install:
   # Install Jekyll and dependencies
   - bundle install
