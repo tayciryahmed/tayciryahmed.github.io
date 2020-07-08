@@ -1,0 +1,22 @@
+---
+layout: post
+current: post
+cover: assets/images/seattle.jpg
+navigation: True
+title: ACL 2020 Highlights
+date: 2020-07-17 21:03:36
+tags:
+class: post-template
+subclass: 'post'
+author: tayciryahmed
+---
+
+
+This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020).
+
+## Interpretability, Analysis and Ethics in NLP
+
+## Question Answering and Dialogue
+
+## Search and recommendation 
+
