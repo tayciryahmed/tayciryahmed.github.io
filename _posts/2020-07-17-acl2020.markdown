@@ -18,5 +18,5 @@ This post discusses highlights of the main conference of the 2020 Annual Meeting
 
 ## Question Answering and Dialogue
 
-## Search and recommendation 
+## Search, ranking and recommendation 
 
