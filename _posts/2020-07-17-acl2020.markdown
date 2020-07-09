@@ -19,7 +19,8 @@ keynote1 + https://acl2020.org/blog/the-first-call-for-papers-is-out/
 ## Robust Evaluation and Ethics
 
 * best paper, best theme paper (emily bender)
-* other papers on evaluation / Ethics / Theme + twitter 
+* other papers on evaluation / Ethics / Theme 
+* twitter 
 
 ## Analysis and Interpretability
 
