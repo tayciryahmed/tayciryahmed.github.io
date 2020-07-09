@@ -16,9 +16,14 @@ This post discusses highlights of the main conference of the 2020 Annual Meeting
 
 ## Analysis and Interpretability
 
+Tutorial + papers : done 
+
 ## Robust Evaluation and Ethics
+
+Theme, best paper, best theme paper (emily bender) + some other papers on both evaluation and Ethics tracks + twitter 
 
 ## Question Answering and Dialogue
 
+tutorial + papers 
 
 
