@@ -14,6 +14,8 @@ author: tayciryahmed
 
 This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020).
 
+keynote1
+
 ## Robust Evaluation and Ethics
 
 Theme, best paper, best theme paper (emily bender) + some other papers on both evaluation and Ethics tracks + twitter 
