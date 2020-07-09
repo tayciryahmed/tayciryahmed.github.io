@@ -14,7 +14,13 @@ author: tayciryahmed
 
 This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020).
 
-## Evaluation, Analysis and Interpretability
+## Robust Evaluation
 
-## Question Answering and Dialogue
+## Analysis and Interpretability
+
+## Ethics in NLP
+
+## Question Answering 
+
+
 
