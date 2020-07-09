@@ -18,9 +18,9 @@ This post discusses highlights of the main conference of the 2020 Annual Meeting
 
 ## Analysis and Interpretability
 
-## Ethics in NLP
+## Ethics and NLP
 
-## Question Answering 
+## Question Answering and Dialogue
 
 
 
