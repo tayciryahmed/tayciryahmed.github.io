@@ -23,5 +23,6 @@ keynote1 + https://acl2020.org/blog/the-first-call-for-papers-is-out/
 
 ## Analysis and Interpretability
 
-Tutorial + papers : done 
+* right to explanation https://en.wikipedia.org/wiki/Right_to_explanation
+* Tutorial + papers : done 
 
