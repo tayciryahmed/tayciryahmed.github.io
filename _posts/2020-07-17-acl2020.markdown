@@ -22,8 +22,3 @@ Theme, best paper, best theme paper (emily bender) + some other papers on both e
 
 Tutorial + papers : done 
 
-## Question Answering and Dialogue
-
-tutorial + papers 
-
-
