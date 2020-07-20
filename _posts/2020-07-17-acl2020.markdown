@@ -36,9 +36,10 @@ The theme *Taking Stock of Where We've Been and Where We're Going* illustrates t
 
 
  
-* best theme paper (emily bender) + keynote1 + other papers on Theme 
+* best theme paper (emily bender) 
+* keynote1 
 * best paper
-* other papers on evaluation 
+* other papers on evaluation / Theme 
 
 
 ## Analysis, Interpretability and Ethics
