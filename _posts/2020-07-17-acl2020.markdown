@@ -27,7 +27,7 @@ We can see in the graph below that the most popular tracks in ACL 2020 are (1) I
 Below are the topics on which I focused this year, which were also topics of interest for many other participants (c.f. links below): 
 
 * Theme and Robust Evaluation
-* Analysis, Interpretability and Ethics
+* Analysis and Interpretability
 
 ## Theme and Robust Evaluation 
 
@@ -42,11 +42,11 @@ The theme *Taking Stock of Where We've Been and Where We're Going* illustrates t
 * other papers on evaluation / Theme 
 
 
-## Analysis, Interpretability and Ethics
+## Analysis and Interpretability
 
 * right to explanation https://en.wikipedia.org/wiki/Right_to_explanation
 * Tutorial + papers : done 
-* other papers on Ethics 
+
 
 ## See also
 * [Selection of papers from ACL-2020](https://docs.google.com/document/d/1rQYAjY-jNKoQh8Z9-4NjqLF1_nAD7amr4sYH62eGPbU/edit#heading=h.lrgn79ao0for) by Yacine Jernite (HuggingFace)
