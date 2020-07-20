@@ -24,6 +24,11 @@ We can also see in the graph below that the most popular tracks in ACL 2020 are 
 
 *Note that for readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.*
 
+Below are the topics that on which I focused this year:
+
+* Robust Evaluation and Ethics
+* Analysis and Interpretability
+
 ## Robust Evaluation and Ethics
 
 * best paper, best theme paper (emily bender)
