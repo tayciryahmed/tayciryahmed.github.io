@@ -16,6 +16,8 @@ This post discusses highlights of the main conference of the 2020 Annual Meeting
 
 keynote1 + https://acl2020.org/blog/the-first-call-for-papers-is-out/
 
+In addition to the insightful theme choice, ACL Program Co-Chairs introduced two additional tracks: [**Ethics and NLP** and **Interpretability and Analysis of Models for NLP**](https://acl2020.org/blog/the-first-call-for-papers-is-out/). Indeed, after many sessions and workshops in the previous \*CL events, the community is making it clear that responsible and ethical models are crucial as more NLP models are deployed in production and driving decisions that impact people's lives. Moreover, as research works continue to push performance boudries, interpreting and analysing models has become more relevant in order to understand the models inner mechanisms and learn about the secret ingredient that make these models as performant. 
+
 ## Robust Evaluation and Ethics
 
 * best paper, best theme paper (emily bender)
@@ -27,3 +29,8 @@ keynote1 + https://acl2020.org/blog/the-first-call-for-papers-is-out/
 * right to explanation https://en.wikipedia.org/wiki/Right_to_explanation
 * Tutorial + papers : done 
 
+## See also
+* [Selection of papers from ACL-2020](https://docs.google.com/document/d/1rQYAjY-jNKoQh8Z9-4NjqLF1_nAD7amr4sYH62eGPbU/edit#heading=h.lrgn79ao0for) by Yacine Jernite (HuggingFace)
+* [Interpretability and Analysis of Models for NLP @ ACL 2020](https://medium.com/@lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6) by Carolin Lawrence
+* [Highlights of ACL 2020](https://medium.com/analytics-vidhya/highlights-of-acl-2020-4ef9f27a4f0c) by Vered Shwartz (AI2 & University of Washington)
+* [ACL views statistics](https://twitter.com/yoavgo/status/1282459579339681792) by Yoav Goldberg. 
