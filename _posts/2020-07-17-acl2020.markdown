@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/seattle.jpg
 navigation: True
-title: ACL 2020 Highlights
+title: ACL 2020 Highlights: Evaluation, Interpretability and more.
 date: 2020-07-17 21:03:36
 tags:
 class: post-template
@@ -12,7 +12,9 @@ author: tayciryahmed
 ---
 
 
-This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020).
+This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions. 
+
+For the first time ever, this year's ACL conference has a special theme with a dedicated session and award: **Taking Stock of Where We've Been and Where We're Going**. This choice absolutely highlights the current state of the field. Indeed, the NLP research has been pushing boundries in terms of performance ([GLUE benchmark](https://gluebenchmark.com/leaderboard/)), innovative architectures (BERT & co), quick access to SOTA ([HuggingFace/transformers](https://github.com/huggingface/transformers)) and model sizes ([GPT-3: 175B parameters](https://arxiv.org/abs/2005.14165)). 
 
 keynote1 + https://acl2020.org/blog/the-first-call-for-papers-is-out/
 
@@ -24,7 +26,7 @@ We can also see in the graph below that the most popular tracks in ACL 2020 are 
 
 *Note that for readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.*
 
-Below are the topics that on which I focused this year:
+Below are the topics that on which I focused this year, that were also topics of interest for many other participants (c.f. links below): 
 
 * Robust Evaluation and Ethics
 * Analysis and Interpretability
