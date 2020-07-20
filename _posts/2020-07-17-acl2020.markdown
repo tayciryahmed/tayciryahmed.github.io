@@ -24,7 +24,7 @@ We can see in the graph below that the most popular tracks in ACL 2020 are (1) I
 
 *Note that for readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.*
 
-Below are the topics on which I focused this year, that were also topics of interest for many other participants (c.f. links below): 
+Below are the topics on which I focused this year, which were also topics of interest for many other participants (c.f. links below): 
 
 * Theme and Robust Evaluation
 * Analysis, Interpretability and Ethics
