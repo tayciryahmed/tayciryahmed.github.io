@@ -17,7 +17,7 @@ For the first time ever, this year's ACL conference has a special theme with a d
 
 In addition to the insightful theme choice, the Co-Chairs introduced 4 additional tracks including: [**Ethics and NLP** & **Interpretability and Analysis of Models for NLP**](https://acl2020.org/blog/the-first-call-for-papers-is-out/). Indeed, after many sessions and workshops in the previous \*CL events, the community is making it clear that responsible and ethical models are crucial as more NLP models are deployed in production and driving decisions that impact people's lives. Moreover, as research works continue to push performance boundaries, interpreting and analysing models have become more relevant in order to understand the models inner mechanisms and learn about the secret ingredients for their performance. 
 
-We can see in the graph below that the most popular tracks in ACL 2020 are (1) Interpretability and Analysis of Models for NLP, (2) Theme, (3) Cognitive Modeling and Psycholinguistics and (4) Ethics and NLP.
+We can see in the box-plot of views by area, sorted by median (credit: Yoav Goldberg) below, that the most popular tracks in ACL 2020 are (1) Interpretability and Analysis of Models for NLP, (2) Theme, (3) Cognitive Modeling and Psycholinguistics and (4) Ethics and NLP.
 
 <img src="{{site.baseurl}}assets/images/acl2020graph.png" alt="Views box-plot by area, sorted by median (by Yoav Goldberg)" width="600"/>
 
