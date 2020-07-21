@@ -47,6 +47,8 @@ The theme *Taking Stock of Where We've Been and Where We're Going* illustrates t
 * right to explanation https://en.wikipedia.org/wiki/Right_to_explanation
 * Tutorial + papers : done 
 
+* I believe that interpretability is essential to language research, and it’s important to understand models and their outputs to make applications more robust and reliable.
+
 
 ## See also
 * [Selection of papers from ACL-2020](https://docs.google.com/document/d/1rQYAjY-jNKoQh8Z9-4NjqLF1_nAD7amr4sYH62eGPbU/edit#heading=h.lrgn79ao0for) by Yacine Jernite (HuggingFace)
@@ -54,4 +56,3 @@ The theme *Taking Stock of Where We've Been and Where We're Going* illustrates t
 * [Highlights of ACL 2020](https://medium.com/analytics-vidhya/highlights-of-acl-2020-4ef9f27a4f0c) by Vered Shwartz (AI2 & University of Washington)
 * [Ten emerging topics at ACL 2020](https://europe.naverlabs.com/blog/ten-emerging-topics-at-acl-2020/) by NAVER LABS
 * [Knowledge Graphs in Natural Language Processing @ ACL 2020](https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1) by Michael Galkin
-* [ACL 2020 Adventure](https://awk.ai/notes/2020/07/10/acl-2020-adventure.html) by Qingqing Cao
