@@ -19,7 +19,7 @@ In addition to the insightful theme choice, the Co-Chairs introduced 4 additiona
 
 We can see in the graph below that the most popular tracks in ACL 2020 are (1) Interpretability and Analysis of Models for NLP, (2) Theme, (3) Cognitive Modeling and Psycholinguistics and (4) Ethics and NLP.
 
-![Views box-plot by area, sorted by median (by Yoav Goldberg)]({{site.baseurl}}assets/images/acl2020graph.png)
+<img src="{{site.baseurl}}assets/images/acl2020graph.png" alt="Views box-plot by area, sorted by median (by Yoav Goldberg)" width="800"/>
 
 *Note that the graph corresponds to a [snapshot](https://twitter.com/yoavgo/status/1282459579339681792) of the views on Jul 13, 2020. For readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.*
 
