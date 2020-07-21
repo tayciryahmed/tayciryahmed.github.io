@@ -40,10 +40,10 @@ Along with the theme, evaluation is an important track in ACL 2020 with numerous
 
 ## Analysis and Interpretability
 
-* right to explanation https://en.wikipedia.org/wiki/Right_to_explanation
-* Tutorial + papers : done 
+Interpretability is absolutely essential to natural language processing, in order to understand models but also make applications more robust, fair and reliable. Indeed, the end-to-end fashion is predominant in language applications, requiring more efforts on accountability, trust, bias, and [right to explanation](https://en.wikipedia.org/wiki/Right_to_explanation). The interpretability [tutorial](https://slideslive.com/38928626/interpretability-and-analysis-in-neural-nlp) by Belinkov, Gehrmann and Pavlick gives an overview of the toolbox of interpretability. First, structural analysis suggests ways to understand what the model has learnt, in its internal representations. The main approach here is to use probing classifiers, which prove that a layer from a network trained to do a task A can predict a feature B. For example, A can be machine translation and B some linguistic features such as POS or morphological tags. Another idea is to change the activations so that the verb's tense is changed, and afterwards measure the probability of predicting the pronouns he/she to check for gender bias. There also some recent works suggesting to evalute probing classifiers using code length, meaning the number of bits to encode the probe. Although straightforward, these classifiers can be hard to evaluate, because there is no clear performance level for benchmarking, one can use SOTA or simply baselines.  Another limitation of structural analysis is sometimes the lack of casualty or correlation between the probe and original model. 
 
-* I believe that interpretability is essential to language research, and it’s important to understand models and their outputs to make applications more robust and reliable.
+
+* Tutorial + papers : done 
 
 
 ## See also
@@ -54,4 +54,4 @@ Along with the theme, evaluation is an important track in ACL 2020 with numerous
 * [Knowledge Graphs in Natural Language Processing @ ACL 2020](https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1) by Michael Galkin
 
 
-*Acknowledgment: Thanks to Mohamed Ali Jamaoui for being a first reader and giving helpful feedback.* 
+*Thanks to Mohamed Ali Jamaoui for being a first reader and giving helpful feedback.* 
