@@ -3,14 +3,13 @@ layout: post
 current: post
 cover: assets/images/seattle.jpg
 navigation: True
-title: ACL 2020 Highlights: Evaluation, Interpretability and more.
+title: ACL 2020 Highlights\: Evaluation, Interpretability and more.
 date: 2020-07-17 21:03:36
 tags:
 class: post-template
 subclass: 'post'
 author: tayciryahmed
 ---
-
 
 This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions. 
 
