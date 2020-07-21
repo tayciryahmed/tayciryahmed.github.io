@@ -55,4 +55,4 @@ The theme *Taking Stock of Where We've Been and Where We're Going* illustrates t
 * [Ten emerging topics at ACL 2020](https://europe.naverlabs.com/blog/ten-emerging-topics-at-acl-2020/) by NAVER LABS
 * [Knowledge Graphs in Natural Language Processing @ ACL 2020](https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1) by Michael Galkin
 
-*Acknowledgment: Thanks to Mohamed Ali Jamaoui for giving me helpful feedback and being a first reader. 
+*Acknowledgment: Thanks to Mohamed Ali Jamaoui for giving me helpful feedback and being a first reader.* 
