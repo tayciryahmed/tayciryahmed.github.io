@@ -53,4 +53,4 @@ For the first time ever, ACL co-chairs introduced the "Interpretability and Anal
 * [Knowledge Graphs in Natural Language Processing @ ACL 2020](https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1) by Michael Galkin
 
 
-*Thanks to Mohamed Ali Jamaoui for being a first reader and giving helpful feedback. He is however not responsible for any error that many occur in this post. Also, if you spot a mistake, feel free to let me know and I will update accordingly.* 
+*Thanks to Mohamed Ali Jamaoui for being a first reader and giving helpful feedback. He is however not responsible for any error that many occur in this post. Also, if you spot a mistake, let me know and I will update accordingly.* 
