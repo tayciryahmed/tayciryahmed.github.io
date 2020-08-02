@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/seattle.jpg
 navigation: True
-title: ACL 2020 Highlights
+title: "ACL 2020 Highlights: Evaluation, Interpretability and more."
 date: 2020-07-17 21:03:36
 tags:
 class: post-template
