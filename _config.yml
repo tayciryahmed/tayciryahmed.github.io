@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 150
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page) 
-baseurl: /tayciryahmed.github.io/tayciryahmed.com
+baseurl: /tayciryahmed.github.io
 
 # Website info
 title: Taycir Yahmed
@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 #logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://tayciryahmed.github.io/tayciryahmed.com/
-source_url: https://github.com/tayciryahmed/tayciryahmed.com/
+production_url: https://tayciryahmed.github.io/
+source_url: https://github.com/tayciryahmed/tayciryahmed.github.io/
 
 # Social info
 navigation: True # show the navbar links
@@ -69,12 +69,12 @@ feed:
 safe: False
 lsi: False
 username: tayciryahmed
-repo: tayciryahmed.com
+repo: tayciryahmed.github.io
 branch: master
-relative_source: ../tayciryahmed.github.io/tayciryahmed.com
-destination: ../tayciryahmed.com-pages/
-production_url:  https://tayciryahmed.github.io/tayciryahmed.com
-source_url:  https://github.com/tayciryahmed/tayciryahmed.com
+relative_source: ../tayciryahmed.github.io/
+destination: ../tayciryahmed.github.io-pages/
+production_url:  https://tayciryahmed.github.io
+source_url:  https://github.com/tayciryahmed/tayciryahmed.github.io
 
 exclude:
   - assets/css
