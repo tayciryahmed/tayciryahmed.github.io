@@ -71,7 +71,7 @@ lsi: False
 username: tayciryahmed
 repo: tayciryahmed.com
 branch: master
-relative_source: ../tayciryahmed.com
+relative_source: ../tayciryahmed.github.io/tayciryahmed.com
 destination: ../tayciryahmed.com-pages/
 production_url:  https://tayciryahmed.github.io/tayciryahmed.com
 source_url:  https://github.com/tayciryahmed/tayciryahmed.com
