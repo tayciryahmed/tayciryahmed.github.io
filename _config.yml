@@ -3,10 +3,10 @@ markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number 
 language: 'en-uk'
-words_per_minute: 200
+words_per_minute: 150
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page) 
-baseurl: /tayciryahmed.com
+baseurl: /tayciryahmed.github.io/tayciryahmed.com
 
 # Website info
 title: Taycir Yahmed
