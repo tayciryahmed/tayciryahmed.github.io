@@ -28,13 +28,13 @@ The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Stu
     * Transition-based models (Joint Learning / Joint Search): predict the next action to perform in order to get the right prediction. 
     * Graph-based models (Joint Learning / Separate search): they consist of multi-task learning methods: cross-task, cross-lingual, cross-domain and cross-standard.	
         * Cross-tasks: Bear in mind that not all tasks are mutually beneficial. 
-        * Cross lingual: Standard (e.g. multilingual neural transliteration between morphological similar languages), Regularization (e.g. Low resource dependency parsing: transfer encoding parameters), staking (e.g. parameter sharing in Singlish parser), pre-training (e.g. Fine-tuning a pre-trained model on a low resource language) and adversarial training (e.g. cross lingual sequence labeling).
+        * Cross-lingual: Standard (e.g. multilingual neural transliteration between morphological similar languages), Regularization (e.g. Low resource dependency parsing: transfer encoding parameters), staking (e.g. parameter sharing in Singlish parser), pre-training (e.g. Fine-tuning a pre-trained model on a low resource language) and adversarial training (e.g. cross lingual sequence labeling).
         * Cross-domain: e.g. multi-domain sentiment classification. 
         * Cross-standard: e.g. output results corresponding to various treebanks. 
 
 ## Workshop 5: SCAI - Search-Oriented Conversational AI
 
-Below is my feedback on the afternoon session of the workshop. [Link](https://scai.info/) to the workshop page. 
+[Link](https://scai.info/) to the workshop page. 
 
 ### Keynote: Towards natural conversation with machines
 
@@ -43,8 +43,8 @@ A keynote presented by Milica Gašić from University of Cambridge, the Dialogue
 * Motivations: Popularity of virtual assistants (1 billion calls / day), expected revenue 16 billion USD in 2021 (Tractica), weakness of current models (unnatural, narrow domain). 
 * Challenges: 
     * Immediate: Models that keep track of context cannot scale.
-    * Short term: Operate only on predefined databases, manage only short conversations, user specific models are unrealistic, etc.
-    * Long term: Modeling rich conversations, teaching a machine to talk about a piece of text, supporting large/infinite action sets. 
+    * Short-term: Operate only on predefined databases, manage only short conversations, user specific models are unrealistic, etc.
+    * Long-term: Modeling rich conversations, teaching a machine to talk about a piece of text, supporting large/infinite action sets. 
 * The presentation shows how machine learning solves two challenges in dialogue systems: 
     * Belief tracking: Tracking every concept requires training data for each one: Reuse knowledge for different concepts, use semantically-constrained word vector embeddings and architectures that share parameters.
     * Response experience from a large set of possibilities, using deep reinforcement learning.
@@ -56,7 +56,7 @@ A keynote presented by Milica Gašić from University of Cambridge, the Dialogue
     * Inject task objectives within the model using reinforcement learning methods. 
     * For more details, check out the [paper](https://arxiv.org/abs/1809.01495). 
 * Research Challenges in Building a Voice-based Artificial Personal Shopper - Position Paper.
-    * Definition: an artificial personal shopper is a voice based dialog system used to enrich online shopping, by replicating personal shopping agents in a brick and mortar store. 
+    * An artificial personal shopper is a voice based dialog system used to enrich online shopping, by replicating personal shopping agents in a brick and mortar store. 
     * This is a difficult task requiring effective knowledge and understanding: e.g. in order to correctly answer the question “Is the Bose headphone compatible with my phone?”, the agent has to know:
         * What type of phone the customer has / refers to?
         * What is the model of the “Bose headphone”?
@@ -86,7 +86,7 @@ The panel was animated by Milica Gašić (University of Cambridge), Antoine Bord
 
 * Future of conversational AI?
     * Jason Weston: Online learning. 
-    * Antoine Bordes: End-to-end response specialized bot (task oriented and domain oriented), not general purpose chatbots but specialized on domains to insure complex tasks’ completion. 
+    * Antoine Bordes: End-to-end response specialized bot (task-oriented and domain-oriented), not general purpose chatbots but specialized on domains to insure complex tasks’ completion. 
     * Bill Dolan: Discussed the importance of chit-chat in task oriented chatbots. 
     * Milica Gašić: Bigger challenges for Conversational AI : Humans don’t talk to systems the way they talk to humans. Need to work on question generation, not only response generation. 
 * How to evaluate the quality of dialogue systems? 
@@ -172,7 +172,7 @@ Speech/Language understanding
     * Generation: Inform AND ground.
 * Hierarchical dialog management :
     * Master (Global): 
-        * Rank topics , mini-tasks, content 
+        * Rank topics, mini-tasks, content 
         * Consider: topic coherence, user engagement, content availability 
     * Mini-tasks (Local): 
         * Greetings, goodbye, menu.
@@ -192,8 +192,6 @@ Speech/Language understanding
 * Different user goals: information seeking, opinion sharing, getting to know each other. 
 
 ## Brussels NLP meetup
-
-The organizers of this monthly meetup took advantage of the EMNLP conference, to invite high profile speakers. Below is a synthesis of the different presentations.
 
 ### Understanding Structure in Language through Wikipedia Edits
 
@@ -218,8 +216,7 @@ This presentation was delivered by Matthew Honnibal (Explosion AI).
     * Model architecture: smart choices, no bugs.
     * Optimization: given by hyper-parameters, initialization tricks, etc.
 *  Importance of iteration over data <span style="text-decoration:underline;">and</span> code:
-    * Problem: It is easy to make modeling decisions that are simple, obvious and wrong.  \
-Solution: Compose generic models into novel solutions.
+    * Problem: It is easy to make modeling decisions that are simple, obvious and wrong. Solution: Compose generic models into novel solutions.
     * Problem: Big annotation projects make evidence expensive to collect. Solution: Run your own micro-experiments.
 
 * A/B evaluation beats BLEU scores blues: don’t settle for proxy metrics and build micro A/B tests.
@@ -271,8 +268,6 @@ Link to the resources shared as part of the tutorial [here](http://nlp.seas.harv
 
 ## Workshop 2: CoNLL
 
-Feedback on the CoNLL 2<sup>nd</sup> and 3<sup>rd</sup> sessions:
-
 ### Invited talk: Semantic spaces across diverse languages
 
 Presentation by Asifa Majid (University of York).
@@ -311,7 +306,7 @@ This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University
     * Context-Response matching for multi-turn response selection. 
     * Merging research directions: matching with better representations, matching with unlabeled data.
 * Generation based chatbots: 
-    * Single turn generation: seq2seq, attention, bidirectional (MT inspiration).
+    * Single-turn generation: seq2seq, attention, bidirectional (MT inspiration).
     * Multi-turn generation: Hierarchical context modeling. 
 * Many other subjects include: diversity in conversations, content introducing, topics and emotion in conversations, persona in chat, reinforcement and adversarial learning in conversations.  
 * Evaluation metrics for conversations: Weak correlation between human and automatic evaluations (BLEU, information, e.g. entropy and perplexity, diversity, average response length, ADEM, RUBER).  
@@ -331,7 +326,7 @@ Presentation of the conference key numbers, program and organization details.
     * 14 workshops, 6 tutorials, 351 long paper presentations, 198 short paper presentations, 10 TACL paper presentations, 29 demo presentations. 
     * 60 area chairs, 1436 long/short papers reviewers, 150 demo paper reviewers. 
     * Gender diversity: 74.7% male reviewers, 68.3% male area/program chairs.  
-    * 4 plenaries: 3 keynotes + Best papers awards
+    * 4 plenaries: 3 keynotes + Best papers awards.
     * 11 parallel sessions: 4 oral sessions, 1 poster session.
 * Companies: Bloomberg, Google, Facebook, Salesforce, Apple, ASAPP, Amazon, Baidu, Grammarly, Naver Labs Europe, Ku Leuven, FWO, Megagon Labs, Huawei, eBay, Microsoft, Naver Line, Oracle, PolyAI, Sogou, YITI, Duolingo, Nuance, Shannon.ai, NextAI, textkernel, Allen Institute for AI, text IQ, etc.
 
@@ -455,9 +450,7 @@ This keynote was presented by Johan Bos (University of Groningen). The key ideas
 
 Find more on the [slides](https://drive.google.com/file/d/1xr8bnf1VnUZP9Ew1h8fjKCEs5InHhNps/view?usp=sharing). 
 
-## Best Paper Awards and Closing
-
-The winning papers are: 
+## Best Paper Awards 
 
 * Best Long papers: 
     * _<span style="text-decoration:underline;">Linguistically-Informed Self-Attention for Semantic Role Labeling</span>_: In this [paper](http://aclweb.org/anthology/D18-1548), the authors present linguistically-informed self-attention (LISA): a neural network model that combines multi-head self-attention with multi-task learning across dependency parsing, part-of-speech tagging, predicate detection and SRL.
@@ -469,10 +462,9 @@ The winning papers are:
 
 # Other resources
 
-_Resources for sessions in which I wasn’t present:_
 * [Link](https://blackboxnlp.github.io/) to the “Black Box NLP” tutorial.
-* [Link](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018) the “Writing Code for NLP Research” tutorial. 
+* [Link](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018) to the “Writing Code for NLP Research” tutorial. 
 
 _Blog posts:_
 * Sebastian Ruder: [EMNLP 2018 Highlights: Inductive bias, cross-lingual learning, and more.](http://ruder.io/emnlp-2018-highlights/)
-* Patrick Lewis [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/). 
+* Patrick Lewis: [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/). 
