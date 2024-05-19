@@ -16,36 +16,29 @@ In this post, I share my notes from the conference on Empirical Methods for Natu
 
 # Day 1: October 31<sup>st</sup>, 2018
 
-
 ## Tutorial 1: Joint models for NLP
 
-The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Study. The presentation exposes the interest in training joint models for NLP, with two different strategies: statistical and deep learning methods. Concepts in the presentation are explained through examples / papers. 
-
-
+The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Study. The presentation exposes the interest in training joint models for NLP, with two different strategies: statistical and deep learning methods. Concepts in the presentation are explained through examples and papers. 
 
 * Motivation for joint models: 
     * In NLP, many tasks are related (e.g. NER, chunking and POS tagging) or pipelined (e.g. tokenization and POS tagging). 
     * Joint models allow information exchange between tasks and error propagation reduction.
-* Statistical methods: include transition based and graph based methods. 
+* Statistical methods include transition based and graph based methods. 
 * Deep learning methods: 
-    * Transition based models (Joint Learning / Joint Search): predict the next action to perform in order to get the right prediction. 
-    * Graph based models (Joint Learning / Separate search): they consist of multi-task learning methods: cross task, cross lingual, cross domain and cross standard.	
-        * Cross tasks: Bear in mind that not all tasks are mutually beneficial. 
+    * Transition-based models (Joint Learning / Joint Search): predict the next action to perform in order to get the right prediction. 
+    * Graph-based models (Joint Learning / Separate search): they consist of multi-task learning methods: cross-task, cross-lingual, cross-domain and cross-standard.	
+        * Cross-tasks: Bear in mind that not all tasks are mutually beneficial. 
         * Cross lingual: Standard (e.g. multilingual neural transliteration between morphological similar languages), Regularization (e.g. Low resource dependency parsing: transfer encoding parameters), staking (e.g. parameter sharing in Singlish parser), pre-training (e.g. Fine-tuning a pre-trained model on a low resource language) and adversarial training (e.g. cross lingual sequence labeling).
-        * Cross domain: e.g. multi-domain sentiment classification. 
-        * Cross Standard: e.g. output results corresponding to various treebanks. 
-
+        * Cross-domain: e.g. multi-domain sentiment classification. 
+        * Cross-standard: e.g. output results corresponding to various treebanks. 
 
 ## Workshop 5: SCAI - Search-Oriented Conversational AI
 
 Below is my feedback on the afternoon session of the workshop. [Link](https://scai.info/) to the workshop page. 
 
-
 ### Keynote: Towards natural conversation with machines
 
 A keynote presented by Milica Gašić from University of Cambridge, the Dialogue Systems Group. 
-
-
 
 * Motivations: Popularity of virtual assistants (1 billion calls / day), expected revenue 16 billion USD in 2021 (Tractica), weakness of current models (unnatural, narrow domain). 
 * Challenges: 
@@ -57,8 +50,6 @@ A keynote presented by Milica Gašić from University of Cambridge, the Dialogue
     * Response experience from a large set of possibilities, using deep reinforcement learning.
 
 ### Papers presentations
-
-
 
 * A Reinforcement Learning-driven Translation Model for Search-Oriented Conversational Systems. 
     *  Learning the mapping between natural language expressed needs and keywords expressed needs, using machine translation paradigms. 
@@ -89,12 +80,9 @@ A keynote presented by Milica Gašić from University of Cambridge, the Dialogue
             * Evaluation based on the criteria of both the relevance towards the user information needs and the replication of a humanlike conversation. 
     * For more details, check out the [paper](http://www.aclweb.org/anthology/W18-5706).
 
-
 ### Panel discussion
 
 The panel was animated by Milica Gašić (University of Cambridge), Antoine Bordes (Facebook AI Research), Jason Weston (Facebook) and Bill Dolan (Microsoft Research). 
-
-
 
 * Future of conversational AI?
     * Jason Weston: Online learning. 
@@ -118,12 +106,9 @@ The panel was animated by Milica Gašić (University of Cambridge), Antoine Bord
         * Search (over documents) incorporates external knowledge in dialog (Information retrieval challenges). 
         * Conversational search should be an integral part of the dialogue. 
 
-
 ### Keynote: Understanding the user in social bot conversations
 
 This presentation was delivered by Mari Ostendorf (University of Washington). 
-
-
 
 * Winning solution of Amazon Alexa Prize: Building a bot that converses coherently and engagingly with people on popular topics and current events.
 *  Types of conversational AI systems:
@@ -175,9 +160,6 @@ Speech/Language understanding
   </tr>
 </table>
 
-
-
-
 * Constrains: 
     * Speech recognition is imperfect. 
     * No sentence segmentation or pause information.
@@ -209,17 +191,13 @@ Speech/Language understanding
 * Content preferences vary with respect to the user’s personality and emotions. 
 * Different user goals: information seeking, opinion sharing, getting to know each other. 
 
-
 ## Brussels NLP meetup
 
 The organizers of this monthly meetup took advantage of the EMNLP conference, to invite high profile speakers. Below is a synthesis of the different presentations.
 
-
 ### Understanding Structure in Language through Wikipedia Edits
 
 This presentation, delivered by Manaal Faruqui (Google), explains the paper: WikiAtomicEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse. 
-
-
 
 * Main idea: using Wikipedia edits to solve downstream NLP problems, including splitting, replacing and rephrasing sentences. 
 * Two contributions:
@@ -228,12 +206,9 @@ This presentation, delivered by Manaal Faruqui (Google), explains the paper: Wik
 
 Link to the [paper](https://arxiv.org/pdf/1808.09422.pdf).
 
-
 ### The importance of scaling down: One weird trick to make your NLP projects more successful
 
 This presentation was delivered by Matthew Honnibal (Explosion AI).
-
-
 
 * How to maximize NLP project failure? Imagineer (Unrealistic use cases), Forecast, Outsource data collection (little knowledge about the project’s data requirements), wire (stacking layers with no context understanding), ship (delivering the project as is). 
 * Machine learning hierarchy of needs, in order of importance: 
@@ -245,12 +220,9 @@ This presentation was delivered by Matthew Honnibal (Explosion AI).
 *  Importance of iteration over data <span style="text-decoration:underline;">and</span> code:
     * Problem: It is easy to make modeling decisions that are simple, obvious and wrong.  \
 Solution: Compose generic models into novel solutions.
-    * Problem: Big annotation projects make evidence expensive to collect. 
-
-        Solution: Run your own micro-experiments.
+    * Problem: Big annotation projects make evidence expensive to collect. Solution: Run your own micro-experiments.
 
 * A/B evaluation beats BLEU scores blues: don’t settle for proxy metrics and build micro A/B tests.
-
 
 ### Rapid NLP Annotation through Binary Decisions, Pattern Bootstrapping and Active Learning
 
@@ -264,7 +236,6 @@ This presentation was delivered by Ines Montani (Explosion AI).
 
 More on the [slides](https://speakerdeck.com/inesmontani/belgium-nlp-meetup-rapid-nlp-annotation-through-binary-decisions-pattern-bootstrapping-and-active-learning). 
 
-
 ### Large-scale Fact Extraction and Verification
 
 This presentation was delivered by Arpit Mittal (Amazon), to explain the paper: FEVER: a large-scale dataset for Fact Extraction and VERification. 
@@ -273,7 +244,6 @@ This presentation was delivered by Arpit Mittal (Amazon), to explain the paper: 
 * Two objectives: Transform free-form text to structured information AND verify facts (in order to help combat fake news).
 
 Link to the [paper](https://arxiv.org/abs/1803.05355).
-
 
 ### Transfer learning with language models 
 
@@ -287,15 +257,11 @@ This presentation was delivered by Sebastian Ruder (Aylien).
 
 For more details, check the [slides](https://drive.google.com/open?id=1kmNAwrSlFYo0cN_DcURMOArBwe9FxWxR). 
 
-
 # Day 2: November 1<sup>st</sup>, 2018
-
 
 ## Tutorial 4:  Deep Latent Variable Models of Natural Language
 
 The tutorial was presented by Yoon Kim, Sam Wiseman, and Alexander Rush from Harvard NLP Group. 
-
-
 
 * Tractable inference over the latent variables: including neural extensions of tagging and parsing models. 
 * Non-tractable inference over the latent variables: restricted to continuous latent variables. 
@@ -303,17 +269,13 @@ The tutorial was presented by Yoon Kim, Sam Wiseman, and Alexander Rush from Har
 
 Link to the resources shared as part of the tutorial [here](http://nlp.seas.harvard.edu/latent-nlp-tutorial.html). 
 
-
 ## Workshop 2: CoNLL
 
 Feedback on the CoNLL 2<sup>nd</sup> and 3<sup>rd</sup> sessions:
 
-
 ### Invited talk: Semantic spaces across diverse languages
 
 Presentation by Asifa Majid (University of York).
-
-
 
 * Natural languages are NOT equally expressible: some concepts exist in one language but not in another, e.g. there are 421 words for snow in Scottish. 
 * Culture and language shape our internal representation of concepts / perception of the world: 
@@ -325,17 +287,13 @@ Presentation by Asifa Majid (University of York).
 
 This [paper](https://arxiv.org/abs/1810.03717) was written by Judy Hanwen Shen, Matthias Hofer, Bjarke Felbo and Roger Levy. It presents the nature of the lexical resources that speakers and listeners can bring to bear in achieving reference through associative meaning alone. 
 
-
 ### Sequence Classification with Human Attention (special paper award)
 
 This [paper](http://aclweb.org/anthology/K18-1030) was written by Maria Barrett, Joachim Bingel, Nora Hollenstein, Marek Rei and Anders Søgaard. It highlights the fact that human attention provides a good inductive bias on many attention functions in NLP. They use estimated human attention, by eye tracking, corpora to regularize the attention in RNNs.   
 
-
 ## Tutorial 6: Deep Chit-Chat: Deep Learning for Chatbots 
 
 This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University). 
-
-
 
 * Motivation:
     * Hot subject both in academia (e.g. the Alexa Prize) and industry (_Virtual Assistants_: MS Cortana, Apple Siri, Baidu Duer / _Smart speakers_: Amazon Alexa, Google Home / _Social Bot and customer service_)
@@ -359,16 +317,11 @@ This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University
 * Evaluation metrics for conversations: Weak correlation between human and automatic evaluations (BLEU, information, e.g. entropy and perplexity, diversity, average response length, ADEM, RUBER).  
 * Future trends: Learning methods and representations, reasoning in dialogues (context based, knowledge, and common sense), X-grounded dialogues (labels, multimodal, texts), evaluation and benchmark data sets.   
 
-
-
 # Day 3: November 2<sup>nd</sup>, 2018 
-
 
 ## Opening remarks 
 
 Presentation of the conference key numbers, program and organization details. 
-
-
 
 * EMNLP 2018 is HUGE:
     * 2.1k+ submitted papers (+46% increase over 2017): 549 accepted papers: 24.6% acceptance rate. 
@@ -382,12 +335,9 @@ Presentation of the conference key numbers, program and organization details.
     * 11 parallel sessions: 4 oral sessions, 1 poster session.
 * Companies: Bloomberg, Google, Facebook, Salesforce, Apple, ASAPP, Amazon, Baidu, Grammarly, Naver Labs Europe, Ku Leuven, FWO, Megagon Labs, Huawei, eBay, Microsoft, Naver Line, Oracle, PolyAI, Sogou, YITI, Duolingo, Nuance, Shannon.ai, NextAI, textkernel, Allen Institute for AI, text IQ, etc.
 
-
 ## Keynote I: Truth or Lie? Spoken Indicators of Deception in Speech 
 
 This keynote was presented by Julia Hirschberg (Columbia University). The key ideas are:
-
-
 
 * Creation of a cross-cultural deception corpus: 340 subjects balanced by native language and gender. 
 * Hard to control potential indicators of deception.
@@ -399,10 +349,7 @@ This keynote was presented by Julia Hirschberg (Columbia University). The key id
 
 Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyKI17D_B22Oim/view?usp=sharing). 
 
-
 ## 1A: Social Applications I
-
-
 
 * _<span style="text-decoration:underline;">Privacy-preserving Neural Representations of Text</span>_: This [paper](http://aclweb.org/anthology/D18-1001) deals with adversarial privacy attacks on deep learning NLP systems. The idea is to attack hidden layers in a NN to get information about the input. The authors investigate the tradeoff between the utility and the privacy of the hidden representations and suggest defense methods based on the alteration of training objectives. 
 * _<span style="text-decoration:underline;">Adversarial Removal of Demographic Attributes from Text Data</span>_: In this [paper](http://aclweb.org/anthology/D18-1002), the authors show that demographic information is encoded in intermediate representations and can alter classifiers’ decisions. They suggest removing these attributes using adversarial training, then retraining high level classifiers. They conclude that adversarial training is not enough to reach invariant representation of sensitive attributes.  
@@ -410,10 +357,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">It's going to be okay: Measuring Access to Support in Online Communities</span>_: This [paper](http://aclweb.org/anthology/D18-1004) analyzes the accessibility to online support, when revealing one’s gender. The authors present a data set and a method to assess accessibility to support on online platforms. Moreover, they suggest a strategy to infer gender from text and usernames. 
 * _<span style="text-decoration:underline;">Detecting Gang-Involved Escalation on Social Media Using Context</span>_: This [paper](http://aclweb.org/anthology/D18-1005) presents a method to detect expressions of violence and grief on social media. The authors use a domain specific unlabeled corpus and present a contextual and emotional representation of a users’ generated content. They made the collected data available upon request.
 
-
 ## 2C: Multilingual Methods I
-
-
 
 * _<span style="text-decoration:underline;">Distant Supervision from Disparate Sources for Low-Resource Part-of-Speech Tagging</span>_: The [paper](http://aclweb.org/anthology/D18-1061) introduces a cross-lingual neural POS tagger, by leveraging annotation projection, instance selection, tag dictionaries, morphological lexicons and distributed representations, without access to any golden data.
 * _<span style="text-decoration:underline;">Unsupervised Bilingual Lexicon Induction via Latent Variable Models</span>_: Many works on bilingual lexicons extraction are based on aligning monolingual word embeddings. This [paper](http://aclweb.org/anthology/D18-1062) suggests using latent variable models and adversarial training to do so. The method was tested on several language pairs.  
@@ -421,10 +365,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Adversarial Training for Multi-task and Multi-lingual Joint Modeling of Utterance Intent Classification</span>_: The problem with joint models is that shared networks learn the majority data set features. To solve this, the [paper](http://aclweb.org/anthology/D18-1064) suggests training language-specific task adversarial networks and task-specific language adversarial networks. The goal is to purge language specific and task specific dependencies. The method is tested on 2 languages and 3 tasks. 
 * _<span style="text-decoration:underline;">Surprisingly Easy Hard-Attention for Sequence to Sequence Learning</span>_: This [paper](http://aclweb.org/anthology/D18-1065) shows that beam approximation of joint distribution between attention and output is efficient for seq2seq learning. The method combines sharp focus in hard attention and implementation ease of soft attention. 
 
-
 ## 3A: Machine Translation I
-
-
 
 *  _<span style="text-decoration:underline;">SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation</span>_: This [paper](http://aclweb.org/anthology/D18-1100) presents a data augmentation technique for NMT. It consists of randomly replacing words in both the source sentence and the target sentence with other random words from their corresponding vocabularies.
 * _<span style="text-decoration:underline;">Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder</span>_: This [paper](http://aclweb.org/anthology/D18-1101) presents a word by word translation strategy that uses cross-lingual word embeddings. For context encoding, they suggest using a language model and for word reordering, they use a denoising autoencoder. An advantage of this method is not using iterative approaches, such as back-translation.
@@ -432,10 +373,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Rapid Adaptation of Neural Machine Translation to New Languages</span>_: The main idea about this [paper](http://aclweb.org/anthology/D18-1103) is using high resource languages to train what the authors call “seed models”, then fine-tuning on low resource languages. They suggest jointly training similar languages to avoid overfitting on LRLs. Findings include that multilingual models perform well on LRLs, even when the training data doesn’t present examples in these languages.  
 * _<span style="text-decoration:underline;">Compact Personalized Models for Neural Machine Translation</span>_: This [paper](http://aclweb.org/anthology/D18-1104) shows that it is possible to freeze the majority of the models parameters when adapting a translation model, with no reduction in performance. To ensure the sparsity of the tensors’ offsets, the authors suggest using group lasso regularization. 
 
-
 ## 4A: Language Models
-
-
 
 * _<span style="text-decoration:underline;">Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement</span>_: This [paper](http://aclweb.org/anthology/D18-1149) presents an iterative algorithm that considers any sequence generation as a latent variable model and refines it using a denoising approach. The algorithm was tested using the transformer model on two different tasks, machine translation and image caption generation.
 * _<span style="text-decoration:underline;">Large Margin Neural Language Model</span>_: In this [paper](http://aclweb.org/anthology/D18-1150), the authors suggest using a large margin criterion in LM training instead of perplexity minimization. The main idea is to enlarge the margin between good vs bad sequences in a task-specific sense. 
@@ -443,13 +381,9 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Rational Recurrences</span>_: This [paper](http://aclweb.org/anthology/D18-1152) shows that RNNs have a connection to WFSAs, the same as CNNs (previously demonstrated). The authors try to transfer intuitions from classical models like WFSAs into neural network architectures and design.
 * _<span style="text-decoration:underline;">Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling</span>_: LMs are commonly used for various NLP tasks, due to the huge size of the available training data. However, large LMs present heavy computation constraints, during the inference. Thus, the [paper](http://aclweb.org/anthology/D18-1153) presents an approach to LM compression, which keeps only useful information for a specific task. 
 
-
 # Day 4: November 3<sup>rd</sup>, 2018
 
-
 ## 5C: IR / Text Mining
-
-
 
 * _<span style="text-decoration:underline;">Improved Semantic-Aware Network Embedding with Fine-Grained Word Alignment</span>_: This [paper](http://aclweb.org/anthology/D18-1209) introduces a “word-by-word alignment  framework  that  measures  the  compatibility of embeddings between word pairs, and then  adaptively  accumulates  these  alignment features  with  a  simple  yet  effective  aggregation  function”.  
 * _<span style="text-decoration:underline;">Learning Context-Sensitive Convolutional Filters for Text Processing</span>_: In this [paper](http://aclweb.org/anthology/D18-1210), the authors present an approach that uses a small meta network to learn context-aware convolutional filters for text processing. This network encodes the contextual information in “input-aware” filters. 
@@ -457,10 +391,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Learning Neural Representation for CLIR with Adversarial Framework</span>_: This [paper](http://aclweb.org/anthology/D18-1212) presents a new cross-lingual IR model, built using adversarial learning. 
 * _<span style="text-decoration:underline;">AD3: Attentive Deep Document Dater</span>_: This [paper](http://aclweb.org/anthology/D18-1213) presents an attention-based neural document  dating  system  which  utilizes  both  context  and  temporal  information  in  documents. 
 
-
 ## 6D: Multilingual Methods II
-
-
 
 * _<span style="text-decoration:underline;">Sentence Compression for Arbitrary Languages via Multilingual Pivoting</span>_: This [paper](http://aclweb.org/anthology/D18-1267) leverages bilingual corpora to perform sentence compression. The method consists of translating a source string into a foreign language and then back-translating it into the source language while controlling the translation length.
 * _<span style="text-decoration:underline;">Unsupervised Cross-lingual Transfer of Word Embedding Spaces</span>_: This [paper](http://aclweb.org/anthology/D18-1268) deals with learning mapping functions between embedding spaces of different languages. It proposes an unsupervised learning approach that does not require any cross-lingual labeled data. Instead, the authors suggest optimizing the transformation functions in both directions simultaneously based on distributional matching and the minimization of the back-translation losses.  
@@ -468,10 +399,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Joint Multilingual Supervision for Cross-lingual Entity Linking</span>_: This [paper](http://aclweb.org/anthology/D18-1270) shows the limitations of XEL and the added value due to multilingual joint learning in low resource settings. 
 * _<span style="text-decoration:underline;">Fine-grained Coordinated Cross-lingual Text Stream Alignment for Endless Language Knowledge Acquisition</span>_: This [paper](http://aclweb.org/anthology/D18-1271) presents a decipherment algorithm with diverse clues to decipher the networks for accurate text stream alignment.
 
-
 ## 7A: Dialogue II
-
-
 
 * _<span style="text-decoration:underline;">Session-level Language Modeling for Conversational Speech</span>_: This [paper](http://aclweb.org/anthology/D18-1296) generalizes language models for  conversational  speech  recognition  to  allow them to operate across utterance  boundaries and speaker changes,  thereby capturing conversation-level  phenomena  such  as  adjacency  pairs,  lexical  entrainment,  and  topical coherence. 
 * _<span style="text-decoration:underline;">Towards Less Generic Responses in Neural Conversation Models: A Statistical Re-weighting Method</span>_: Seq2seq generation models tend to generate generic/dull responses. Thus, the authors of this [paper](http://aclweb.org/anthology/D18-1297) propose a statistical re-weighting method that assigns different weights for the multiple responses of the same query, and trains the standard neural generation model with the weights. 
@@ -479,12 +407,9 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Towards Universal Dialogue State Tracking</span>_: The [paper](http://aclweb.org/anthology/D18-1299) introduces “StateNet”,  a universal dialogue state tracker: It is independent of the number of values, shares parameters across all slots,  and  uses  pre-trained  word  vectors  instead  of  explicit  semantic  dictionaries.
 * _<span style="text-decoration:underline;">Semantic Parsing for Task Oriented Dialog using Hierarchical Representations</span>_: Dialog systems usually deal with one query (intent) at a time. In this [paper](http://aclweb.org/anthology/D18-1300), the authors suggest a hierarchical annotation scheme for semantic parsing that allows the representation of compositional queries. Furthermore, they release a dataset of 44k annotated queries.
 
-
 ## Keynote II: Understanding the News that Moves Markets
 
 This keynote was presented by Gideon Mann (Bloomberg). The key ideas are:
-
-
 
 * The talk deals with financial technology, the news that moves the markets, computer things, etc.
 * The importance of real time NLP on news data to understand and influence markets: speed and precision requirements. 
@@ -492,10 +417,7 @@ This keynote was presented by Gideon Mann (Bloomberg). The key ideas are:
 
 Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOoS_w3kUxJbaR/view?usp=sharing). 
 
-
 ## 8A: Text Categorization
-
-
 
 * _<span style="text-decoration:underline;">Zero-shot User Intent Detection via Capsule Neural Networks</span>_: This [paper](http://aclweb.org/anthology/D18-1348) aims to solve the annotation problem in intents’ detection, in order to work on intents where no labeled utterances are available. Thus, the authors propose two   capsule-based   architectures: INTENT-CAPSNET (extracts semantic features from utterances and aggregates them to discriminate existing  intents)  and  INTENTCAPSNET-ZSL (gives  INTENT-CAPSNET the  zero-shot learning  ability  to  discriminate  emerging  intents via knowledge transfer from existing intents).
 * _<span style="text-decoration:underline;">Hierarchical Neural Networks for Sequential Sentence Classification in Medical Scientific Abstracts</span>_: This [paper](http://aclweb.org/anthology/D18-1349) suggests a hierarchical sequential labeling network to make use of the contextual information within surrounding sentences and help classify the current sentence. 
@@ -503,13 +425,9 @@ Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOo
 * _<span style="text-decoration:underline;">Topic Memory Networks for Short Text Classification</span>_: This [paper](http://aclweb.org/anthology/D18-1351) proposes topic memory networks for short text classification with a novel topic memory mechanism to encode latent topic representations indicative of class labels. 
 * _<span style="text-decoration:underline;">Few-Shot and Zero-Shot Multi-Label Learning for Structured Label Spaces</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1352) perform a fine-grained evaluation to explain how state-of-the-art methods perform on infrequent labels.  They also develop few- and zero-shot methods for multi-label text classification when there is a known structure over the label space.
 
-
 # Day 5: November 4<sup>th</sup>, 2018
 
-
 ## 9B: Sentiment I
-
-
 
 * _<span style="text-decoration:underline;">Sentiment Classification towards Question-Answering with Hierarchical Matching Network</span>_: This [paper](http://aclweb.org/anthology/D18-1401) proposes a novel task/method to address QA sentiment analysis. The authors create a high-quality annotated corpus with specially-designed annotation guidelines for QA-style sentiment classification.
 * _<span style="text-decoration:underline;">Cross-topic Argument Mining from Heterogeneous Sources</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1402) propose a new sentential annotation scheme that is reliably applicable by crowd workers to arbitrary Web texts. They also open source annotations for over 25k instances covering 8 controversial topics.
@@ -517,10 +435,7 @@ Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOo
 * _<span style="text-decoration:underline;">CARER: Contextualized Affect Representations for Emotion Recognition</span>_: This [paper](http://aclweb.org/anthology/D18-1404) proposes a semi-supervised, graph-based algorithm to produce rich structural descriptors which serve as the building blocks for constructing contextualized affect representations from text.
 * _<span style="text-decoration:underline;">[TACL] Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification</span>_: This [paper](http://emnlp2018.org/downloads/tacl-papers/EMNLP-TACL04.pdf) proposes an Adversarial Deep Averaging Network (ADAN) to transfer the knowledge learned from labeled data on a resource-rich source language to low-resource languages where only unlabeled data exists.
 
-
 ## 10A: Question Answering III
-
-
 
 * _<span style="text-decoration:underline;">Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1452) address  jointly  two  tasks for Question Answering  in  community  forums: given  a  new  question, find  related  existing  questions  AND find  relevant  answers to this new question.
 * _<span style="text-decoration:underline;">What Makes Reading Comprehension Questions Easier</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1453) investigate what makes questions easier across recent 12  MRC  datasets  with  three  question  styles (answer  extraction,   description,   and  multiple  choice).
@@ -528,13 +443,9 @@ Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOo
 * _<span style="text-decoration:underline;">Open Domain Question Answering Using Early Fusion of Knowledge Bases and Text</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1455) investigate QA over the combination of a KB and entity-linked text, which is appropriate when an incomplete KB is available with a large text corpus.
 * _<span style="text-decoration:underline;">A Nil-Aware Answer Extraction Framework for Question Answering</span>_: In this [paper](http://aclweb.org/anthology/D18-1456), the authors focus on developing QA systems that can extract an answer for a question if and only if the associated passage contains an answer.
 
-
-
 ## Keynote III: The Moment of Meaning and the Future of Computational Semantics
 
 This keynote was presented by Johan Bos (University of Groningen). The key ideas are:
-
-
 
 * Motivations include: Future language technology requires semantic interpretation (Explainable NLP) and better MT evaluation.
 * Integrating lexical with formal semantics, language neutral semantic annotation and multilingual models.
@@ -544,12 +455,9 @@ This keynote was presented by Johan Bos (University of Groningen). The key ideas
 
 Find more on the [slides](https://drive.google.com/file/d/1xr8bnf1VnUZP9Ew1h8fjKCEs5InHhNps/view?usp=sharing). 
 
-
 ## Best Paper Awards and Closing
 
 The winning papers are: 
-
-
 
 * Best Long papers: 
     * _<span style="text-decoration:underline;">Linguistically-Informed Self-Attention for Semantic Role Labeling</span>_: In this [paper](http://aclweb.org/anthology/D18-1548), the authors present linguistically-informed self-attention (LISA): a neural network model that combines multi-head self-attention with multi-task learning across dependency parsing, part-of-speech tagging, predicate detection and SRL.
@@ -559,19 +467,14 @@ The winning papers are:
 * Best resource paper:
     * _<span style="text-decoration:underline;">MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling</span>_: This [paper](http://aclweb.org/anthology/D18-1547) introduces the Multi-Domain Wizard-of-Oz dataset (MultiWOZ), a fully-labeled collection of human-human written conversations spanning over multiple domains and topics. 
 
-
 # Other resources
 
 _Resources for sessions in which I wasn’t present:_
-
-
 
 * [Link](https://blackboxnlp.github.io/) to the “Black Box NLP” tutorial.
 * [Link](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018) the “Writing Code for NLP Research” tutorial. 
 
 _Blog posts:_
 
-
-
 * Sebastian Ruder: [EMNLP 2018 Highlights: Inductive bias, cross-lingual learning, and more.](http://ruder.io/emnlp-2018-highlights/)
-* Another [blog post](https://www.patricklewis.io/post/emnlp2018/). 
+* Patrick Lewis [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/). 
