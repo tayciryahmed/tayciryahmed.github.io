@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/wp2209213-brussels-wallpapers.jpg
+cover: assets/images/pano-tapis-de-fleurs-darkened-resize10.jpg
 navigation: True
 title: EMNLP 2018 Highlights
 date: 2018-12-05 10:25:36
