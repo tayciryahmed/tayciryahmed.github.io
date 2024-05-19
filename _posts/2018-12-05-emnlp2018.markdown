@@ -470,11 +470,9 @@ The winning papers are:
 # Other resources
 
 _Resources for sessions in which I wasn’t present:_
-
 * [Link](https://blackboxnlp.github.io/) to the “Black Box NLP” tutorial.
 * [Link](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018) the “Writing Code for NLP Research” tutorial. 
 
 _Blog posts:_
-
 * Sebastian Ruder: [EMNLP 2018 Highlights: Inductive bias, cross-lingual learning, and more.](http://ruder.io/emnlp-2018-highlights/)
 * Patrick Lewis [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/). 
