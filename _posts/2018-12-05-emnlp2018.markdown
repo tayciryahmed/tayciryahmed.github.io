@@ -504,11 +504,6 @@ Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOo
 * _<span style="text-decoration:underline;">Few-Shot and Zero-Shot Multi-Label Learning for Structured Label Spaces</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1352) perform a fine-grained evaluation to explain how state-of-the-art methods perform on infrequent labels.  They also develop few- and zero-shot methods for multi-label text classification when there is a known structure over the label space.
 
 
-## Social Event 
-
-Dinner followed by a delightful evening at the Royal Museums of Fine Arts of Belgium.
-
-
 # Day 5: November 4<sup>th</sup>, 2018
 
 
@@ -533,10 +528,6 @@ Dinner followed by a delightful evening at the Royal Museums of Fine Arts of Bel
 * _<span style="text-decoration:underline;">Open Domain Question Answering Using Early Fusion of Knowledge Bases and Text</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1455) investigate QA over the combination of a KB and entity-linked text, which is appropriate when an incomplete KB is available with a large text corpus.
 * _<span style="text-decoration:underline;">A Nil-Aware Answer Extraction Framework for Question Answering</span>_: In this [paper](http://aclweb.org/anthology/D18-1456), the authors focus on developing QA systems that can extract an answer for a question if and only if the associated passage contains an answer.
 
-
-## Exhibitions 
-
-I toured the companies’ stands to network and/or ask questions about technical topics. 
 
 
 ## Keynote III: The Moment of Meaning and the Future of Computational Semantics
@@ -567,8 +558,6 @@ The winning papers are:
     * _<span style="text-decoration:underline;">How Much Reading Does Reading Comprehension Require? A Critical Investigation of Popular Benchmarks</span>_: This [paper](http://aclweb.org/anthology/D18-1546) gives baselines for  the  bAbI,  SQuAD,  CBT,  CNN,  and  Who-did-What datasets,  finding that question- and passage-only  models  often  perform  surprisingly  well.
 * Best resource paper:
     * _<span style="text-decoration:underline;">MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling</span>_: This [paper](http://aclweb.org/anthology/D18-1547) introduces the Multi-Domain Wizard-of-Oz dataset (MultiWOZ), a fully-labeled collection of human-human written conversations spanning over multiple domains and topics. 
-
-_EMNLP 2019 will take place in Hong Kong._
 
 
 # Other resources
