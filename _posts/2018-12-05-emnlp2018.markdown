@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/bus.jpg
+cover: assets/images/wp2209213-brussels-wallpapers.jpg
 navigation: True
 title: EMNLP 2018 Highlights
 date: 2018-12-05 10:25:36
@@ -11,22 +11,20 @@ subclass: 'post'
 author: tayciryahmed
 ---
 
-# **Description**
-
-This document holds the synthesis of my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31<sup>th</sup> to November 4<sup>th</sup> 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2<sup>nd</sup> to November 3<sup>rd </sup>2018.
+In this post, I am sharing my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31<sup>th</sup> to November 4<sup>th</sup> 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2<sup>nd</sup> to November 3<sup>rd </sup>2018.
 
 
-# **Day 1: October 31<sup>st</sup>, 2018**
+# Day 1: October 31<sup>st</sup>, 2018
 
 
-## **Tutorial 1: Joint models for NLP **
+## Tutorial 1: Joint models for NLP
 
 The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Study. The presentation exposes the interest in training joint models for NLP, with two different strategies: statistical and deep learning methods. Concepts in the presentation are explained through examples / papers. 
 
 
 
 * Motivation for joint models: 
-    * In NLP, many tasks are _related _(e.g. NER, chunking and POS tagging) or _pipelined_ (e.g. tokenization and POS tagging). 
+    * In NLP, many tasks are related (e.g. NER, chunking and POS tagging) or pipelined (e.g. tokenization and POS tagging). 
     * Joint models allow information exchange between tasks and error propagation reduction.
 * Statistical methods: include transition based and graph based methods. 
 * Deep learning methods: 
@@ -37,15 +35,13 @@ The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Stu
         * Cross domain: e.g. multi-domain sentiment classification. 
         * Cross Standard: e.g. output results corresponding to various treebanks. 
 
-For more details, check out the [slides](file:///\\EUFRHQFS17UP.FR.XCD.NET.INTRA\BPAANXX\ANX\Conférences\Feedbacks\2018-11%20EMNLP\slides\Tutorial%201%20Joint%20models%20for%20NLP.pdf).
 
-
-## **Workshop 5: SCAI - Search-Oriented Conversational AI **
+## Workshop 5: SCAI - Search-Oriented Conversational AI
 
 Below is my feedback on the afternoon session of the workshop. [Link](https://scai.info/) to the workshop page. 
 
 
-### **Keynote: Towards natural conversation with machines**
+### Keynote: Towards natural conversation with machines
 
 A keynote presented by Milica Gašić from University of Cambridge, the Dialogue Systems Group. 
 
@@ -60,17 +56,14 @@ A keynote presented by Milica Gašić from University of Cambridge, the Dialogue
     * Belief tracking: Tracking every concept requires training data for each one: Reuse knowledge for different concepts, use semantically-constrained word vector embeddings and architectures that share parameters.
     * Response experience from a large set of possibilities, using deep reinforcement learning.
 
-For more details, check out the [slides](file:///S:\ANX\Conférences\Feedbacks\2018-11%20EMNLP\slides\Towards%20natural%20conversation%20with%20machines.pptx). 
-
-
-### **Papers presentations**
+### Papers presentations
 
 
 
 * A Reinforcement Learning-driven Translation Model for Search-Oriented Conversational Systems. 
     *  Learning the mapping between natural language expressed needs and keywords expressed needs, using machine translation paradigms. 
     * Inject task objectives within the model using reinforcement learning methods. 
-    * For more details, check out the [slides](file:///S:\ANX\Conférences\Feedbacks\2018-11%20EMNLP\slides\A%20Reinforcement%20Learning-driven%20Translation%20Model%20for%20Search-Oriented%20Conversational%20Systems.pdf), [poster](file:///S:\ANX\Conférences\Feedbacks\2018-11%20EMNLP\slides\Poster%20-%20A%20Reinforcement%20Learning-driven%20Translation%20Model%20for%20Search-Oriented%20Conversational%20Systems.pdf) and [paper](https://arxiv.org/abs/1809.01495). 
+    * For more details, check out the [paper](https://arxiv.org/abs/1809.01495). 
 * Research Challenges in Building a Voice-based Artificial Personal Shopper - Position Paper.
     * Definition: an artificial personal shopper is a voice based dialog system used to enrich online shopping, by replicating personal shopping agents in a brick and mortar store. 
     * This is a difficult task requiring effective knowledge and understanding: e.g. in order to correctly answer the question “Is the Bose headphone compatible with my phone?”, the agent has to know:
@@ -97,7 +90,7 @@ For more details, check out the [slides](file:///S:\ANX\Conférences\Feedbacks\2
     * For more details, check out the [paper](http://www.aclweb.org/anthology/W18-5706).
 
 
-### **Panel discussion**
+### Panel discussion
 
 The panel was animated by Milica Gašić (University of Cambridge), Antoine Bordes (Facebook AI Research), Jason Weston (Facebook) and Bill Dolan (Microsoft Research). 
 
@@ -105,17 +98,17 @@ The panel was animated by Milica Gašić (University of Cambridge), Antoine Bord
 
 * Future of conversational AI?
     * Jason Weston: Online learning. 
-    * Antoine Bordes: End-to-end response specialized bot (task oriented and domain oriented) 🡺 not general purpose chatbots but specialized on domains to insure complex tasks’ completion. 
+    * Antoine Bordes: End-to-end response specialized bot (task oriented and domain oriented), not general purpose chatbots but specialized on domains to insure complex tasks’ completion. 
     * Bill Dolan: Discussed the importance of chit-chat in task oriented chatbots. 
-    * Milica Gašić: Bigger challenges for Conversational AI : Humans don’t talk to systems the way they talk to humans 🡺 Need to work on question generation, not only response generation. 
+    * Milica Gašić: Bigger challenges for Conversational AI : Humans don’t talk to systems the way they talk to humans. Need to work on question generation, not only response generation. 
 * How to evaluate the quality of dialogue systems? 
-    * If we use real users, it would be impossible to compare results across groups: Milica Gašić 🡺 Compare to statistical dialogue systems and / or use standard data sets.
+    * If we use real users, it would be impossible to compare results across groups: Milica Gašić: Compare to statistical dialogue systems and / or use standard data sets.
     * Bill Dolan: For response generation, BLEU still has an added value, despite its known weaknesses. 
     * For human bot evaluation: precision, recall, perplexity. BLEU is for MT but not for dialogue: We would need at least 100 references. Plus, for a more personalized experience, we need a more personalized evaluation metric. 
 * Difficulty for conversational AI?
     * Learning in a compliant environment with encrypted data. 
     * Seq2seq architectures are suspicious; they come from MT (difficult linguistic task).
-    * To ensure fluency: combine other signals with linguistic signal 🡺 Importance of ML advancements to have better solutions, models, architectures. 
+    * To ensure fluency: combine other signals with linguistic signal / Importance of ML advancements to have better solutions, models, architectures. 
     * Dialogue incorporates a lot of linguistic tasks: go beyond text with gestures (like human conversation) and combine multimodal data. 
     * Algorithms are inadequate to work with small amounts of data; it is difficult to annotate and collect data frame by frame. 
     * Assess algorithms on computer vision and text. Is it possible to do it directly on speech / image instead of text? 
@@ -126,7 +119,7 @@ The panel was animated by Milica Gašić (University of Cambridge), Antoine Bord
         * Conversational search should be an integral part of the dialogue. 
 
 
-### **Keynote: Understanding the user in social bot conversations **
+### Keynote: Understanding the user in social bot conversations
 
 This presentation was delivered by Mari Ostendorf (University of Washington). 
 
@@ -217,12 +210,12 @@ Speech/Language understanding
 * Different user goals: information seeking, opinion sharing, getting to know each other. 
 
 
-## **Brussels NLP meetup**
+## Brussels NLP meetup
 
 The organizers of this monthly meetup took advantage of the EMNLP conference, to invite high profile speakers. Below is a synthesis of the different presentations.
 
 
-### **Understanding Structure in Language through Wikipedia Edits**
+### Understanding Structure in Language through Wikipedia Edits
 
 This presentation, delivered by Manaal Faruqui (Google), explains the paper: WikiAtomicEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse. 
 
@@ -236,7 +229,7 @@ This presentation, delivered by Manaal Faruqui (Google), explains the paper: Wik
 Link to the [paper](https://arxiv.org/pdf/1808.09422.pdf).
 
 
-### **The importance of scaling down: One weird trick to make your NLP projects more successful**
+### The importance of scaling down: One weird trick to make your NLP projects more successful
 
 This presentation was delivered by Matthew Honnibal (Explosion AI).
 
@@ -259,11 +252,9 @@ Solution: Compose generic models into novel solutions.
 * A/B evaluation beats BLEU scores blues: don’t settle for proxy metrics and build micro A/B tests.
 
 
-### **Rapid NLP Annotation through Binary Decisions, Pattern Bootstrapping and Active Learning**
+### Rapid NLP Annotation through Binary Decisions, Pattern Bootstrapping and Active Learning
 
 This presentation was delivered by Ines Montani (Explosion AI).
-
-
 
 * Feedback and best practices on annotation pipelines from the developers of [prodigy](https://prodi.gy).
 * Annotation needs iteration: can’t expect to define the task correctly the first time. 
@@ -274,11 +265,9 @@ This presentation was delivered by Ines Montani (Explosion AI).
 More on the [slides](https://speakerdeck.com/inesmontani/belgium-nlp-meetup-rapid-nlp-annotation-through-binary-decisions-pattern-bootstrapping-and-active-learning). 
 
 
-### **Large-scale Fact Extraction and Verification**
+### Large-scale Fact Extraction and Verification
 
 This presentation was delivered by Arpit Mittal (Amazon), to explain the paper: FEVER: a large-scale dataset for Fact Extraction and VERification. 
-
-
 
 * Release of [FEVER](http://fever.ai/): a data set for claim verification against textual sources. It consists of 185k+ claims extracted from Wikipedia, verified and annotated with 1 of 3 labels: supported, refuted, not enough info. 
 * Two objectives: Transform free-form text to structured information AND verify facts (in order to help combat fake news).
@@ -286,13 +275,11 @@ This presentation was delivered by Arpit Mittal (Amazon), to explain the paper: 
 Link to the [paper](https://arxiv.org/abs/1803.05355).
 
 
-### **Transfer learning with language models **
+### Transfer learning with language models 
 
 This presentation was delivered by Sebastian Ruder (Aylien). 
 
-
-
-* Recent Advances: ELMo, ULMFiT, OpenAI Transformer (12 layers, 8 GPUs, 1 month), and BERT (24 layers, 64 TPUs, 4 days / 8 GPUs, 40-70 days) 🡺 SOTA on a wide range of tasks (cheaper use cases once LM trained). 
+* Recent Advances: ELMo, ULMFiT, OpenAI Transformer (12 layers, 8 GPUs, 1 month), and BERT (24 layers, 64 TPUs, 4 days / 8 GPUs, 40-70 days). SOTA on a wide range of tasks (cheaper use cases once LM trained). 
 * Tips for LM training: bidirectional architecture, choice of loss/auxiliary loss, etc.
 * LMs capture: structure of the text, syntax, meter, hierarchical relation (e.g. coherence, syntax, POS tagging, constituents). 
 * No indication of performance ceiling: fine-tuning LMs will become commonplace in NLP.
@@ -301,10 +288,10 @@ This presentation was delivered by Sebastian Ruder (Aylien).
 For more details, check the [slides](https://drive.google.com/open?id=1kmNAwrSlFYo0cN_DcURMOArBwe9FxWxR). 
 
 
-# **Day 2: November 1<sup>st</sup>, 2018**
+# Day 2: November 1<sup>st</sup>, 2018
 
 
-## **Tutorial 4:  Deep Latent Variable Models of Natural Language**
+## Tutorial 4:  Deep Latent Variable Models of Natural Language
 
 The tutorial was presented by Yoon Kim, Sam Wiseman, and Alexander Rush from Harvard NLP Group. 
 
@@ -317,12 +304,12 @@ The tutorial was presented by Yoon Kim, Sam Wiseman, and Alexander Rush from Har
 Link to the resources shared as part of the tutorial [here](http://nlp.seas.harvard.edu/latent-nlp-tutorial.html). 
 
 
-## **Workshop 2: CoNLL**
+## Workshop 2: CoNLL
 
 Feedback on the CoNLL 2<sup>nd</sup> and 3<sup>rd</sup> sessions:
 
 
-### **Invited talk: Semantic spaces across diverse languages**
+### Invited talk: Semantic spaces across diverse languages
 
 Presentation by Asifa Majid (University of York).
 
@@ -339,12 +326,12 @@ Presentation by Asifa Majid (University of York).
 This [paper](https://arxiv.org/abs/1810.03717) was written by Judy Hanwen Shen, Matthias Hofer, Bjarke Felbo and Roger Levy. It presents the nature of the lexical resources that speakers and listeners can bring to bear in achieving reference through associative meaning alone. 
 
 
-### **Sequence Classification with Human Attention (special paper award)**
+### Sequence Classification with Human Attention (special paper award)
 
 This [paper](http://aclweb.org/anthology/K18-1030) was written by Maria Barrett, Joachim Bingel, Nora Hollenstein, Marek Rei and Anders Søgaard. It highlights the fact that human attention provides a good inductive bias on many attention functions in NLP. They use estimated human attention, by eye tracking, corpora to regularize the attention in RNNs.   
 
 
-## **Tutorial 6: Deep Chit-Chat: Deep Learning for Chatbots**
+## Tutorial 6: Deep Chit-Chat: Deep Learning for Chatbots 
 
 This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University). 
 
@@ -354,7 +341,7 @@ This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University
     * Hot subject both in academia (e.g. the Alexa Prize) and industry (_Virtual Assistants_: MS Cortana, Apple Siri, Baidu Duer / _Smart speakers_: Amazon Alexa, Google Home / _Social Bot and customer service_)
     * 54% of conversations in chatbots are chit-chat (Study performed in Japan).
     * Chit-chat is fundamentally different from goal oriented chatbots: open domain conversations should be relevant and diverse to keep the user engaged. 
-    * **Services (e.g. Recommendation, search, Q&A) are connected via chat in chatbots. **
+    * Services (e.g. Recommendation, search, Q&A) are connected via chat in chatbots. 
     * Task oriented vs Non-task oriented chatbots. 
     * Non task oriented chatbots are based on retrieval based methods or generation based methods.
 * Deep learning for NLP :
@@ -372,13 +359,12 @@ This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University
 * Evaluation metrics for conversations: Weak correlation between human and automatic evaluations (BLEU, information, e.g. entropy and perplexity, diversity, average response length, ADEM, RUBER).  
 * Future trends: Learning methods and representations, reasoning in dialogues (context based, knowledge, and common sense), X-grounded dialogues (labels, multimodal, texts), evaluation and benchmark data sets.   
 
-_Highly recommend the [slides](file:///S:\ANX\Conférences\Feedbacks\2018-11%20EMNLP\slides\tutorial%20Deep%20Chit-chat.pdf). _
 
 
-# **Day 3: November 2<sup>nd</sup>, 2018**
+# Day 3: November 2<sup>nd</sup>, 2018 
 
 
-## **Opening remarks**
+## Opening remarks 
 
 Presentation of the conference key numbers, program and organization details. 
 
@@ -397,7 +383,7 @@ Presentation of the conference key numbers, program and organization details.
 * Companies: Bloomberg, Google, Facebook, Salesforce, Apple, ASAPP, Amazon, Baidu, Grammarly, Naver Labs Europe, Ku Leuven, FWO, Megagon Labs, Huawei, eBay, Microsoft, Naver Line, Oracle, PolyAI, Sogou, YITI, Duolingo, Nuance, Shannon.ai, NextAI, textkernel, Allen Institute for AI, text IQ, etc.
 
 
-## **Keynote I: Truth or Lie? Spoken Indicators of Deception in Speech**
+## Keynote I: Truth or Lie? Spoken Indicators of Deception in Speech 
 
 This keynote was presented by Julia Hirschberg (Columbia University). The key ideas are:
 
@@ -414,7 +400,7 @@ This keynote was presented by Julia Hirschberg (Columbia University). The key id
 Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyKI17D_B22Oim/view?usp=sharing). 
 
 
-## **1A: Social Applications I**
+## 1A: Social Applications I
 
 
 
@@ -425,7 +411,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Detecting Gang-Involved Escalation on Social Media Using Context</span>_: This [paper](http://aclweb.org/anthology/D18-1005) presents a method to detect expressions of violence and grief on social media. The authors use a domain specific unlabeled corpus and present a contextual and emotional representation of a users’ generated content. They made the collected data available upon request.
 
 
-## **2C: Multilingual Methods I**
+## 2C: Multilingual Methods I
 
 
 
@@ -436,7 +422,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Surprisingly Easy Hard-Attention for Sequence to Sequence Learning</span>_: This [paper](http://aclweb.org/anthology/D18-1065) shows that beam approximation of joint distribution between attention and output is efficient for seq2seq learning. The method combines sharp focus in hard attention and implementation ease of soft attention. 
 
 
-## **3A: Machine Translation I**
+## 3A: Machine Translation I
 
 
 
@@ -447,7 +433,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Compact Personalized Models for Neural Machine Translation</span>_: This [paper](http://aclweb.org/anthology/D18-1104) shows that it is possible to freeze the majority of the models parameters when adapting a translation model, with no reduction in performance. To ensure the sparsity of the tensors’ offsets, the authors suggest using group lasso regularization. 
 
 
-## **4A: Language Models**
+## 4A: Language Models
 
 
 
@@ -458,10 +444,10 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling</span>_: LMs are commonly used for various NLP tasks, due to the huge size of the available training data. However, large LMs present heavy computation constraints, during the inference. Thus, the [paper](http://aclweb.org/anthology/D18-1153) presents an approach to LM compression, which keeps only useful information for a specific task. 
 
 
-# **Day 4: November 3<sup>rd</sup>, 2018**
+# Day 4: November 3<sup>rd</sup>, 2018
 
 
-## **5C: IR / Text Mining**
+## 5C: IR / Text Mining
 
 
 
@@ -472,7 +458,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">AD3: Attentive Deep Document Dater</span>_: This [paper](http://aclweb.org/anthology/D18-1213) presents an attention-based neural document  dating  system  which  utilizes  both  context  and  temporal  information  in  documents. 
 
 
-## **6D: Multilingual Methods II**
+## 6D: Multilingual Methods II
 
 
 
@@ -483,7 +469,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Fine-grained Coordinated Cross-lingual Text Stream Alignment for Endless Language Knowledge Acquisition</span>_: This [paper](http://aclweb.org/anthology/D18-1271) presents a decipherment algorithm with diverse clues to decipher the networks for accurate text stream alignment.
 
 
-## **7A: Dialogue II**
+## 7A: Dialogue II
 
 
 
@@ -494,7 +480,7 @@ Find more on the [slides](https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyK
 * _<span style="text-decoration:underline;">Semantic Parsing for Task Oriented Dialog using Hierarchical Representations</span>_: Dialog systems usually deal with one query (intent) at a time. In this [paper](http://aclweb.org/anthology/D18-1300), the authors suggest a hierarchical annotation scheme for semantic parsing that allows the representation of compositional queries. Furthermore, they release a dataset of 44k annotated queries.
 
 
-## **Keynote II: Understanding the News that Moves Markets**
+## Keynote II: Understanding the News that Moves Markets
 
 This keynote was presented by Gideon Mann (Bloomberg). The key ideas are:
 
@@ -507,7 +493,7 @@ This keynote was presented by Gideon Mann (Bloomberg). The key ideas are:
 Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOoS_w3kUxJbaR/view?usp=sharing). 
 
 
-## **8A: Text Categorization**
+## 8A: Text Categorization
 
 
 
@@ -518,15 +504,15 @@ Find more on the [slides](https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOo
 * _<span style="text-decoration:underline;">Few-Shot and Zero-Shot Multi-Label Learning for Structured Label Spaces</span>_: The authors of this [paper](http://aclweb.org/anthology/D18-1352) perform a fine-grained evaluation to explain how state-of-the-art methods perform on infrequent labels.  They also develop few- and zero-shot methods for multi-label text classification when there is a known structure over the label space.
 
 
-## **Social Event **
+## Social Event 
 
 Dinner followed by a delightful evening at the Royal Museums of Fine Arts of Belgium.
 
 
-# **Day 5: November 4<sup>th</sup>, 2018**
+# Day 5: November 4<sup>th</sup>, 2018
 
 
-## **9B: Sentiment I**
+## 9B: Sentiment I
 
 
 
@@ -537,7 +523,7 @@ Dinner followed by a delightful evening at the Royal Museums of Fine Arts of Bel
 * _<span style="text-decoration:underline;">[TACL] Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification</span>_: This [paper](http://emnlp2018.org/downloads/tacl-papers/EMNLP-TACL04.pdf) proposes an Adversarial Deep Averaging Network (ADAN) to transfer the knowledge learned from labeled data on a resource-rich source language to low-resource languages where only unlabeled data exists.
 
 
-## **10A: Question Answering III**
+## 10A: Question Answering III
 
 
 
@@ -548,12 +534,12 @@ Dinner followed by a delightful evening at the Royal Museums of Fine Arts of Bel
 * _<span style="text-decoration:underline;">A Nil-Aware Answer Extraction Framework for Question Answering</span>_: In this [paper](http://aclweb.org/anthology/D18-1456), the authors focus on developing QA systems that can extract an answer for a question if and only if the associated passage contains an answer.
 
 
-## **Exhibitions **
+## Exhibitions 
 
 I toured the companies’ stands to network and/or ask questions about technical topics. 
 
 
-## **Keynote III: The Moment of Meaning and the Future of Computational Semantics**
+## Keynote III: The Moment of Meaning and the Future of Computational Semantics
 
 This keynote was presented by Johan Bos (University of Groningen). The key ideas are:
 
@@ -568,7 +554,7 @@ This keynote was presented by Johan Bos (University of Groningen). The key ideas
 Find more on the [slides](https://drive.google.com/file/d/1xr8bnf1VnUZP9Ew1h8fjKCEs5InHhNps/view?usp=sharing). 
 
 
-## **Best Paper Awards and Closing**
+## Best Paper Awards and Closing
 
 The winning papers are: 
 
@@ -585,7 +571,7 @@ The winning papers are:
 _EMNLP 2019 will take place in Hong Kong._
 
 
-# **Other resources**
+# Other resources
 
 _Resources for sessions in which I wasn’t present:_
 
