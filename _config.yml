@@ -32,7 +32,7 @@ disqus: False
 disqus_shortname: tayciryahmed # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-145236815-1 # replace with your GA tracking identifier
+google_analytics: G-65JD9XK4QH # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
