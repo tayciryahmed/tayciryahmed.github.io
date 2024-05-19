@@ -467,4 +467,6 @@ Find more on the [slides](https://drive.google.com/file/d/1xr8bnf1VnUZP9Ew1h8fjK
 
 _Blog posts:_
 * Sebastian Ruder: [EMNLP 2018 Highlights: Inductive bias, cross-lingual learning, and more.](http://ruder.io/emnlp-2018-highlights/)
-* Patrick Lewis: [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/). 
+* Patrick Lewis: [EMNLP 2018](https://www.patricklewis.io/post/emnlp2018/).
+
+<small><i>This article was shared privately on 2018-12-05 and publicly on 2024-05-19.</i></small>
