@@ -11,7 +11,7 @@ subclass: 'post'
 author: tayciryahmed
 ---
 
-In this post, I am sharing my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31<sup>th</sup> to November 4<sup>th</sup> 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2<sup>nd</sup> to November 3<sup>rd </sup>2018.
+In this post, I share my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31<sup>th</sup> to November 4<sup>th</sup> 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2<sup>nd</sup> to November 3<sup>rd </sup>2018.
 
 
 # Day 1: October 31<sup>st</sup>, 2018
