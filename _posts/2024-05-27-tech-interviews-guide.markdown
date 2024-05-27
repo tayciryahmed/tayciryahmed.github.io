@@ -35,7 +35,10 @@ Below are some tips for writing resumes:
 
 **Certifications/Awards**: Include the exact name of the certificate or award, and links to verify authenticity online whenever possible. 
 
+**Additional resources**:
 You can get a free resume review in [topresume.com](https://www.topresume.com/). Consider also reviewing [this video](https://www.youtube.com/watch?v=BYUy1yvjHxE) by Google recruiters giving resume tips. 
+
+[![Create Your Resume for Google: Tips and Advice](https://img.youtube.com/vi/BYUy1yvjHxE/0.jpg)](https://www.youtube.com/watch?v=BYUy1yvjHxE)
 
 # Coding Interviews 
 Coding interviews preparation is the most straightforward, yet time and effort consuming. You need to have a good grasp of algorithms and data structures. The most tactical way to do this is to first study the most popular algorithms and data structures, then for each topic practice relevant coding questions. One very helpful resource I used over the years is [neetcode.io](https://neetcode.io). If you have limited time, you can focus on problems in the famous [Blind 75](https://neetcode.io/practice) list, but make sure you fully understand each of the problems and their solutions. Another tip is to try solving the problems on your own for at least 1h. If unsuccessful, I recommend you check the solution, understand it in detail, then revisit the problem later.  
