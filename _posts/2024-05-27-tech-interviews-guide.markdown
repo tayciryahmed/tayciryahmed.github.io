@@ -97,7 +97,7 @@ One excellent resource for conducting mock interviews is [Pramp.com](https://www
 # Optimizing Your Interview Experience
 Thorough preparation is essential when it comes to interviews, and it's important to allocate sufficient time to ensure you feel fully ready. For onsite interviews, it is generally acceptable to request a timeframe of 2-3 weeks, allowing you to adequately prepare and ensure your readiness.
 
-Open communication with the recruiter is advisable, as it allows you to confirm the expected timeline and clarify any specific expectations or requirements. This transparency ensures that both parties are aligned and can make necessary arrangements to facilitate a smooth interview process. Additionally, it is highly recommended to take advantage of any accommodations offered by the company to enhance your comfort and confidence during the interview sessions. 
+Open communication with the recruiter is advisable, as it allows you to confirm the expected timeline and clarify any specific expectations or requirements. Additionally, it is highly recommended to take advantage of any accommodations offered by the company to enhance your comfort and confidence during the interview sessions. 
 
 # Personalized Mentorship and Guidance
 As someone who has guided numerous tech professionals and aspiring students in achieving their career goals, I understand the invaluable impact of personalized mentorship and support. I have extensive experience reviewing resumes, conducting mock interviews, and providing tailored feedback to help individuals showcase their strengths and prepare for successful technical interviews.
