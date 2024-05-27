@@ -11,7 +11,7 @@ subclass: 'post'
 author: tayciryahmed
 ---
 
-Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an impressive onsite-to-offer conversion rate exceeding 80%.
+Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an onsite-to-offer conversion rate exceeding 80%.
 
 Given the frequent requests I receive for guidance on preparing for technical interviews, I have compiled my insights and recommendations into this comprehensive blog post. My aim is to share valuable advice and strategies that can help individuals excel in these crucial evaluations, increasing their chances of securing coveted job opportunities.
 
