@@ -80,7 +80,7 @@ Depending on the role you're targeting, you may encounter machine learning inter
 - Chip Huyen's "Design a Machine Learning System" guide, found [here](https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html), offers valuable insights into designing and implementing machine learning systems effectively.
 - The "Grokking the Machine Learning Interview" course, available [here](https://www.educative.io/courses/grokking-the-machine-learning-interview), is a comprehensive resource specifically tailored for machine learning interview preparation.
 
-Additionally, it's crucial to stay informed about recent advancements in the field of Machine Learning. In 2024, the "Generative AI with Large Language Models" course offered by Coursera ([link](https://www.coursera.org/learn/generative-ai-with-llms)) is highly recommended to gain insights into this cutting-edge technology and its applications.
+Additionally, it's crucial to stay informed about recent advancements in the field of Machine Learning. In 2024, the "Generative AI with Large Language Models" course offered by Coursera ([link](https://www.coursera.org/learn/generative-ai-with-llms)) is highly recommended to gain insights into this _relatively new_ technology and its applications.
 
 # Acing Behavioral Interviews
 When it comes to behavioral interviews, my primary recommendation is to be authentic and present your genuine self to the interviewers. This approach will provide them with a glimpse into your work style and how you would contribute to the team dynamic. It's essential to be honest and transparent, as this will help establish a strong foundation for a potential working relationship.
