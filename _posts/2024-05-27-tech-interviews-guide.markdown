@@ -69,9 +69,9 @@ A valuable tip is to dedicate at least one hour to solving each problem independ
 If you have more time to dedicate to your preparation, I highly recommend the books **Data Structures and Algorithms in Python** and **Elements of Programming Interviews in Python**. These resources offer in-depth coverage and provide a solid foundation for mastering the necessary concepts.
 
 # Excelling in System Design Interviews
-When it comes to preparing for system design interviews, one of the most highly recommended and widely recognized resources within the industry is the course [Grokking the System Design Interview](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers). This comprehensive course is specifically tailored to equip professionals with the knowledge and skills necessary to excel in this critical aspect of the interview process.
+When it comes to preparing for system design interviews, one of the most highly recommended and widely recognized resources within the industry is the course [Grokking the System Design Interview](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers). 
 
-Furthermore, the book **Designing Data-Intensive Applications** by Martin Kleppmann is an invaluable resource that provides in-depth insights and practical guidance on designing robust and scalable data systems. This book is widely regarded as an essential reference for those aspiring to master the art of system design, making it an indispensable addition to your preparation.
+Furthermore, the book **Designing Data-Intensive Applications** by Martin Kleppmann is an invaluable resource that provides in-depth insights and practical guidance on designing robust and scalable data systems. This book is widely regarded as an essential reference for those aspiring to master the art of system design.
 
 # Mastering Machine Learning Interviews
 Depending on the role you're targeting, you may encounter machine learning interviews, often presented as a variation of system design interviews focused on machine learning products. Assuming you already possess a solid background in machine learning, you can enhance your preparation by leveraging popular machine learning cheatsheets and resources:
