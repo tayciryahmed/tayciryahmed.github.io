@@ -35,15 +35,16 @@ Below are some tips for writing resumes:
 
 **Certifications/Awards**: Include the exact name of the certificate or award, and links to verify authenticity online whenever possible. 
 
+**Additional resources**:
 You can get a free resume review in [topresume.com](https://www.topresume.com/). Consider also reviewing [this video](https://www.youtube.com/watch?v=BYUy1yvjHxE) by Google recruiters giving resume tips. 
 
 # Coding Interviews 
-Coding interviews preparation is the most straightforward, yet time and effort consuming. You need to have a good grasp of algorithms and data structures. The most tactical way to do this is to first study the most popular algorithms and data structures, then for each topic practice relevant coding questions. One very helpful resource I used over the years is https://neetcode.io. If you have limited time, you can focus on problems in the famous [Blind 75](https://neetcode.io/practice) list, but make sure you fully understand each of the problems and their solutions. Another tip is to try solving the problems on your own for at least 1h. If unsuccessful, I recommend you check the solution, understand it in detail, then revisit the problem later.  
+Coding interviews preparation is the most straightforward, yet time and effort consuming. You need to have a good grasp of algorithms and data structures. The most tactical way to do this is to first study the most popular algorithms and data structures, then for each topic practice relevant coding questions. One very helpful resource I used over the years is [neetcode.io](https://neetcode.io). If you have limited time, you can focus on problems in the famous [Blind 75](https://neetcode.io/practice) list, but make sure you fully understand each of the problems and their solutions. Another tip is to try solving the problems on your own for at least 1h. If unsuccessful, I recommend you check the solution, understand it in detail, then revisit the problem later.  
 
 If you have more preparation time, I recommend the books **Data Structures and Algorithms in Python** and **Elements of Programming Interviews in Python**. 
 
 # System Design Interviews 
-One of the most helpful and community-recognized resource for preparing for system design interviews is the course [Grokking Modern System Design Interview]( https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers). 
+One of the most helpful and community-recognized resource for preparing for system design interviews is the course [Grokking the System Design Interview]( https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers). 
 
 Additionally, the book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is very helpful for system design interviews. 
 
@@ -68,4 +69,4 @@ It's important to prepare well for interviews and take the necessary time to fee
 I have helped many tech professional and aspiring students achieve their goals by reviewing their resumes and running mock interview sessions. If you're interested in getting help reviewing your resume or preparing for technical interviews, I am offering free mentorship sessions [here](https://mentors.codingcoach.io/u/66530c994474770664cda1b1?name=Taycir+Yahmed). 
 
 # Final notes
-It's important to remember that interviews are a two-way discussion. Ask questions for your interviewers to assess if the company is the right place for you to work. If at the offer stage you still have questions, most companies will offer or accept to connect you with a team member or manager to answer any additional questions. 
+It's important to remember that interviews are a two-way discussion. Ask your interviewers questions to assess if the company is the right place for you to work. At the offer stage, if you still have questions, most companies will offer or accept to connect you with a team member or manager to answer any additional questions. 
