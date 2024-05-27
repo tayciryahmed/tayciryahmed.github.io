@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/design.jpg
 navigation: True
-title: "Tech Interviews Preparation Guide"
+title: "Technical Interviews Preparation Guide"
 date: 2024-05-27 10:30:36
 tags:
 class: post-template
@@ -16,7 +16,7 @@ Over the years, I have had my fair share of technical interviews, both as an int
 # Resume 
 Below are some tips for writing resumes: 
 
-**Formatting**: Your resume should be easily parsable by an automatic parsing tool; some companies have automatic resume scanners. Also, recruiters spend as little as 15 to 30 seconds assessing resumes. You want to make sure your resume is easy to read with emphasis on keywords when relevant. For ease of review, your resume has to be aesthetically simple, aligned vertically and horizontally. One tip is to use LaTeX, as it allows entering data as code without the need for manually adjusting the display and alignment. There are plenty of LaTeX resume templates on https://www.overleaf.com. I would also suggest you limit your resume to one page, unless you have +10 years of experience. 
+**Formatting**: Your resume should be easily parsable by an automatic parsing tool; some companies have automatic resume scanners. Also, recruiters spend as little as 15 to 30 seconds assessing resumes. You want to make sure your resume is easy to read with emphasis on keywords when relevant. For ease of review, your resume has to be aesthetically simple, aligned vertically and horizontally. One tip is to use LaTeX, as it allows entering data as code without the need for manually adjusting the display and alignment. There are plenty of LaTeX resume templates on [overleaf.com](https://www.overleaf.com). I would also suggest you limit your resume to one page, unless you have +10 years of experience. 
 
 **Title**: The title should include your name and goal if you're looking for a specific role (example: end-of-studies internship, graduate software engineer, etc.). 
 
@@ -35,7 +35,7 @@ Below are some tips for writing resumes:
 
 **Certifications/Awards**: Include the exact name of the certificate or award, and links to verify authenticity online whenever possible. 
 
-You can get a free resume review in https://www.topresume.com/. Consider also reviewing [this video](https://www.youtube.com/watch?v=BYUy1yvjHxE) by Google recruiters giving resume tips. 
+You can get a free resume review in [topresume.com](https://www.topresume.com/). Consider also reviewing [this video](https://www.youtube.com/watch?v=BYUy1yvjHxE) by Google recruiters giving resume tips. 
 
 # Coding Interviews 
 Coding interviews preparation is the most straightforward, yet time and effort consuming. You need to have a good grasp of algorithms and data structures. The most tactical way to do this is to first study the most popular algorithms and data structures, then for each topic practice relevant coding questions. One very helpful resource I used over the years is https://neetcode.io. If you have limited time, you can focus on problems in the famous [Blind 75](https://neetcode.io/practice) list, but make sure you fully understand each of the problems and their solutions. Another tip is to try solving the problems on your own for at least 1h. If unsuccessful, I recommend you check the solution, understand it in detail, then revisit the problem later.  
@@ -59,7 +59,7 @@ You should also be familiar with recent advancements in Machine Learning. In 202
 My recommendation for these interviews is to be your authentic self and give the interviewers a preview of how it's like to work with you. It can also help to reflect on your previous experience to find examples of demonstrating certain professional behavior patterns. One way to do that is to review behavioral interview questions (example [here](https://www.tryexponent.com/questions?type=behavioral&src=nav)) and reflect on examples from your experience. 
 
 # Mock Interviews 
-I recommend you try mock interviews before your actual interview loops. You can use https://www.pramp.com and/or request mock interviews from your network and peers. 
+I recommend you try mock interviews before your actual interview loops. You can use [pramp.com](https://www.pramp.com) and/or request mock interviews from your network and peers. 
 
 # Interview Schedule 
 It's important to prepare well for interviews and take the necessary time to feel ready. It's usually acceptable to take 2-3 weeks for onsite interviews. You can confirm the timeline and expectations with the recruiter. Also, I recommend you take all the accommodations that the company offers to feel comfortable during the interview loops. 
