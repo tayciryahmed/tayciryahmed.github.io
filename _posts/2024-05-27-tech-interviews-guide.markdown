@@ -55,9 +55,9 @@ When showcasing your projects, it's essential to provide comprehensive details t
 If you have earned any certifications or awards relevant to your field, be sure to include them in a dedicated section of your resume. Present the complete and official title of each certification or award to accurately reflect your achievements. Furthermore, whenever feasible, provide links or references that enable prospective employers to verify the authenticity of these accomplishments online.
 
 ## Enhancing Your Resume
-To further refine your resume and ensure it stands out, consider taking advantage of the complimentary resume review service offered by [TopResume.com](https://www.topresume.com/).
+To further refine your resume and ensure it stands out, consider taking advantage of the free resume review service offered by [TopResume.com](https://www.topresume.com/).
 
-Additionally, I recommend exploring the vide "Resume Tips from Google Recruiters" available on [YouTube](https://www.youtube.com/watch?v=BYUy1yvjHxE). In this video, experienced recruiters from Google share their professional insights and tips.
+Additionally, I recommend exploring the video "Resume Tips from Google Recruiters" available on [YouTube](https://www.youtube.com/watch?v=BYUy1yvjHxE). In this video, experienced recruiters from Google share their professional insights and tips.
 
 # Mastering Coding Interviews
 Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most popular algorithms and data structures, followed by practicing relevant coding questions for each topic.
