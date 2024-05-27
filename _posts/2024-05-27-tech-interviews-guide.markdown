@@ -57,7 +57,7 @@ If you have earned any certifications or awards relevant to your field, be sure 
 ## Enhancing Your Resume
 To further refine your resume and ensure it stands out, consider taking advantage of the complimentary resume review service offered by [TopResume.com](https://www.topresume.com/).
 
-Additionally, I highly recommend exploring the insightful video titled "Resume Tips from Google Recruiters" available on [YouTube](https://www.youtube.com/watch?v=BYUy1yvjHxE). In this video, experienced recruiters from Google share their professional insights and tips, providing you with invaluable advice directly from industry experts.
+Additionally, I recommend exploring the vide "Resume Tips from Google Recruiters" available on [YouTube](https://www.youtube.com/watch?v=BYUy1yvjHxE). In this video, experienced recruiters from Google share their professional insights and tips.
 
 # Mastering Coding Interviews
 Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most commonly encountered algorithms and data structures, followed by practicing relevant coding questions for each topic.
