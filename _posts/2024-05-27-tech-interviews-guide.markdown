@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/design.jpg
 navigation: True
-title: "Technical Interviews Preparation Guide"
+title: "Mastering the Tech Interview: A Comprehensive Guide to Success"
 date: 2024-05-27 10:30:36
 tags:
 class: post-template
