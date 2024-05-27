@@ -60,7 +60,7 @@ To further refine your resume and ensure it stands out, consider taking advantag
 Additionally, I recommend exploring the vide "Resume Tips from Google Recruiters" available on [YouTube](https://www.youtube.com/watch?v=BYUy1yvjHxE). In this video, experienced recruiters from Google share their professional insights and tips.
 
 # Mastering Coding Interviews
-Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most commonly encountered algorithms and data structures, followed by practicing relevant coding questions for each topic.
+Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most popular algorithms and data structures, followed by practicing relevant coding questions for each topic.
 
 One invaluable resource that has proven immensely helpful over the years is [Neetcode.io](https://neetcode.io). If you have limited time, you can prioritize focusing on the problems listed in the renowned [Blind 75](https://neetcode.io/practice) collection. However, it's crucial to ensure that you thoroughly understand each problem and its corresponding solution.
 
