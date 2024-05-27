@@ -16,7 +16,7 @@ Throughout my career, I have gained extensive experience in technical interviews
 Given the frequent requests I receive for guidance on preparing for technical interviews, I have compiled my insights and recommendations into this comprehensive blog post. My aim is to share  advice and strategies that can help individuals excel in technical interviews, increasing their chances of securing targeted job opportunities.
 
 # Crafting an Impactful Resume 
-Whether you're a seasoned professional or just embarking on your career journey, the following tips will guide you in creating a compelling and impactful resume that effectively showcases your value and increases your chances of securing interviews.
+Whether you're a seasoned professional or just embarking on your career journey, the following tips will help you create a compelling and impactful resume that effectively showcases your value and increases your chances of securing interviews.
 
 ## Formatting Your Resume for Maximum Impact
 Crafting an effective resume is crucial, as many companies employ automated resume scanners, and recruiters typically spend a mere 15 to 30 seconds evaluating each application. Your resume should be easily parsable by these systems and visually appealing to capture the reader's attention. Emphasize relevant keywords and maintain a clean, well-structured layout with proper vertical and horizontal alignment for seamless readability.
