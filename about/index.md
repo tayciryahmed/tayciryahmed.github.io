@@ -8,7 +8,7 @@ class: page-template
 subclass: 'post page'
 ---
 
-Welcome! I’m a Software Engineer with a background in Machine Learning and Speech/Language technologies. 
+Software Engineer with a background in Machine Learning and Speech/Language technologies. 
 
 Over the past 8 years, I’ve worked in multiple organizations on delivering software and machine learning projects across diverse domains such as automatic speech recognition, text-to-speech, search ranking and recall, and content moderation.  
 
