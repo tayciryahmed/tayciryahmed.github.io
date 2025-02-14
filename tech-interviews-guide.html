@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Mastering the Tech Interview: A Comprehensive Guide to Success</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Software Engineer, Machine Learning" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png?" type="image/png" />
+    <link rel="canonical" href="/tech-interviews-guide" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Taycir Yahmed" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mastering the Tech Interview: A Comprehensive Guide to Success" />
+    <meta property="og:description" content="Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I" />
+    <meta property="og:url" content="/tech-interviews-guide" />
+    <meta property="og:image" content="/assets/images/design.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2024-05-27T10:30:36+00:00" />
+    <meta property="article:modified_time" content="2024-05-27T10:30:36+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mastering the Tech Interview: A Comprehensive Guide to Success" />
+    <meta name="twitter:description" content="Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="/assets/images/design.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Taycir Yahmed" />
+    <meta name="twitter:site" content="@TaycirYahmed" />
+    <meta name="twitter:creator" content="@TaycirYahmed" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Taycir Yahmed",
+        "logo": "/"
+    },
+    "url": "/tech-interviews-guide",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/design.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/tech-interviews-guide"
+    },
+    "description": "Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Mastering the Tech Interview: A Comprehensive Guide to Success" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/">Taycir Yahmed</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-arabic-nlp" role="menuitem"><a href="https://abjed.github.io/Arabic-NLP-resources/">Arabic NLP Resources</a></li>
+    <li class="nav-arabic-terms" role="menuitem"><a href="https://abjed.github.io/Arabic-Scientific-Technical-Terms/">Arabic Scientific and Technical Terms</a></li>
+    <!--<li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>-->
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TaycirYahmed" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://www.linkedin.com/in/taycir" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path fill="#FFFFFF" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" /></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://github.com/tayciryahmed" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+</svg>
+</a>
+            
+        </div>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="27 May 2024">27 May 2024</time>
+                    
+                </section>
+                <h1 class="post-full-title">Mastering the Tech Interview: A Comprehensive Guide to Success</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/assets/images/design.jpg)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an onsite-to-offer conversion rate exceeding 80%.</p>
+
+<p>Given the frequent requests I receive for guidance on preparing for technical interviews, I have compiled my insights and recommendations into this comprehensive blog post. My aim is to share  advice and strategies that can help individuals excel in technical interviews, increasing their chances of securing targeted job opportunities.</p>
+
+<h1 id="crafting-an-impactful-resume">Crafting an Impactful Resume</h1>
+<p>Whether you’re a seasoned professional or just embarking on your career journey, the following tips will help you create a compelling and impactful resume that effectively showcases your value and increases your chances of securing interviews.</p>
+
+<h2 id="formatting-your-resume-for-maximum-impact">Formatting Your Resume for Maximum Impact</h2>
+<p>Crafting an effective resume is crucial, as many companies employ automated resume scanners, and recruiters typically spend a mere 15 to 30 seconds evaluating each application. Your resume should be easily parsable by these systems and visually appealing to capture the reader’s attention. Emphasize relevant keywords and maintain a clean, well-structured layout with proper vertical and horizontal alignment for seamless readability.</p>
+
+<p>One effective approach is to utilize LaTeX, a powerful typesetting system that allows you to enter data as code, eliminating the need for manual formatting and alignment adjustments. <a href="https://www.overleaf.com">Overleaf.com</a> offers a wide range of professional LaTeX resume templates to choose from.</p>
+
+<p>Unless you have over a decade of experience in your field, it is generally recommended to limit your resume to a single page. This concise format ensures that the most pertinent information is presented concisely and efficiently, increasing the chances of your resume standing out among the competition.</p>
+
+<h2 id="crafting-an-attention-grabbing-headline">Crafting an Attention-Grabbing Headline</h2>
+<p>The heading of your resume should clearly state your name and, if applicable, the specific role or position you are seeking. This could include “End-of-Studies Internship”, “Graduate Software Engineer”, or any other relevant title that aligns with your career goals.</p>
+
+<h2 id="establishing-clear-avenues-of-communication">Establishing Clear Avenues of Communication</h2>
+<p>Ensure that your contact information is prominently displayed at the top of your resume for easy accessibility. This section should include your location, email address, phone number, and any relevant online profiles or portfolios, such as LinkedIn, GitHub, or StackOverflow. Providing these details allows potential employers to quickly reach out to you and further explore your qualifications.</p>
+
+<h2 id="showcasing-your-expertise">Showcasing Your Expertise</h2>
+<p>Dedicate a section to highlight your skills, where you can comprehensively list the programming languages, frameworks, and technical tools you possess expertise in. When applicable, provide an indication of your proficiency level for each skill, allowing potential employers to gauge your capabilities accurately.</p>
+
+<h2 id="academic-achievements">Academic Achievements</h2>
+<p>In this section, prioritize showcasing your educational qualifications. Begin by prominently featuring your degree and major, such as “Master of Science in Computer Science”. This information should be the primary focus, as it immediately conveys your area of specialization. Subsequently, include the anticipated or actual graduation date, followed by the name of the esteemed institution you attended.</p>
+
+<h2 id="professional-experience">Professional Experience</h2>
+<p>When detailing your professional experiences, it’s crucial to present the information in a clear and concise manner. Begin by prominently highlighting your role or job title, such as “Data Science Intern,” as this immediately conveys the nature of your responsibilities. Follow this with the company name, the timeframe during which you held the position, and the location.</p>
+
+<p>For technical or engineering roles, particularly within the tech industry, it’s recommended to adopt a specific format that effectively communicates your impact and achievements. This format follows the structure: “Accomplished [X] as measured by [Y] by doing [Z].” Here’s an example to illustrate this approach:</p>
+
+<ul>
+  <li><strong>Accomplished [X]</strong>: Improved device’s battery lifespan</li>
+  <li><strong>Measured by [Y]</strong>: by 8%</li>
+  <li><strong>By Doing [Z]</strong>: integrating a fuel gauge sensor and establishing a battery-saving state.</li>
+</ul>
+
+<p>This format allows you to concisely convey the tangible results you achieved, quantify your impact using measurable metrics, and provide insights into the specific actions or methodologies you employed to drive those outcomes.</p>
+
+<h2 id="highlighting-your-projects">Highlighting Your Projects</h2>
+<p>When showcasing your projects, it’s essential to provide comprehensive details that demonstrate your technical skills and expertise. Include a list of the technologies, programming languages, frameworks, or tools you utilized in each project. Additionally, whenever possible, incorporate links to the project’s GitHub repository, allowing potential employers to directly review your code and contributions.</p>
+
+<h2 id="certifications-and-accolades">Certifications and Accolades</h2>
+<p>If you have earned any certifications or awards relevant to your field, be sure to include them in a dedicated section of your resume. Present the complete and official title of each certification or award to accurately reflect your achievements. Furthermore, whenever feasible, provide links or references that enable prospective employers to verify the authenticity of these accomplishments online.</p>
+
+<h2 id="enhancing-your-resume">Enhancing Your Resume</h2>
+<p>To further refine your resume and ensure it stands out, consider taking advantage of the free resume review service offered by <a href="https://www.topresume.com/">TopResume.com</a>.</p>
+
+<p>Additionally, I recommend exploring the video “Resume Tips from Google Recruiters” available on <a href="https://www.youtube.com/watch?v=BYUy1yvjHxE">YouTube</a>. In this video, experienced recruiters from Google share their professional insights and tips.</p>
+
+<h1 id="mastering-coding-interviews">Mastering Coding Interviews</h1>
+<p>Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most popular algorithms and data structures, followed by practicing relevant coding questions for each topic.</p>
+
+<p>One invaluable resource that has proven immensely helpful over the years is <a href="https://neetcode.io">Neetcode.io</a>. If you have limited time, you can prioritize focusing on the problems listed in the renowned <a href="https://neetcode.io/practice">Blind 75</a> collection. However, it’s crucial to ensure that you thoroughly understand each problem and its corresponding solution.</p>
+
+<p>A valuable tip is to dedicate at least one hour to solving each problem independently. If unsuccessful, it is recommended to review the provided solution, meticulously comprehending its intricacies, and then revisit the problem at a later time to solidify your understanding.</p>
+
+<p>If you have more time to dedicate to your preparation, I highly recommend the books <strong>Data Structures and Algorithms in Python</strong> and <strong>Elements of Programming Interviews in Python</strong>. These resources offer in-depth coverage and provide a solid foundation for mastering the necessary concepts.</p>
+
+<h1 id="excelling-in-system-design-interviews">Excelling in System Design Interviews</h1>
+<p>When it comes to preparing for system design interviews, one of the most highly recommended and widely recognized resources within the industry is the course <a href="https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers">Grokking the System Design Interview</a>.</p>
+
+<p>Furthermore, the book <strong>Designing Data-Intensive Applications</strong> by Martin Kleppmann is an invaluable resource that provides in-depth insights and practical guidance on designing robust and scalable data systems. This book is widely regarded as an essential reference for those aspiring to master the art of system design.</p>
+
+<h1 id="mastering-machine-learning-interviews">Mastering Machine Learning Interviews</h1>
+<p>Depending on the role you’re targeting, you may encounter machine learning interviews, often presented as a variation of system design interviews focused on machine learning products. Assuming you already possess a solid background in machine learning, you can enhance your preparation by leveraging popular machine learning cheatsheets and resources:</p>
+
+<ul>
+  <li>The “Machine Learning Tips and Tricks Cheat Sheet” by the Amidi twins, available <a href="https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks">here</a>, provides a comprehensive overview of key concepts and techniques.</li>
+  <li>Chip Huyen’s “Design a Machine Learning System” guide, found <a href="https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html">here</a>, offers valuable insights into designing and implementing machine learning systems effectively.</li>
+  <li>The “Grokking the Machine Learning Interview” course, available <a href="https://www.educative.io/courses/grokking-the-machine-learning-interview">here</a>, is a comprehensive resource specifically tailored for machine learning interview preparation.</li>
+</ul>
+
+<p>Additionally, it’s crucial to stay informed about recent advancements in the field of Machine Learning. In 2024, the “Generative AI with Large Language Models” course offered by Coursera (<a href="https://www.coursera.org/learn/generative-ai-with-llms">link</a>) is highly recommended to gain insights into this <em>relatively new</em> technology and its applications.</p>
+
+<h1 id="acing-behavioral-interviews">Acing Behavioral Interviews</h1>
+<p>When it comes to behavioral interviews, my primary recommendation is to be authentic and present your genuine self to the interviewers. This approach will provide them with a glimpse into your work style and how you would contribute to the team dynamic. It’s essential to be honest and transparent, as this will help establish a strong foundation for a potential working relationship.</p>
+
+<p>Reflecting on your previous experiences can be a valuable exercise in identifying examples that showcase specific professional behaviors and patterns. One effective strategy is to review common behavioral interview questions (such as those provided <a href="https://www.tryexponent.com/questions?type=behavioral&amp;src=nav">here</a>) and then introspectively consider situations from your own career that demonstrate the desired traits or competencies.</p>
+
+<p>By taking the time to thoughtfully consider your past experiences and how they align with the desired behaviors, you can craft compelling narratives that will resonate with the interviewers and highlight your suitability for the role.</p>
+
+<h1 id="enhancing-your-interview-skills-with-mock-sessions">Enhancing Your Interview Skills with Mock Sessions</h1>
+<p>To optimize your performance and enhance your preparedness for actual interview processes, it is highly recommended to engage in mock interviews beforehand. These simulated sessions provide opportunities to practice your skills, receive feedback, and identify areas for improvement in a low-stakes environment.</p>
+
+<p>One excellent resource for conducting mock interviews is <a href="https://www.pramp.com">Pramp.com</a>, which facilitates virtual practice sessions with peers or professionals. Alternatively, you can leverage your network and reach out to colleagues, mentors, or industry connections to request their participation in mock interview scenarios.</p>
+
+<h1 id="optimizing-your-interview-experience">Optimizing Your Interview Experience</h1>
+<p>Thorough preparation is essential when it comes to interviews, and it’s important to allocate sufficient time to ensure you feel fully ready. For onsite interviews, it is generally acceptable to request a timeframe of 2-3 weeks, allowing you to adequately prepare and ensure your readiness.</p>
+
+<p>Open communication with the recruiter is advisable, as it allows you to confirm the expected timeline and clarify any specific expectations or requirements. Additionally, it is highly recommended to take advantage of any accommodations offered by the company to enhance your comfort and confidence during the interview sessions.</p>
+
+<h1 id="personalized-mentorship-and-guidance">Personalized Mentorship and Guidance</h1>
+<p>As someone who has guided numerous tech professionals and aspiring students in achieving their career goals, I understand the invaluable impact of personalized mentorship and support. I have extensive experience reviewing resumes, conducting mock interviews, and providing tailored feedback to help individuals showcase their strengths and prepare for successful technical interviews.</p>
+
+<p>If you are seeking assistance in refining your resume or enhancing your interview preparedness, I offer free mentorship sessions <a href="https://mentors.codingcoach.io/u/66530c994474770664cda1b1?name=Taycir+Yahmed">here</a>. Through these one-on-one sessions, we can collaborate to identify areas for improvement, develop effective strategies, and equip you with the tools and confidence needed to excel in your pursuit of career opportunities.</p>
+
+<h1 id="embracing-a-holistic-approach-to-interviews">Embracing a Holistic Approach to Interviews</h1>
+<p>While interviews serve as an evaluation of your qualifications, it’s crucial to recognize that they are also a two-way dialogue. This process offers you the opportunity to assess whether the company aligns with your professional goals, values, and aspirations. Actively engaging with your interviewers by asking insightful questions can provide valuable insights into the company culture, work environment, and growth opportunities.</p>
+
+<p>At the offer stage, if you still have lingering questions or concerns, most companies understand the importance of ensuring a mutually beneficial fit. They will often proactively offer or accommodate requests to connect you with team members or managers who can provide additional perspectives and address any outstanding queries you may have.</p>
+
+<p>Embracing this holistic approach to interviews empowers you to make informed decisions about your career path.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/taycir.jpg" alt="tayciryahmed" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/tayciryahmed">Taycir Yahmed</a></h4>
+                                
+                                    <p>Software Engineer, Maching Learning</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/tayciryahmed">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/acl2020">
+                <div class="post-card-image" style="background-image: url(/assets/images/seattle.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/acl2020">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">ACL 2020 Highlights: Interpretability, Evaluation and more.</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/taycir.jpg" alt="Taycir Yahmed" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/tayciryahmed/">Taycir Yahmed</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/favicon.png" alt="Taycir Yahmed icon" />
+            
+            <span>Taycir Yahmed</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Mastering the Tech Interview: A Comprehensive Guide to Success</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Mastering+the+Tech+Interview%3A+A+Comprehensive+Guide+to+Success&amp;url=https://tayciryahmed.github.iotech-interviews-guide"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://tayciryahmed.github.iotech-interviews-guide"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">Taycir Yahmed</a> &copy; 2025 Opinions are my own.</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://github.com/tayciryahmed" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://twitter.com/TaycirYahmed" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.linkedin.com/in/taycir" target="_blank" rel="noopener">LinkedIn</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65JD9XK4QH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65JD9XK4QH');
+</script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-14T07:46:31+00:00</updated><id>/</id><title type="html">Taycir Yahmed</title><subtitle>Software Engineer, Machine Learning</subtitle><entry><title type="html">Mastering the Tech Interview: A Comprehensive Guide to Success</title><link href="/tech-interviews-guide" rel="alternate" type="text/html" title="Mastering the Tech Interview: A Comprehensive Guide to Success" /><published>2024-05-27T10:30:36+00:00</published><updated>2024-05-27T10:30:36+00:00</updated><id>/tech-interviews-guide</id><content type="html" xml:base="/tech-interviews-guide">&lt;p&gt;Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an onsite-to-offer conversion rate exceeding 80%.&lt;/p&gt;
+
+&lt;p&gt;Given the frequent requests I receive for guidance on preparing for technical interviews, I have compiled my insights and recommendations into this comprehensive blog post. My aim is to share  advice and strategies that can help individuals excel in technical interviews, increasing their chances of securing targeted job opportunities.&lt;/p&gt;
+
+&lt;h1 id=&quot;crafting-an-impactful-resume&quot;&gt;Crafting an Impactful Resume&lt;/h1&gt;
+&lt;p&gt;Whether you’re a seasoned professional or just embarking on your career journey, the following tips will help you create a compelling and impactful resume that effectively showcases your value and increases your chances of securing interviews.&lt;/p&gt;
+
+&lt;h2 id=&quot;formatting-your-resume-for-maximum-impact&quot;&gt;Formatting Your Resume for Maximum Impact&lt;/h2&gt;
+&lt;p&gt;Crafting an effective resume is crucial, as many companies employ automated resume scanners, and recruiters typically spend a mere 15 to 30 seconds evaluating each application. Your resume should be easily parsable by these systems and visually appealing to capture the reader’s attention. Emphasize relevant keywords and maintain a clean, well-structured layout with proper vertical and horizontal alignment for seamless readability.&lt;/p&gt;
+
+&lt;p&gt;One effective approach is to utilize LaTeX, a powerful typesetting system that allows you to enter data as code, eliminating the need for manual formatting and alignment adjustments. &lt;a href=&quot;https://www.overleaf.com&quot;&gt;Overleaf.com&lt;/a&gt; offers a wide range of professional LaTeX resume templates to choose from.&lt;/p&gt;
+
+&lt;p&gt;Unless you have over a decade of experience in your field, it is generally recommended to limit your resume to a single page. This concise format ensures that the most pertinent information is presented concisely and efficiently, increasing the chances of your resume standing out among the competition.&lt;/p&gt;
+
+&lt;h2 id=&quot;crafting-an-attention-grabbing-headline&quot;&gt;Crafting an Attention-Grabbing Headline&lt;/h2&gt;
+&lt;p&gt;The heading of your resume should clearly state your name and, if applicable, the specific role or position you are seeking. This could include “End-of-Studies Internship”, “Graduate Software Engineer”, or any other relevant title that aligns with your career goals.&lt;/p&gt;
+
+&lt;h2 id=&quot;establishing-clear-avenues-of-communication&quot;&gt;Establishing Clear Avenues of Communication&lt;/h2&gt;
+&lt;p&gt;Ensure that your contact information is prominently displayed at the top of your resume for easy accessibility. This section should include your location, email address, phone number, and any relevant online profiles or portfolios, such as LinkedIn, GitHub, or StackOverflow. Providing these details allows potential employers to quickly reach out to you and further explore your qualifications.&lt;/p&gt;
+
+&lt;h2 id=&quot;showcasing-your-expertise&quot;&gt;Showcasing Your Expertise&lt;/h2&gt;
+&lt;p&gt;Dedicate a section to highlight your skills, where you can comprehensively list the programming languages, frameworks, and technical tools you possess expertise in. When applicable, provide an indication of your proficiency level for each skill, allowing potential employers to gauge your capabilities accurately.&lt;/p&gt;
+
+&lt;h2 id=&quot;academic-achievements&quot;&gt;Academic Achievements&lt;/h2&gt;
+&lt;p&gt;In this section, prioritize showcasing your educational qualifications. Begin by prominently featuring your degree and major, such as “Master of Science in Computer Science”. This information should be the primary focus, as it immediately conveys your area of specialization. Subsequently, include the anticipated or actual graduation date, followed by the name of the esteemed institution you attended.&lt;/p&gt;
+
+&lt;h2 id=&quot;professional-experience&quot;&gt;Professional Experience&lt;/h2&gt;
+&lt;p&gt;When detailing your professional experiences, it’s crucial to present the information in a clear and concise manner. Begin by prominently highlighting your role or job title, such as “Data Science Intern,” as this immediately conveys the nature of your responsibilities. Follow this with the company name, the timeframe during which you held the position, and the location.&lt;/p&gt;
+
+&lt;p&gt;For technical or engineering roles, particularly within the tech industry, it’s recommended to adopt a specific format that effectively communicates your impact and achievements. This format follows the structure: “Accomplished [X] as measured by [Y] by doing [Z].” Here’s an example to illustrate this approach:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Accomplished [X]&lt;/strong&gt;: Improved device’s battery lifespan&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Measured by [Y]&lt;/strong&gt;: by 8%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;By Doing [Z]&lt;/strong&gt;: integrating a fuel gauge sensor and establishing a battery-saving state.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This format allows you to concisely convey the tangible results you achieved, quantify your impact using measurable metrics, and provide insights into the specific actions or methodologies you employed to drive those outcomes.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlighting-your-projects&quot;&gt;Highlighting Your Projects&lt;/h2&gt;
+&lt;p&gt;When showcasing your projects, it’s essential to provide comprehensive details that demonstrate your technical skills and expertise. Include a list of the technologies, programming languages, frameworks, or tools you utilized in each project. Additionally, whenever possible, incorporate links to the project’s GitHub repository, allowing potential employers to directly review your code and contributions.&lt;/p&gt;
+
+&lt;h2 id=&quot;certifications-and-accolades&quot;&gt;Certifications and Accolades&lt;/h2&gt;
+&lt;p&gt;If you have earned any certifications or awards relevant to your field, be sure to include them in a dedicated section of your resume. Present the complete and official title of each certification or award to accurately reflect your achievements. Furthermore, whenever feasible, provide links or references that enable prospective employers to verify the authenticity of these accomplishments online.&lt;/p&gt;
+
+&lt;h2 id=&quot;enhancing-your-resume&quot;&gt;Enhancing Your Resume&lt;/h2&gt;
+&lt;p&gt;To further refine your resume and ensure it stands out, consider taking advantage of the free resume review service offered by &lt;a href=&quot;https://www.topresume.com/&quot;&gt;TopResume.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I recommend exploring the video “Resume Tips from Google Recruiters” available on &lt;a href=&quot;https://www.youtube.com/watch?v=BYUy1yvjHxE&quot;&gt;YouTube&lt;/a&gt;. In this video, experienced recruiters from Google share their professional insights and tips.&lt;/p&gt;
+
+&lt;h1 id=&quot;mastering-coding-interviews&quot;&gt;Mastering Coding Interviews&lt;/h1&gt;
+&lt;p&gt;Preparing for coding interviews is a straightforward yet time-consuming and effort-intensive process. It requires developing a strong grasp of algorithms and data structures. The most tactical approach is to begin by studying the most popular algorithms and data structures, followed by practicing relevant coding questions for each topic.&lt;/p&gt;
+
+&lt;p&gt;One invaluable resource that has proven immensely helpful over the years is &lt;a href=&quot;https://neetcode.io&quot;&gt;Neetcode.io&lt;/a&gt;. If you have limited time, you can prioritize focusing on the problems listed in the renowned &lt;a href=&quot;https://neetcode.io/practice&quot;&gt;Blind 75&lt;/a&gt; collection. However, it’s crucial to ensure that you thoroughly understand each problem and its corresponding solution.&lt;/p&gt;
+
+&lt;p&gt;A valuable tip is to dedicate at least one hour to solving each problem independently. If unsuccessful, it is recommended to review the provided solution, meticulously comprehending its intricacies, and then revisit the problem at a later time to solidify your understanding.&lt;/p&gt;
+
+&lt;p&gt;If you have more time to dedicate to your preparation, I highly recommend the books &lt;strong&gt;Data Structures and Algorithms in Python&lt;/strong&gt; and &lt;strong&gt;Elements of Programming Interviews in Python&lt;/strong&gt;. These resources offer in-depth coverage and provide a solid foundation for mastering the necessary concepts.&lt;/p&gt;
+
+&lt;h1 id=&quot;excelling-in-system-design-interviews&quot;&gt;Excelling in System Design Interviews&lt;/h1&gt;
+&lt;p&gt;When it comes to preparing for system design interviews, one of the most highly recommended and widely recognized resources within the industry is the course &lt;a href=&quot;https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers&quot;&gt;Grokking the System Design Interview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the book &lt;strong&gt;Designing Data-Intensive Applications&lt;/strong&gt; by Martin Kleppmann is an invaluable resource that provides in-depth insights and practical guidance on designing robust and scalable data systems. This book is widely regarded as an essential reference for those aspiring to master the art of system design.&lt;/p&gt;
+
+&lt;h1 id=&quot;mastering-machine-learning-interviews&quot;&gt;Mastering Machine Learning Interviews&lt;/h1&gt;
+&lt;p&gt;Depending on the role you’re targeting, you may encounter machine learning interviews, often presented as a variation of system design interviews focused on machine learning products. Assuming you already possess a solid background in machine learning, you can enhance your preparation by leveraging popular machine learning cheatsheets and resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The “Machine Learning Tips and Tricks Cheat Sheet” by the Amidi twins, available &lt;a href=&quot;https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks&quot;&gt;here&lt;/a&gt;, provides a comprehensive overview of key concepts and techniques.&lt;/li&gt;
+  &lt;li&gt;Chip Huyen’s “Design a Machine Learning System” guide, found &lt;a href=&quot;https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html&quot;&gt;here&lt;/a&gt;, offers valuable insights into designing and implementing machine learning systems effectively.&lt;/li&gt;
+  &lt;li&gt;The “Grokking the Machine Learning Interview” course, available &lt;a href=&quot;https://www.educative.io/courses/grokking-the-machine-learning-interview&quot;&gt;here&lt;/a&gt;, is a comprehensive resource specifically tailored for machine learning interview preparation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additionally, it’s crucial to stay informed about recent advancements in the field of Machine Learning. In 2024, the “Generative AI with Large Language Models” course offered by Coursera (&lt;a href=&quot;https://www.coursera.org/learn/generative-ai-with-llms&quot;&gt;link&lt;/a&gt;) is highly recommended to gain insights into this &lt;em&gt;relatively new&lt;/em&gt; technology and its applications.&lt;/p&gt;
+
+&lt;h1 id=&quot;acing-behavioral-interviews&quot;&gt;Acing Behavioral Interviews&lt;/h1&gt;
+&lt;p&gt;When it comes to behavioral interviews, my primary recommendation is to be authentic and present your genuine self to the interviewers. This approach will provide them with a glimpse into your work style and how you would contribute to the team dynamic. It’s essential to be honest and transparent, as this will help establish a strong foundation for a potential working relationship.&lt;/p&gt;
+
+&lt;p&gt;Reflecting on your previous experiences can be a valuable exercise in identifying examples that showcase specific professional behaviors and patterns. One effective strategy is to review common behavioral interview questions (such as those provided &lt;a href=&quot;https://www.tryexponent.com/questions?type=behavioral&amp;amp;src=nav&quot;&gt;here&lt;/a&gt;) and then introspectively consider situations from your own career that demonstrate the desired traits or competencies.&lt;/p&gt;
+
+&lt;p&gt;By taking the time to thoughtfully consider your past experiences and how they align with the desired behaviors, you can craft compelling narratives that will resonate with the interviewers and highlight your suitability for the role.&lt;/p&gt;
+
+&lt;h1 id=&quot;enhancing-your-interview-skills-with-mock-sessions&quot;&gt;Enhancing Your Interview Skills with Mock Sessions&lt;/h1&gt;
+&lt;p&gt;To optimize your performance and enhance your preparedness for actual interview processes, it is highly recommended to engage in mock interviews beforehand. These simulated sessions provide opportunities to practice your skills, receive feedback, and identify areas for improvement in a low-stakes environment.&lt;/p&gt;
+
+&lt;p&gt;One excellent resource for conducting mock interviews is &lt;a href=&quot;https://www.pramp.com&quot;&gt;Pramp.com&lt;/a&gt;, which facilitates virtual practice sessions with peers or professionals. Alternatively, you can leverage your network and reach out to colleagues, mentors, or industry connections to request their participation in mock interview scenarios.&lt;/p&gt;
+
+&lt;h1 id=&quot;optimizing-your-interview-experience&quot;&gt;Optimizing Your Interview Experience&lt;/h1&gt;
+&lt;p&gt;Thorough preparation is essential when it comes to interviews, and it’s important to allocate sufficient time to ensure you feel fully ready. For onsite interviews, it is generally acceptable to request a timeframe of 2-3 weeks, allowing you to adequately prepare and ensure your readiness.&lt;/p&gt;
+
+&lt;p&gt;Open communication with the recruiter is advisable, as it allows you to confirm the expected timeline and clarify any specific expectations or requirements. Additionally, it is highly recommended to take advantage of any accommodations offered by the company to enhance your comfort and confidence during the interview sessions.&lt;/p&gt;
+
+&lt;h1 id=&quot;personalized-mentorship-and-guidance&quot;&gt;Personalized Mentorship and Guidance&lt;/h1&gt;
+&lt;p&gt;As someone who has guided numerous tech professionals and aspiring students in achieving their career goals, I understand the invaluable impact of personalized mentorship and support. I have extensive experience reviewing resumes, conducting mock interviews, and providing tailored feedback to help individuals showcase their strengths and prepare for successful technical interviews.&lt;/p&gt;
+
+&lt;p&gt;If you are seeking assistance in refining your resume or enhancing your interview preparedness, I offer free mentorship sessions &lt;a href=&quot;https://mentors.codingcoach.io/u/66530c994474770664cda1b1?name=Taycir+Yahmed&quot;&gt;here&lt;/a&gt;. Through these one-on-one sessions, we can collaborate to identify areas for improvement, develop effective strategies, and equip you with the tools and confidence needed to excel in your pursuit of career opportunities.&lt;/p&gt;
+
+&lt;h1 id=&quot;embracing-a-holistic-approach-to-interviews&quot;&gt;Embracing a Holistic Approach to Interviews&lt;/h1&gt;
+&lt;p&gt;While interviews serve as an evaluation of your qualifications, it’s crucial to recognize that they are also a two-way dialogue. This process offers you the opportunity to assess whether the company aligns with your professional goals, values, and aspirations. Actively engaging with your interviewers by asking insightful questions can provide valuable insights into the company culture, work environment, and growth opportunities.&lt;/p&gt;
+
+&lt;p&gt;At the offer stage, if you still have lingering questions or concerns, most companies understand the importance of ensuring a mutually beneficial fit. They will often proactively offer or accommodate requests to connect you with team members or managers who can provide additional perspectives and address any outstanding queries you may have.&lt;/p&gt;
+
+&lt;p&gt;Embracing this holistic approach to interviews empowers you to make informed decisions about your career path.&lt;/p&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an onsite-to-offer conversion rate exceeding 80%.</summary></entry><entry><title type="html">ACL 2020 Highlights: Interpretability, Evaluation and more.</title><link href="/acl2020" rel="alternate" type="text/html" title="ACL 2020 Highlights: Interpretability, Evaluation and more." /><published>2020-07-17T21:03:36+00:00</published><updated>2020-07-17T21:03:36+00:00</updated><id>/acl2020</id><content type="html" xml:base="/acl2020">&lt;p&gt;This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions.&lt;/p&gt;
+
+&lt;p&gt;For the first time ever, this year’s ACL conference has a special theme with a dedicated session and award: &lt;strong&gt;Taking Stock of Where We’ve Been and Where We’re Going&lt;/strong&gt;. The theme surely highlights the current state of the field. Indeed, the NLP research community has been pushing boundaries in terms of performance (&lt;a href=&quot;https://gluebenchmark.com/leaderboard/&quot;&gt;GLUE&lt;/a&gt; benchmark), innovative architectures (transformer, BERT &amp;amp; co), quick access to SOTA (HuggingFace’s &lt;a href=&quot;https://github.com/huggingface/transformers&quot;&gt;transformers&lt;/a&gt;) and model sizes (&lt;a href=&quot;https://arxiv.org/abs/2005.14165&quot;&gt;GPT-3:&lt;/a&gt; 175B parameters). As declared by &lt;a href=&quot;https://twitter.com/ClementDelangue/status/1283411618395815936&quot;&gt;Clement Delangue&lt;/a&gt;, Co-Founder and CEO of HuggingFace: “NLP is going to be the most transformational tech of the decade!” But at this growth pace, ACL Program Co-Chairs deemed healthy for the research community to take a step back and reflect on the current state of the field, to avoid getting stuck in suboptimal solutions and consciously chart out the roadmap for future research directions.&lt;/p&gt;
+
+&lt;p&gt;In addition to the insightful theme choice, the Co-Chairs introduced 4 additional tracks including: &lt;a href=&quot;https://acl2020.org/blog/the-first-call-for-papers-is-out/&quot;&gt;&lt;strong&gt;Ethics and NLP&lt;/strong&gt; &amp;amp; &lt;strong&gt;Interpretability and Analysis of Models for NLP&lt;/strong&gt;&lt;/a&gt;. Indeed, after many sessions and workshops in the previous *CL events, the community is making it clear that responsible and ethical models are crucial as more NLP models are deployed in production and driving decisions that impact people’s lives. Moreover, as research works continue to push performance boundaries, interpreting and analysing models have become more relevant in order to understand the models inner mechanisms and learn about the secret ingredients for their performance.&lt;/p&gt;
+
+&lt;p&gt;We can see in the box-plot of views by area, sorted by median (credit: Yoav Goldberg) below, that the most popular tracks in ACL 2020 are (1) Interpretability and Analysis of Models for NLP, (2) Theme, (3) Cognitive Modeling and Psycholinguistics and (4) Ethics and NLP.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/acl2020graph.png&quot; alt=&quot;Views box-plot by area, sorted by median (by Yoav Goldberg)&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note that the graph corresponds to a &lt;a href=&quot;https://twitter.com/yoavgo/status/1282459579339681792&quot;&gt;snapshot&lt;/a&gt; of the views on Jul 13, 2020. For readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Below are the topics on which I focused this year:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Theme and Robust Evaluation&lt;/li&gt;
+  &lt;li&gt;Analysis and Interpretability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;theme-and-robust-evaluation&quot;&gt;Theme and Robust Evaluation&lt;/h2&gt;
+
+&lt;p&gt;The theme &lt;em&gt;Taking Stock of Where We’ve Been and Where We’re Going&lt;/em&gt; illustrates the desire of the NLP community to make sure the current trend of training Machine Learning models to solve NLP problems, does not lead to a locally optimal state of the field’s progress. This takes us back to the 90s, when introducing statistical methods to computational linguistics raised discussions between protagonists from both sides claiming the advantages of each approach. But, this is still a very interesting approach, since taking this step back to reflect on what the community needs to tackle, should put it back on track to building more insightful and fair models. As a matter of fact, during the past year, we have seen a trend of training ever bigger transformers on ever bigger datasets to break benchmark leaderboards, in a metrics-obsessed approach to research. This trend comes with its costs, financial (training &lt;a href=&quot;https://arxiv.org/abs/2005.14165&quot;&gt;GPT-3&lt;/a&gt; would cost $4.6M on a tesla V100 cloud instance), but also environmental and ethical. Indeed, so few groups have access to as much computational power and resources, which narrows the research competition. It also raises the question if bigger-is-better a scientific approach. To &lt;a href=&quot;https://twitter.com/fchollet/status/1122330598968705025&quot;&gt;quote&lt;/a&gt; François Chollet: “Training ever bigger convnets and LSTMs on ever bigger datasets gets us closer to Strong AI – in the same sense that building taller towers gets us closer to the moon”. Though, it is agreed upon that these methods are the result of impressive engineering achievements, e.g. &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/&quot;&gt;Turing-NLG&lt;/a&gt; is the result of developing &lt;a href=&quot;https://github.com/microsoft/DeepSpeed&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DeepSpeed&lt;/code&gt;&lt;/a&gt;, a deep learning optimization library for distributed training. Moreover, they are promising methodologies for zero, one and few shots learning, which is useful for many NLP applications. Nonetheless, the community is clearly having an existential moment and doing some introspection to bypass this metrics-driven paradigm, in the quest to achieve human NLP ability in machines. Indeed, several talks argue that focusing on metrics drives us away from real linguistic challenges in the distribution’s tail and that models, though beat human performance with respect to metrics, are unable to handle trivial examples for the human mind. For instance, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.463.pdf&quot;&gt;Bender and Koller&lt;/a&gt; show in their &lt;em&gt;theme winning&lt;/em&gt; paper that meaning cannot be learnt from form. As a consequence, “the language modeling task, because it only uses form as training data, cannot in principle lead to learning of meaning”. They also shared a word of caution in their talk about using terms like “comprehension”, “understanding” and “meaning” when describing models capabilities.&lt;/p&gt;
+
+&lt;p&gt;Over the last few years, the main paradigm of many research papers has been to train large scale models and evaluate them on test sets that are similar to the training sets, leading many to believe that we are solving datasets not tasks. Indeed, in her keynote Kathy McKeown emphasizes that leaderboards are not always helpful to advance the field, because benchmarks capture the head of the distribution whereas the most challenging aspects are in its tail. The keynote goes through the present, past and future of the field as perceived by some of the most renowned NLP researchers. In particular, McKeown tries to depict the current state of the field being dominated by the achievements of deep neural networks. As a matter of fact, DNNs enable us to robustly solve many applications compared to other models and ensure a good performance using simpler models for tasks like machine translation, summarization and dialogue, making it simpler to deploy, build and democratize AI. Other researchers also praise the ingenuity of the attention mechanism and the success of generative models compared to n-gram approaches, in addition to the undeniable success of DNN in NLP benchmarks and representation learning. But, if we take a step back to the past of NLP to visualize the bigger picture, we find that the field used to rely extensively on looking at individual examples and little details. The evaluation used to be limited to manually examining outputs at a small scale and seek relevant conclusions in the distribution’s tail. Thus, McKeown puts the building blocks for the future by inviting the research community to focus on tasks that cannot be solved by deep learning or those for which we need to develop new methods. She also called for bringing data back to NLP by looking closely at examples, carefully analyzing them, and solving challenging problems that matter not just for which we have pre-built data sets. As for language generation, she points out that neural generators do not speak with purpose, say what they mean, choose words, form sentence structures intentionally or plan long text, like humans do. Finally, she concluded with the importance of the interdisciplinary parts of language, and advised that we should put more effort into the interpretability and analysis of outputs.&lt;/p&gt;
+
+&lt;p&gt;Along with the theme, evaluation is an important track in ACL 2020 with numerous thought-provoking papers. Many tackled the need to look at the data and analyze the errors when evaluating models. In her Lifetime Achievement Award speech, Bonnie Webber suggests that even something as trivial as looking at both precision and recall instead of F1 score can help in understanding the model’s weaknesses and strengths. In machine translation, for instance, it has been a common practice to compare machine outputs to human translations and calculate the BLEU score (dating back to 2002). However, in recent years, many works suggest the inadequacy of such a metric and call for more robust evaluation of machine translation systems. &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.448/&quot;&gt;Mathur et al.&lt;/a&gt; highlight potential problems in the current best practices for assessing evaluation metrics and show that current methods are highly sensitive to the used translations. In addition, the overall best paper by &lt;a href=&quot;https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf&quot;&gt;Ribeiro et al.&lt;/a&gt; shows that while evaluating generalization via held-out test sets is useful, it has drawbacks including the overestimation of a model’s capability and the inability to determine its pain points. Thus, they propose a more comprehensive evaluation methodology which is model and task-agnostic, inspired from unit testing in software engineering and dubbed CheckList. The approach illustrates the behavioral testing principle of “decoupling testing from implementation” by treating the model as a black box, allowing the comparison of different models trained on different data sets. The authors also &lt;a href=&quot;https://github.com/marcotcr/checklist&quot;&gt;provide&lt;/a&gt; templates and other abstractions, allowing the users to generate a large number of test cases easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;analysis-and-interpretability&quot;&gt;Analysis and Interpretability&lt;/h2&gt;
+
+&lt;p&gt;Interpretability is absolutely essential to natural language processing, in order to understand models but also make applications more robust, fair and reliable. Indeed, the end-to-end fashion is predominant in language applications, requiring more efforts on accountability, trust, bias, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_explanation&quot;&gt;right to explanation&lt;/a&gt;. The Interpretability and Analysis in Neural NLP &lt;a href=&quot;https://slideslive.com/38928626/interpretability-and-analysis-in-neural-nlp&quot;&gt;tutorial&lt;/a&gt; by Belinkov, Gehrmann and Pavlick gives an overview of the toolbox of interpretability. First, structural analysis suggests ways to understand what the model has learnt in its internal representations. The main approach is to use probing classifiers, which prove that a layer from a network trained to do a task A can predict a feature B. For example, A can be machine translation and B some linguistic features such as POS or morphological tags. Another idea is to change the activations so that the verb’s tense is changed, and afterwards measure the probability of predicting the pronouns he/she to check for gender bias. Although straightforward, these classifiers can be hard to evaluate, because there is no clear performance level for benchmarking, one can use SOTA or simply baselines. There is also recent work evaluating probing classifiers using code length, i.e. the number of bits to encode the probe. Another limitation of structural analysis can be the lack of causality or correlation between the probe and original model. As for behavioral analysis, they highlight tail phenomena through fine-grained checks and reward models that handle these hard exemples. This approach actually has a long history since the 90s, with ideas like designing test sets that are more adapted to ensure the model does not simply learn some artifacts. To do so, we can select test examples that are less likely to appear in train or simply replace words in sentences. The goal of this method is to make sure the models’ behavior is consistent with the examples they are given, and determine if the model fails in systematic ways. Besides, it is agnostic to the model’s structure and type since it focuses on creating challenge sets or probing sets, showcasing subject verb agreement, negation, antonyms, and other linguistic aspects. To design the challenge dataset, three methods are suggested. First, we can consider tight control by selecting pairs that are the same except for the phenomena we want to study, e.g. gender, negation or conjugation. Second, there is loose control by selecting many examples that illustrate a phenomena, then averaging on this set of interest. Third, we can choose adversarial examples with the objective of tricking the model. In addition, we can either construct these sets manually by having the models predict samples, then construct hard ones to trick it; or in a semi automatic fashion by filtering from an existing corpora, or in a complete automatic way. Nonetheless, these methods present limitations since they don’t determine if the models failure is due to its structure or the training data. Last but not least, there is visualization analysis, which allow us to understand the models, debug them, generate and test hypotheses about their behavior. However, these methods are harder to open source since they usually depend on the use case.&lt;/p&gt;
+
+&lt;p&gt;For the first time ever, ACL co-chairs introduced the “Interpretability and Analysis” track this year, yet it accepted an impressive number of 36 papers. Among these papers, a common observation is that looking at attention weights has gone out of fashion. In contrast, many works demonstrate that attention weights do not provide reliable explanations. For instance, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.432&quot;&gt;Pruthi et al.&lt;/a&gt; cast doubt on attention’s reliability as a tool for auditing algorithms and proved that it can deceive humans into thinking that a model is unbiased with regards to gender even though it is biased. Besides, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.312&quot;&gt;Sun et al.&lt;/a&gt; make the observation that some words receive higher attention weights whilst other relevant words don’t receive high weights and if attention weights are not so interpretable, this does not lead to bad performance. Other papers suggest approaches such as providing the training examples that influenced the prediction the most as an explanation. &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.492&quot;&gt;Han et al.&lt;/a&gt; mention that we usually use gradients, saliency maps, Lime or attention for explanations. They suggest using influence functions which are basically the product of saliency maps with the gradient, and show that these functions are consistent for NLI and sentiment analysis and help identifying artifacts in the training set. In addition, some papers include human users in the interpretability process. On the one hand, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.491&quot;&gt;Hase and Bansal&lt;/a&gt; measure the effect of an explainability method as its effect on Simulatability: “A model is simulatable when users can predict its outputs”. They evaluate several explanation methods, such as feature importance, case-based and latent space traversal; and conclude that Lime is a good approach for tabular data. On the other hand, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.494&quot;&gt;Chen et al.&lt;/a&gt; suggest a hierarchical explanation of a model’s predictions by splitting the sequence at the lowest point given a score measuring the words interactions. The method proves to be better than shapley and lime in terms of coherence between human predictions given explanations and the model’s predictions. They argue that the previous methods are token based, thus we need a higher level explanation. Moreover, faithfulness is an important aspect required in interpretability methods. &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.386&quot;&gt;Jacovi and Goldberg&lt;/a&gt; list the multiple attributes we would like in an interpretation: readability (easy to understand), plausibility (can convince us of the result) and faithfulness (accurately describe the true reasoning of the model). They note that there is clearly a trade-off between faithfulness and readability: NN activations are faithful but not readable. Furthermore, the authors offer three guidelines for faithful interpretations: (1) Faithfulness is not Plausibility, (2) Evaluating interpretation using human input is plausibility not faithfulness, and (3) Claims are just claims until tested. They also state a list of assumptions that prove the interpretations are not faithful. For example, if models predict the same output, they have the same reasoning process, if a model makes a similar decision, its reasoning is similar, and that certain parts of the input can be significant to the decision independently from other parts. Furthermore, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.382&quot;&gt;Camburu et al.&lt;/a&gt; note that generated natural language explanations are not necessarily faithful, i.e. they are inconsistent with the actual reasoning process of the model. They introduce a sanity checking framework for models robustness against generating inconsistent explanations. The main idea consists in training a reverse model ExplainAndPredictAttention that, given an explanation, generates the hypothesis then gets the explanation and checks if it is consistent with the original explanation. Last but not least, &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.408&quot;&gt;DeYoung et al.&lt;/a&gt; introduce a benchmark to evaluate interpretable models, with the hope to measure the progress of the field. The tasks range from classification (sentiment, claim verification, conditional classification, entailment e-snli) to question answering (boolean QA, common sense questions - multiple choice); while the metrics focus on plausibility and faithfulness.&lt;/p&gt;
+
+&lt;h2 id=&quot;see-also&quot;&gt;See also&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1rQYAjY-jNKoQh8Z9-4NjqLF1_nAD7amr4sYH62eGPbU/edit#heading=h.lrgn79ao0for&quot;&gt;Selection of papers from ACL-2020&lt;/a&gt; by Yacine Jernite (HuggingFace)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6&quot;&gt;Interpretability and Analysis of Models for NLP @ ACL 2020&lt;/a&gt; by Carolin Lawrence&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/analytics-vidhya/highlights-of-acl-2020-4ef9f27a4f0c&quot;&gt;Highlights of ACL 2020&lt;/a&gt; by Vered Shwartz (AI2 &amp;amp; University of Washington)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://europe.naverlabs.com/blog/ten-emerging-topics-at-acl-2020/&quot;&gt;Ten emerging topics at ACL 2020&lt;/a&gt; by NAVER LABS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1&quot;&gt;Knowledge Graphs in Natural Language Processing @ ACL 2020&lt;/a&gt; by Michael Galkin&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions.</summary></entry><entry><title type="html">ACL 2019 Highlights</title><link href="/acl2019" rel="alternate" type="text/html" title="ACL 2019 Highlights" /><published>2019-08-01T21:03:36+00:00</published><updated>2019-08-01T21:03:36+00:00</updated><id>/acl2019</id><content type="html" xml:base="/acl2019">&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
+
+&lt;p&gt;The conference accepted 660 &lt;a href=&quot;http://www.acl2019.org/EN/program.xhtml&quot;&gt;papers&lt;/a&gt; with an acceptance rate of 22.7%, had 6 parallel oral sessions plus one poster session and over 3K participants. It was sponsored by various industrial big players from the NLP research community (&lt;a href=&quot;http://www.acl2019.org/EN/exhibitors-sponsors.xhtml&quot;&gt;Full list of sponsors&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The presidential address tackled several topics including the following list, that stuck out with me most:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Error analysis, interpretability and reproducibility&lt;/li&gt;
+  &lt;li&gt;Multilinguality, low resource tasks and domain adaptation&lt;/li&gt;
+  &lt;li&gt;Commonsense, reasoning and context aware modeling&lt;/li&gt;
+  &lt;li&gt;Ethical NLP: Bias and environmental impact&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;error-analysis-interpretability-and-reproducibility&quot;&gt;Error analysis, interpretability and reproducibility&lt;/h2&gt;
+&lt;p&gt;Deep Learning models are very sensitive to noisy input. In machine translation for instance, the variations of the user’s input can reveal bias in the language modeling and training data. To limit these drawbacks, &lt;a href=&quot;https://arxiv.org/pdf/1906.02443.pdf&quot;&gt;Cheng et al.&lt;/a&gt; (Google) suggests perturbing the model with adversarial inputs using an algorithm named &lt;strong&gt;Adversarial Generation&lt;/strong&gt; (AdvGen), which generates plausible adversarial examples and feeds them back into the model. This idea is inspired by GANs but doesn’t rely on a discriminator: instead it simply &lt;em&gt;augments&lt;/em&gt; the training data with these adversarial examples (more on AdvGen &lt;a href=&quot;https://ai.googleblog.com/2019/07/robust-neural-machine-translation.html&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Interpretability also keeps coming back in different papers, showing a general interest in understanding and explaining the models’ inside mechanisms. &lt;a href=&quot;https://arxiv.org/abs/1906.03731&quot;&gt;Serrano et al.&lt;/a&gt; argues that attention wights don’t always identify information that models find important. Many experiments were performed to prove that attention weights mostly don’t correlate with the model outputs; whereas gradient-based rankings of attention weights better predict their effects (to further develop in future papers). On the other hand, &lt;a href=&quot;https://www.aclweb.org/anthology/P19-1284&quot;&gt;Bastings et al.&lt;/a&gt; show that sparse re-parameterized samples and unbiased gradients lead to effective latent rationales &lt;em&gt;(a short and informative part of the input text)&lt;/em&gt; for text classification. The approach consists in training two models, one latent model that selects the rationale to input in the second one, that performs the classification task.&lt;/p&gt;
+
+&lt;p&gt;Equally, many papers try to explain models capabilities and low level representations. For instance, &lt;a href=&quot;https://arxiv.org/abs/1906.00592&quot;&gt;Yang et al.&lt;/a&gt; show that SANs (self-attention networks, popular for their parallelization and strong performance on various NLP tasks, such as machine translation) can’t efficiently learn the positional information even with the position embedding, when trained on a word reordering detection task. Nevertheless, SANs learn better positional information than RNNs when trained on a different downstream task such as MT. When it comes to &lt;em&gt;Multi-head self-attention&lt;/em&gt;, &lt;a href=&quot;https://arxiv.org/abs/1905.09418&quot;&gt;Voita et al.&lt;/a&gt; show that the most important (in magnitude) and confident heads play consistent and often linguistically interpretable roles. Furthermore, they prove that pruning heads (using a method based on stochastic gates and a differentiable relaxation of the L0 penalty) leads to remove the vast majority without (or with minimum) impact on the performance. More generally, &lt;a href=&quot;https://hal.inria.fr/hal-02131630/document&quot;&gt;Jawaharet et al.&lt;/a&gt; (Inria) investigate which structure of language BERT learns. They show that, in the lower layers, BERT learns phrase-level information and in the intermediate layers a hierarchy of linguistic information (surface features at the bottom, syntactic features in the middle and semantic features at the top). They also prove that BERT requires deeper layers to encode long-distance information (e.g. track subject-verb agreement).&lt;/p&gt;
+
+&lt;p&gt;Further details and resources about interpretability will be shared in the &lt;a href=&quot;https://blackboxnlp.github.io/&quot;&gt;BlackboxNLP&lt;/a&gt; workshop, following the main conference. Live streaming &lt;a href=&quot;https://www.youtube.com/embed/JEH2fiyjrJU&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On another note, there is a growing interest in &lt;strong&gt;robust evaluation&lt;/strong&gt; and reproducibility among the NLP community. Indeed, the benchmark leaderboards race often comes with small core changes and “public hyper-parameters search with more training data” (e.g. RoBERTa), which leads to over-fitting benchmark datasets and drives the attention away from more fundamental research and new idea. One of the selected “outstanding papers” deals with this issue: &lt;a href=&quot;http://wellformedness.com/papers/gorman-bedrick-2019.pdf&quot;&gt;Gorman et al.&lt;/a&gt; show that system rankings based on standard splits fail to reproduce, and recommend “Bonferroni-corrected random split hypothesis testing” instead. The best demo paper also provides an open-source framework for machine translation quality estimation called &lt;a href=&quot;https://unbabel.github.io/OpenKiwi&quot;&gt;OpenKiwi&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;multilinguality-low-resource-tasks-and-domain-adaptation&quot;&gt;Multilinguality, low resource tasks and domain adaptation&lt;/h2&gt;
+&lt;p&gt;Since last year, an interest in multilingual training to support low-resource languages has be pronounced. Indeed, most of the NLP benchmarks and SOTA results are reported on English, whereas in real life applications other languages are used and needed. That led a wave of cross-lingual and multilingual research results. &lt;a href=&quot;https://arxiv.org/abs/1906.05407&quot;&gt;Ormazabal et al.&lt;/a&gt; argue that most cross-lingual embeddings are learnt with offline methods (learn embeddings in different languages then map them to a shared space) which underlay the &lt;em&gt;isomorphism assumption&lt;/em&gt;, stating that embeddings in different languages have the same structure. They investigate whether this issue is due to the mapping or learning of embeddings. Eventually, they prove that joint learning (using an extension of skip-gram model with bilingual data) yields more isomorphic embeddings and better bilingual lexicon induction. Thus, they conclude that mapping methods have strong limitation and call for more research in joint learning. Indeed, so many research group have been interested in aligning cross-lingual embeddings to build bilingual dictionaries and induce word translation pairs through nearest neighbor or related retrieval methods. Furthermore, &lt;a href=&quot;https://arxiv.org/abs/1907.10761&quot;&gt;Artetxe et al.&lt;/a&gt; suggest inducing bilingual embeddings through a different approach: It consist of generating a synthetic parallel corpus  through a phrase based translation system (built using cross-lingual embeddings) and then extract the bilingual lexicon using statistical word alignment methods. Thus, they use no more resources than the monolingual corpus used to learn the embeddings.&lt;/p&gt;
+
+&lt;p&gt;The works on cross-lingual and multilingual NLP led the community to adopt a more stimulating position about presenting papers and results for various languages. The Bender Rule (ref. Emily M. Bender) states that any work should state the language they use and not fall to English by default, since that emphasizes English as a reference language (though it doesn’t capture multilingual variations) and puts other languages in a second stand. On the one hand, &lt;a href=&quot;https://arxiv.org/abs/1906.04726&quot;&gt;Mielke, et al.&lt;/a&gt; investigate languages that are harder to model, given the observation that SOTA methods do not perform equally well on high resource languages (from the Europarl corpus). To do that, they start by defining an objective measure of difficulty using parallel corpora covering 69 languages (13 language families) and propose a paired-sample multiplicative mixed-effects model to obtain language difficulty coefficients, handling missing data and inter-sentence variations. On the other hand, &lt;a href=&quot;https://arxiv.org/abs/1902.00193&quot;&gt;Rahimi et al.&lt;/a&gt; propose a “massively” multilingual transfer for NER models, applied to emergency response. They show that, when using cross-lingual embeddings, some language pairs ensure better performance than the ensemble voting models, yielding unexpected language pairs (Indonesian is best transfered from Italian - inducing that these results depend on the used embeddings). Although, the transfer results are best within language families, they remain overall noisy, thus they suggest applying transfer from multiple source languages. The main idea is to encode the input sentence to a cross-lingual representation, then use models trained on high resource languages with cross-lingual representations, to predict the tags. More details in the &lt;a href=&quot;https://docs.google.com/presentation/d/13y31FNC-LTwENdOiWUajVeusuE-sFgcmz3hO8qHdh90/&quot;&gt;slides&lt;/a&gt;. In another work about multilingual BERT, &lt;a href=&quot;https://arxiv.org/abs/1906.01502&quot;&gt;Pires et al.&lt;/a&gt; show that transfer doesn’t really depend on vocabulary overlap but rather on typological similarity (SVO vs. SOV), indeed they noticed a performance drop when changing word order. Further more, they prove that mBERT is good at transfering mixed-language (code switching) but not transliterated targets. Finally, they confirm that translations have similar representations.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, in the presidential address, Ming Zhou listed the topics to work on low-resource tasks including: &lt;strong&gt;Transfer learning, Unsupervised learning, Cross-language learning and Prior knowledge with human in the loop.&lt;/strong&gt; For instance, &lt;a href=&quot;https://arxiv.org/abs/1905.08212&quot;&gt;Wang et al.&lt;/a&gt; suggest using the most related high resource language to improve low resource NMT, instead of using all available multilingual data. Moreover, they prove that using an &lt;em&gt;intelligent&lt;/em&gt; selection method from other auxiliary languages can further enhance the performance. To do so, they propose an algorithm dabbed Target Conditioned Sampling (TCS), which first samples a target sentence, and then conditionally samples its source sentence. On a different note, &lt;a href=&quot;https://www.cis.uni-muenchen.de/~fraser/pubs/huck_acl2019.pdf&quot;&gt;Huck et al.&lt;/a&gt; propose an approach to better translate OOVs (Out Of Vocabulary words) in MT systems. Indeed, these words are usually represented with BPE tokens, but that can lead to bad translations, for languages like German. The main idea, here, is to translate the OOVs using bilingual embeddings and keeping track of 5 candidate translations, then back-translate the targets while forcing the target OOV to translate to the source OOV. By fine-tuning the model with this synthetic data, they report better OOVs translation performance. Moreover, &lt;a href=&quot;https://arxiv.org/pdf/1906.03785.pdf&quot;&gt;Xia et al.&lt;/a&gt; suggest an approach to use monolingual data when training low-resource translation models, that pivots through a &lt;strong&gt;related&lt;/strong&gt; high-resource language (HRL). First, they inject LRL words in HRL sentences using bilingual dictionaries. Second, they edit the modified sentences using an unsupervised MT framework.  They show that the proposed method outperforms back-translation. Moreover, in an attempt to reuse elaborated methods in low-resource tasks,  &lt;a href=&quot;https://arxiv.org/abs/1905.09135&quot;&gt;Beryozkin et al.&lt;/a&gt; (Google) use a tag hierarchy to adapt a pre-trained NER model with no additional training data. The main idea consists in constructing a tag hierarchy, training the model with the highest level of tags as targets and back-propagating with the fine-grained tags.&lt;/p&gt;
+
+&lt;p&gt;As of speech translation, recent papers showed that it was possible to achieve with end-to-end models (avoiding cascaded models: STT ➜ MT) but considering the &lt;em&gt;unrealistic&lt;/em&gt; assumption of equal size of training data. &lt;a href=&quot;https://arxiv.org/abs/1904.07209&quot;&gt;Sperber et al.&lt;/a&gt; show that end-to-end speech translation models require more data to achieve the same performance as cascaded models. To solve this problem, they propose training end-to-end multi-task models with two attention mechanisms, the first establishing source speech to source text alignments, the second modeling source to target text alignment. Furthermore, they introduce an attention-passing technique that alleviates error propagation issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;commonsense-reasoning-and-context-aware-modeling&quot;&gt;Commonsense, reasoning and context aware modeling&lt;/h2&gt;
+&lt;p&gt;This topic comes back in each session dealing with QA; it seems to be more challenging and with a certain latency between the research results and the industry applications. Indeed, the research community is focusing more on seq2seq models - that do not ensure a perfect user experience, both in chit-chat and task oriented systems. Consequently industrial systems rely more on NLU, DST, DM and NLG components. In the second keynote, Pascal Fung explained various aspects related to QA systems and the ethical challenges they raise, including presenting them as humans deceiving the user at the other end, in certain use cases.&lt;/p&gt;
+
+&lt;p&gt;Research groups in companies as well as in academia are focusing efforts on building meaningful datasets, intended to make QA / reasoning systems closer to the end-user, for example Google Research has presented a dataset paper with user formulated requests matched to their answers from wikipedia articles, with two fine grained levels: paragraph containing the answer and entity corresponding to the exact answer to the question. This is pushing end-to-end systems to deal directly with the user’s query and infer the exact information to look for. Here is the &lt;a href=&quot;https://ai.google.com/research/NaturalQuestions/&quot;&gt;link&lt;/a&gt; to the data. On the one hand, &lt;a href=&quot;https://arxiv.org/pdf/1905.07098.pdf&quot;&gt;Xiong et al.&lt;/a&gt; propose a new end-to-end question answering model, which learns to aggregate answer evidence from an incomplete knowledge base (KB) and a set of retrieved text snippets. On the other hand, &lt;a href=&quot;https://arxiv.org/pdf/1906.04980.pdf&quot;&gt;Lewis et al.&lt;/a&gt; follow the insights from Lample et el. on unsupervised machine translation, to investigate unsupervised extractive QA. They suggest various methods to perform cloze to natural question translation and show that modern QA systems have a good performance even when trained using only synthetic data. Moreover, &lt;a href=&quot;https://arxiv.org/abs/1905.13453&quot;&gt;Talmor et al.&lt;/a&gt;  investigate generalization and transfer in reading comprehension tasks and show that training on a source RC dataset and transferring to a target dataset substantially improves performance. They propose MultiQA, a BERT-based model, trained on multiple RC datasets, which leads to state-of-the-art performance on 5 RC datasets.&lt;/p&gt;
+
+&lt;p&gt;Moreover, there seems to be an important interest in building systems with in-domain data that ensure context aware predictions. Studies show that systems lacking context in real life applications (away from the SOTA and leaderboard benchmarks on very specific and studied datasets) can lead to biased decision making and erroneous predictions. &lt;a href=&quot;https://homes.cs.washington.edu/~skgabrie/sap2019risk.pdf&quot;&gt;Sap et al.&lt;/a&gt; show that systems trained on out of domain data lead to strongly biased decisions and dangerous censorship.&lt;/p&gt;
+
+&lt;p&gt;On a different note, the transformer-xl paper by &lt;a href=&quot;https://arxiv.org/abs/1901.02860&quot;&gt;Dai et al.&lt;/a&gt; was presented during the conference. The main idea consists in surpassing the fixed-length context, (a long text sequence is truncated into fixed-length segments processed separately), using two techniques: a &lt;em&gt;segment-level recurrence mechanism&lt;/em&gt; and a &lt;em&gt;relative positional encoding scheme&lt;/em&gt;. More details &lt;a href=&quot;https://ai.googleblog.com/2019/01/transformer-xl-unleashing-potential-of.html&quot;&gt;here&lt;/a&gt;. Furthermore, the first keynote, by Liang Huang, introduces a new architecture dabbed prefix-to-prefix as an evolution of sequence-to-sequence to take into consideration the temporal evolution of the captured context in simultaneous translation. More in the &lt;a href=&quot;https://arxiv.org/abs/1906.01135&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;ethical-nlp-bias-and-environmental-impact&quot;&gt;Ethical NLP: Bias and environmental impact&lt;/h2&gt;
+&lt;p&gt;There was a significant number of papers dealing with debiasing NLP methods at ACL 2019. Indeed, recent studies have shown that pre-trained word embeddings and NLP resources hold a certain level of gender and geographical bias, among others. Since these models can be used in decision making models, ethical concerns have emerged, illustrated by the wide interest of the research community. For instance, &lt;a href=&quot;https://arxiv.org/abs/1906.08976&quot;&gt;Sun et al.&lt;/a&gt; present a literature overview of gender bias mitigating techniques. Furthermore, &lt;a href=&quot;https://arxiv.org/abs/1906.04571&quot;&gt;Zmigrod et al.&lt;/a&gt; show that commonly employed debiasing approaches produce ungrammatical sentences in morphologically rich languages and present a novel approach for converting between masculine-inflected and feminine-inflected sentences. They test their approach on 4 languages showing bias reduction without harming grammaticality. On demographic bias, &lt;a href=&quot;https://www.aclweb.org/anthology/P19-1162&quot;&gt;Sweeney et al.&lt;/a&gt; argue that most demographic bias evaluation approaches rely on vector space based metrics like the &lt;em&gt;Word Embedding Association Test (WEAT)&lt;/em&gt;, which doesn’t measure the impact on downstream tasks. They suggest a new metric (Relative Negative Sentiment Bias, RNSB) to measure the relative negative sentiment associated with demographic identity terms. Moreover, a position paper by &lt;a href=&quot;https://arxiv.org/abs/1906.01738&quot;&gt;Jurgens et al.&lt;/a&gt; argues that the community needs to make three substantive changes to address online abuse: first, expanding the scope of problems to tackle both more subtle and more serious forms of abuse, second, developing proactive technologies that counter or inhibit abuse before it harms, and third reframing the efforts within a framework of justice to promote healthy communities.&lt;/p&gt;
+
+&lt;p&gt;More details on the workshop for &lt;a href=&quot;https://genderbiasnlp.talp.cat/&quot;&gt;Gender Bias in Natural Language Processing&lt;/a&gt; and &lt;a href=&quot;http://www.winlp.org/winlp-2019-workshop/&quot;&gt;WiNLP&lt;/a&gt; workshop.&lt;/p&gt;
+
+&lt;p&gt;Another interesting paper by &lt;a href=&quot;https://arxiv.org/abs/1906.02243&quot;&gt;Strubell et al.&lt;/a&gt; illustrates the environmental impact of training and especially tuning SOTA NLP models. The authors quantify the approximate financial and environmental costs of training a variety of recent neural network models for NLP and propose actionable recommendations to reduce costs and improve equity in NLP research and practice.&lt;/p&gt;
+
+&lt;h2 id=&quot;see-also&quot;&gt;See also&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.livecongress.it/sved/evt/aol_lnk.php?id=60B5FD70&quot;&gt;Video recordings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~neulab//2019/07/25/neulab-presentations-at-acl-2019.html&quot;&gt;NeuLab Presentations at ACL 2019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1miPu0hkBFSRTAxP-Psg0xXOvAbVSJPhQXehMQdUI88I/edit#slide=id.p&quot;&gt;Unsupervised Cross-lingual Representation Learning tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Best papers nominations &lt;a href=&quot;http://www.acl2019.org/EN/nominations-for-acl-2019-best-paper-awards.xhtml&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mihaileric.com/posts/nlp-trends-acl-2019/&quot;&gt;Trends in Natural Language Processing: ACL 2019 In Review&lt;/a&gt; by Mihail Eric.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@mgalkin/knowledge-graphs-in-natural-language-processing-acl-2019-7a14eb20fce8&quot;&gt;Knowledge Graphs in Natural Language Processing @ ACL 2019&lt;/a&gt; by Michael Galkin.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://noecasas.com/post/acl2019/&quot;&gt;Notes on ACL 2019&lt;/a&gt; by Noe Casas.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@soramas/acl-2019-my-take-home-messages-a94bc00e9896&quot;&gt;ACL 2019, my take home messages&lt;/a&gt; by Sergio Oramas.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@mariekhvalchik/acl-2019-1adf4c748711&quot;&gt;ACL 2019: Highlights and Trends&lt;/a&gt; by Maria Khvalchik.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/syncedreview/acl-2019-best-papers-announced-e0141024a935&quot;&gt;ACL 2019 Best Papers Announced&lt;/a&gt; by Synced.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://supernlp.github.io/2019/08/16/acl-2019/&quot;&gt;ACL 2019 Thoughts and Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.</summary></entry><entry><title type="html">mcQA - Multiple Choice Question Answering</title><link href="/mcQA" rel="alternate" type="text/html" title="mcQA - Multiple Choice Question Answering" /><published>2019-07-10T07:25:36+00:00</published><updated>2019-07-10T07:25:36+00:00</updated><id>/mcQA</id><content type="html" xml:base="/mcQA">&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;h3 id=&quot;with-pip&quot;&gt;With pip&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install mcqa
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;from-source&quot;&gt;From source&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/mcqa-suite/mcqa.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;mcQA
+pip install &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-preparation&quot;&gt;Data preparation&lt;/h3&gt;
+
+&lt;p&gt;To train a &lt;code class=&quot;highlighter-rouge&quot;&gt;mcQA&lt;/code&gt; model, you need to create a csv file with n+2 columns, n being the number of choices for each question. The first column should be the context sentence, the n following columns should be the choices for that question and the last column is the selected answer.&lt;/p&gt;
+
+&lt;p&gt;Below is an example of a 3 choice question (taken from the &lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;CoS-E dataset&lt;/a&gt;) :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Context sentence&lt;/th&gt;
+      &lt;th&gt;Choice 1&lt;/th&gt;
+      &lt;th&gt;Choice 2&lt;/th&gt;
+      &lt;th&gt;Choice 3&lt;/th&gt;
+      &lt;th&gt;Label&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;People do what during their time off from work?&lt;/td&gt;
+      &lt;td&gt;take trips&lt;/td&gt;
+      &lt;td&gt;brow shorter&lt;/td&gt;
+      &lt;td&gt;become hysterical&lt;/td&gt;
+      &lt;td&gt;take trips&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you have a trained &lt;code class=&quot;highlighter-rouge&quot;&gt;mcQA&lt;/code&gt; model and want to infer on a dataset, it should have the same format as the train data, but the &lt;code class=&quot;highlighter-rouge&quot;&gt;label&lt;/code&gt; column.&lt;/p&gt;
+
+&lt;p&gt;See example data preparation below:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.data&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MCQAData&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MCQAData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bert_model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bert-base-uncased&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lower_case&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_seq_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+                     
+&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/train.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;test_dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mcqa_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data_file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'swagaf/data/test.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_training&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;model-training&quot;&gt;Model training&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.models&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;mdl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bert_model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bert-base-uncased&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cuda&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+            
+&lt;span class=&quot;n&quot;&gt;mdl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_train_epochs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;prediction&quot;&gt;Prediction&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;preds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval_batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accuracy_score&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mcqa.data&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_labels&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accuracy_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;preds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1906.02361.pdf&quot;&gt;Explain Yourself! Leveraging Language Models for Commonsense Reasoning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1808.05326&quot;&gt;SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1908.07898.pdf&quot;&gt;Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1809.02789&quot;&gt;Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.00937&quot;&gt;CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1704.04683&quot;&gt;RACE: Large-scale ReAding Comprehension Dataset From Examinations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=yIdF-17HwSk&quot;&gt;Stanford CS224N: NLP with Deep Learning Lecture 10 – Question Answering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">mcQA is a multiple choice question answering python library, using Language Models.</summary></entry><entry><title type="html">EMNLP 2018 Highlights</title><link href="/emnlp2018" rel="alternate" type="text/html" title="EMNLP 2018 Highlights" /><published>2018-12-05T10:25:36+00:00</published><updated>2018-12-05T10:25:36+00:00</updated><id>/emnlp2018</id><content type="html" xml:base="/emnlp2018">&lt;p&gt;In this post, I share my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31&lt;sup&gt;th&lt;/sup&gt; to November 4&lt;sup&gt;th&lt;/sup&gt; 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2&lt;sup&gt;nd&lt;/sup&gt; to November 3&lt;sup&gt;rd &lt;/sup&gt;2018.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-1-october-31st-2018&quot;&gt;Day 1: October 31&lt;sup&gt;st&lt;/sup&gt;, 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;tutorial-1-joint-models-for-nlp&quot;&gt;Tutorial 1: Joint models for NLP&lt;/h2&gt;
+
+&lt;p&gt;The tutorial was presented by Yue Zhang from Westlake Institute for Advanced Study. The presentation exposes the interest in training joint models for NLP, with two different strategies: statistical and deep learning methods. Concepts in the presentation are explained through examples and papers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motivation for joint models:
+    &lt;ul&gt;
+      &lt;li&gt;In NLP, many tasks are related (e.g. NER, chunking and POS tagging) or pipelined (e.g. tokenization and POS tagging).&lt;/li&gt;
+      &lt;li&gt;Joint models allow information exchange between tasks and error propagation reduction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Statistical methods include transition based and graph based methods.&lt;/li&gt;
+  &lt;li&gt;Deep learning methods:
+    &lt;ul&gt;
+      &lt;li&gt;Transition-based models (Joint Learning / Joint Search): predict the next action to perform in order to get the right prediction.&lt;/li&gt;
+      &lt;li&gt;Graph-based models (Joint Learning / Separate search): they consist of multi-task learning methods: cross-task, cross-lingual, cross-domain and cross-standard.
+        &lt;ul&gt;
+          &lt;li&gt;Cross-tasks: Bear in mind that not all tasks are mutually beneficial.&lt;/li&gt;
+          &lt;li&gt;Cross-lingual: Standard (e.g. multilingual neural transliteration between morphological similar languages), Regularization (e.g. Low resource dependency parsing: transfer encoding parameters), staking (e.g. parameter sharing in Singlish parser), pre-training (e.g. Fine-tuning a pre-trained model on a low resource language) and adversarial training (e.g. cross lingual sequence labeling).&lt;/li&gt;
+          &lt;li&gt;Cross-domain: e.g. multi-domain sentiment classification.&lt;/li&gt;
+          &lt;li&gt;Cross-standard: e.g. output results corresponding to various treebanks.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;workshop-5-scai---search-oriented-conversational-ai&quot;&gt;Workshop 5: SCAI - Search-Oriented Conversational AI&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://scai.info/&quot;&gt;Link&lt;/a&gt; to the workshop page.&lt;/p&gt;
+
+&lt;h3 id=&quot;keynote-towards-natural-conversation-with-machines&quot;&gt;Keynote: Towards natural conversation with machines&lt;/h3&gt;
+
+&lt;p&gt;A keynote presented by Milica Gašić from University of Cambridge, the Dialogue Systems Group.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motivations: Popularity of virtual assistants (1 billion calls / day), expected revenue 16 billion USD in 2021 (Tractica), weakness of current models (unnatural, narrow domain).&lt;/li&gt;
+  &lt;li&gt;Challenges:
+    &lt;ul&gt;
+      &lt;li&gt;Immediate: Models that keep track of context cannot scale.&lt;/li&gt;
+      &lt;li&gt;Short-term: Operate only on predefined databases, manage only short conversations, user specific models are unrealistic, etc.&lt;/li&gt;
+      &lt;li&gt;Long-term: Modeling rich conversations, teaching a machine to talk about a piece of text, supporting large/infinite action sets.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The presentation shows how machine learning solves two challenges in dialogue systems:
+    &lt;ul&gt;
+      &lt;li&gt;Belief tracking: Tracking every concept requires training data for each one: Reuse knowledge for different concepts, use semantically-constrained word vector embeddings and architectures that share parameters.&lt;/li&gt;
+      &lt;li&gt;Response experience from a large set of possibilities, using deep reinforcement learning.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;papers-presentations&quot;&gt;Papers presentations&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A Reinforcement Learning-driven Translation Model for Search-Oriented Conversational Systems.
+    &lt;ul&gt;
+      &lt;li&gt;Learning the mapping between natural language expressed needs and keywords expressed needs, using machine translation paradigms.&lt;/li&gt;
+      &lt;li&gt;Inject task objectives within the model using reinforcement learning methods.&lt;/li&gt;
+      &lt;li&gt;For more details, check out the &lt;a href=&quot;https://arxiv.org/abs/1809.01495&quot;&gt;paper&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Research Challenges in Building a Voice-based Artificial Personal Shopper - Position Paper.
+    &lt;ul&gt;
+      &lt;li&gt;An artificial personal shopper is a voice based dialog system used to enrich online shopping, by replicating personal shopping agents in a brick and mortar store.&lt;/li&gt;
+      &lt;li&gt;This is a difficult task requiring effective knowledge and understanding: e.g. in order to correctly answer the question “Is the Bose headphone compatible with my phone?”, the agent has to know:
+        &lt;ul&gt;
+          &lt;li&gt;What type of phone the customer has / refers to?&lt;/li&gt;
+          &lt;li&gt;What is the model of the “Bose headphone”?&lt;/li&gt;
+          &lt;li&gt;Whether the headphone is compatible with the customer’s phone?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Types of data required: Product information, user information and consumer-generated content.&lt;/li&gt;
+      &lt;li&gt;Research challenges:
+        &lt;ol&gt;
+          &lt;li&gt;How to process a voice utterance? ASR is not perfect; we need a robust approach that provides a precise response for a noisy utterance.&lt;/li&gt;
+          &lt;li&gt;How to identify relevant response source(s) for a given utterance?
+            &lt;ul&gt;
+              &lt;li&gt;Identifying the relevant response source effectively, while minimizing the missing relevant sources for the product domain.&lt;/li&gt;
+              &lt;li&gt;Aggregating the results from various sources.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;How to identify key phrases in a user’s utterance?
+            &lt;ul&gt;
+              &lt;li&gt;Key phrases in a query contribute significantly to the search results.&lt;/li&gt;
+              &lt;li&gt;Require an effective approach for identifying key phrases, the product domain and in the noisy voice transcription domain.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;How to infer which product / entity the user refers to?
+            &lt;ul&gt;
+              &lt;li&gt;Personalized information must be taken into consideration.&lt;/li&gt;
+              &lt;li&gt;Incorporate coreference resolution and anaphora for personal shopper products / entities.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;How to generate a natural language response?
+            &lt;ul&gt;
+              &lt;li&gt;Generating informative and conversational responses.&lt;/li&gt;
+              &lt;li&gt;Generating a multi-facet answer to a subjective question that represents multiple opinions.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;How to evaluate an end-to-end personal shopper system?
+            &lt;ul&gt;
+              &lt;li&gt;Evaluation based on the criteria of both the relevance towards the user information needs and the replication of a humanlike conversation.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For more details, check out the &lt;a href=&quot;http://www.aclweb.org/anthology/W18-5706&quot;&gt;paper&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;panel-discussion&quot;&gt;Panel discussion&lt;/h3&gt;
+
+&lt;p&gt;The panel was animated by Milica Gašić (University of Cambridge), Antoine Bordes (Facebook AI Research), Jason Weston (Facebook) and Bill Dolan (Microsoft Research).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Future of conversational AI?
+    &lt;ul&gt;
+      &lt;li&gt;Jason Weston: Online learning.&lt;/li&gt;
+      &lt;li&gt;Antoine Bordes: End-to-end response specialized bot (task-oriented and domain-oriented), not general purpose chatbots but specialized on domains to insure complex tasks’ completion.&lt;/li&gt;
+      &lt;li&gt;Bill Dolan: Discussed the importance of chit-chat in task oriented chatbots.&lt;/li&gt;
+      &lt;li&gt;Milica Gašić: Bigger challenges for Conversational AI : Humans don’t talk to systems the way they talk to humans. Need to work on question generation, not only response generation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How to evaluate the quality of dialogue systems?
+    &lt;ul&gt;
+      &lt;li&gt;If we use real users, it would be impossible to compare results across groups: Milica Gašić: Compare to statistical dialogue systems and / or use standard data sets.&lt;/li&gt;
+      &lt;li&gt;Bill Dolan: For response generation, BLEU still has an added value, despite its known weaknesses.&lt;/li&gt;
+      &lt;li&gt;For human bot evaluation: precision, recall, perplexity. BLEU is for MT but not for dialogue: We would need at least 100 references. Plus, for a more personalized experience, we need a more personalized evaluation metric.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Difficulty for conversational AI?
+    &lt;ul&gt;
+      &lt;li&gt;Learning in a compliant environment with encrypted data.&lt;/li&gt;
+      &lt;li&gt;Seq2seq architectures are suspicious; they come from MT (difficult linguistic task).&lt;/li&gt;
+      &lt;li&gt;To ensure fluency: combine other signals with linguistic signal / Importance of ML advancements to have better solutions, models, architectures.&lt;/li&gt;
+      &lt;li&gt;Dialogue incorporates a lot of linguistic tasks: go beyond text with gestures (like human conversation) and combine multimodal data.&lt;/li&gt;
+      &lt;li&gt;Algorithms are inadequate to work with small amounts of data; it is difficult to annotate and collect data frame by frame.&lt;/li&gt;
+      &lt;li&gt;Assess algorithms on computer vision and text. Is it possible to do it directly on speech / image instead of text?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search versus Chatbots?
+    &lt;ul&gt;
+      &lt;li&gt;The user experience is formally different:
+        &lt;ul&gt;
+          &lt;li&gt;Chatbots should ensure full representation of belief / generate questions to clarify things.&lt;/li&gt;
+          &lt;li&gt;Search (over documents) incorporates external knowledge in dialog (Information retrieval challenges).&lt;/li&gt;
+          &lt;li&gt;Conversational search should be an integral part of the dialogue.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;keynote-understanding-the-user-in-social-bot-conversations&quot;&gt;Keynote: Understanding the user in social bot conversations&lt;/h3&gt;
+
+&lt;p&gt;This presentation was delivered by Mari Ostendorf (University of Washington).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Winning solution of Amazon Alexa Prize: Building a bot that converses coherently and engagingly with people on popular topics and current events.&lt;/li&gt;
+  &lt;li&gt;Types of conversational AI systems:
+    &lt;ul&gt;
+      &lt;li&gt;Virtual assistant: execute commands, answer questions, limited social back and forth.&lt;/li&gt;
+      &lt;li&gt;Social bot:  2-way social and information exchange&lt;/li&gt;
+      &lt;li&gt;Chat bot: chitchat, limited content to talk about.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Importance of user modeling :
+    &lt;ul&gt;
+      &lt;li&gt;User interests vary&lt;/li&gt;
+      &lt;li&gt;For text-based search, personalized query completion improves over popular queries.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Differences in conversational AI Paradigms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+Speech/Language understanding
+   &lt;/td&gt;
+   &lt;td&gt;Dialog management 
+   &lt;/td&gt;
+   &lt;td&gt;Back-end application
+   &lt;/td&gt;
+   &lt;td&gt;Response generation 
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Assistant 
+   &lt;/td&gt;
+   &lt;td&gt;Task intents, form filling.
+   &lt;/td&gt;
+   &lt;td&gt;Narrow options and execute tasks. Reward=Timely tasks completion. 
+   &lt;/td&gt;
+   &lt;td&gt;Structured data bases. 
+   &lt;/td&gt;
+   &lt;td&gt;Constrained domain.
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Social Bot
+   &lt;/td&gt;
+   &lt;td&gt;Social and info intents.
+   &lt;/td&gt;
+   &lt;td&gt;Learn about interests and make suggestions. Reward=user satisfaction. 
+   &lt;/td&gt;
+   &lt;td&gt;Unstructured information. 
+   &lt;/td&gt;
+   &lt;td&gt;Open domain.
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Constrains:
+    &lt;ul&gt;
+      &lt;li&gt;Speech recognition is imperfect.&lt;/li&gt;
+      &lt;li&gt;No sentence segmentation or pause information.&lt;/li&gt;
+      &lt;li&gt;We cannot assume that two conversations coming from the same device correspond to the same user.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Design philosophy of the winning solution:
+    &lt;ul&gt;
+      &lt;li&gt;Content driven: daily content mining, large and dynamic content collection, etc.&lt;/li&gt;
+      &lt;li&gt;User centric: detecting user sentiments, personality, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Language understanding and generation in the winning solution:
+    &lt;ul&gt;
+      &lt;li&gt;Language understanding: multidimensional utterance representation, different detectors for sentiments, intent, opinion, topic, etc.&lt;/li&gt;
+      &lt;li&gt;Generation: Inform AND ground.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hierarchical dialog management :
+    &lt;ul&gt;
+      &lt;li&gt;Master (Global):
+        &lt;ul&gt;
+          &lt;li&gt;Rank topics, mini-tasks, content&lt;/li&gt;
+          &lt;li&gt;Consider: topic coherence, user engagement, content availability&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Mini-tasks (Local):
+        &lt;ul&gt;
+          &lt;li&gt;Greetings, goodbye, menu.&lt;/li&gt;
+          &lt;li&gt;Probe user personality.&lt;/li&gt;
+          &lt;li&gt;Discuss a new article, movie.&lt;/li&gt;
+          &lt;li&gt;Tell a fact, thought, advice, joke, etc.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Content management in a social bot:
+    &lt;ul&gt;
+      &lt;li&gt;Crawl online content&lt;/li&gt;
+      &lt;li&gt;Filter inappropriate / depressing content.&lt;/li&gt;
+      &lt;li&gt;Index interesting and uplifting content.&lt;/li&gt;
+      &lt;li&gt;Knowledge graph building.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Evaluation of social bots: human + duration of conversations.&lt;/li&gt;
+  &lt;li&gt;Diagnostic evaluation:
+    &lt;ul&gt;
+      &lt;li&gt;User ratings are expensive, sparse and present a high variance.&lt;/li&gt;
+      &lt;li&gt;Define sub-dialog rewards using dialog state information (initialization, topic stack, etc.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Content preferences vary with respect to the user’s personality and emotions.&lt;/li&gt;
+  &lt;li&gt;Different user goals: information seeking, opinion sharing, getting to know each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;brussels-nlp-meetup&quot;&gt;Brussels NLP meetup&lt;/h2&gt;
+
+&lt;h3 id=&quot;understanding-structure-in-language-through-wikipedia-edits&quot;&gt;Understanding Structure in Language through Wikipedia Edits&lt;/h3&gt;
+
+&lt;p&gt;This presentation, delivered by Manaal Faruqui (Google), explains the paper: WikiAtomicEdits: A Multilingual Corpus of Wikipedia Edits for Modeling Language and Discourse.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Main idea: using Wikipedia edits to solve downstream NLP problems, including splitting, replacing and rephrasing sentences.&lt;/li&gt;
+  &lt;li&gt;Two contributions:
+    &lt;ul&gt;
+      &lt;li&gt;Releasing &lt;a href=&quot;https://github.com/google-research-datasets/wiki-atomic-edits&quot;&gt;WikiAtomicEdits&lt;/a&gt;: a data set of 43 million atomic edits across 8 languages, built from Wikipedia.&lt;/li&gt;
+      &lt;li&gt;Analysis of the data set brings the following conclusions: Inserted language differs from general Wikipedia content: Language models trained on edit data presents different aspects of semantics and discourse than models trained on raw, unstructured text.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to the &lt;a href=&quot;https://arxiv.org/pdf/1808.09422.pdf&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-importance-of-scaling-down-one-weird-trick-to-make-your-nlp-projects-more-successful&quot;&gt;The importance of scaling down: One weird trick to make your NLP projects more successful&lt;/h3&gt;
+
+&lt;p&gt;This presentation was delivered by Matthew Honnibal (Explosion AI).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to maximize NLP project failure? Imagineer (Unrealistic use cases), Forecast, Outsource data collection (little knowledge about the project’s data requirements), wire (stacking layers with no context understanding), ship (delivering the project as is).&lt;/li&gt;
+  &lt;li&gt;Machine learning hierarchy of needs, in order of importance:
+    &lt;ul&gt;
+      &lt;li&gt;Understanding how the model will work in the larger application or business process: including tolerance for inaccuracies, latencies, etc.&lt;/li&gt;
+      &lt;li&gt;Annotation scheme and corpus construction: categories that will be easy to annotate consistently and easy for the model to learn.&lt;/li&gt;
+      &lt;li&gt;Consistent and clean data: attentive annotators, good quality control processes.&lt;/li&gt;
+      &lt;li&gt;Model architecture: smart choices, no bugs.&lt;/li&gt;
+      &lt;li&gt;Optimization: given by hyper-parameters, initialization tricks, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Importance of iteration over data &lt;span style=&quot;text-decoration:underline;&quot;&gt;and&lt;/span&gt; code:
+    &lt;ul&gt;
+      &lt;li&gt;Problem: It is easy to make modeling decisions that are simple, obvious and wrong. Solution: Compose generic models into novel solutions.&lt;/li&gt;
+      &lt;li&gt;Problem: Big annotation projects make evidence expensive to collect. Solution: Run your own micro-experiments.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A/B evaluation beats BLEU scores blues: don’t settle for proxy metrics and build micro A/B tests.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rapid-nlp-annotation-through-binary-decisions-pattern-bootstrapping-and-active-learning&quot;&gt;Rapid NLP Annotation through Binary Decisions, Pattern Bootstrapping and Active Learning&lt;/h3&gt;
+
+&lt;p&gt;This presentation was delivered by Ines Montani (Explosion AI).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Feedback and best practices on annotation pipelines from the developers of &lt;a href=&quot;https://prodi.gy&quot;&gt;prodigy&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Annotation needs iteration: can’t expect to define the task correctly the first time.&lt;/li&gt;
+  &lt;li&gt;It has to be semi-automatic: boring tasks would never be performed reliably.&lt;/li&gt;
+  &lt;li&gt;Binary annotation is key for golden data sets: faster, more reliable and generalizable.&lt;/li&gt;
+  &lt;li&gt;Avoid cold starts: use simple models (e.g. rule based) and leverage active learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More on the &lt;a href=&quot;https://speakerdeck.com/inesmontani/belgium-nlp-meetup-rapid-nlp-annotation-through-binary-decisions-pattern-bootstrapping-and-active-learning&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;large-scale-fact-extraction-and-verification&quot;&gt;Large-scale Fact Extraction and Verification&lt;/h3&gt;
+
+&lt;p&gt;This presentation was delivered by Arpit Mittal (Amazon), to explain the paper: FEVER: a large-scale dataset for Fact Extraction and VERification.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Release of &lt;a href=&quot;http://fever.ai/&quot;&gt;FEVER&lt;/a&gt;: a data set for claim verification against textual sources. It consists of 185k+ claims extracted from Wikipedia, verified and annotated with 1 of 3 labels: supported, refuted, not enough info.&lt;/li&gt;
+  &lt;li&gt;Two objectives: Transform free-form text to structured information AND verify facts (in order to help combat fake news).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to the &lt;a href=&quot;https://arxiv.org/abs/1803.05355&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;transfer-learning-with-language-models&quot;&gt;Transfer learning with language models&lt;/h3&gt;
+
+&lt;p&gt;This presentation was delivered by Sebastian Ruder (Aylien).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recent Advances: ELMo, ULMFiT, OpenAI Transformer (12 layers, 8 GPUs, 1 month), and BERT (24 layers, 64 TPUs, 4 days / 8 GPUs, 40-70 days). SOTA on a wide range of tasks (cheaper use cases once LM trained).&lt;/li&gt;
+  &lt;li&gt;Tips for LM training: bidirectional architecture, choice of loss/auxiliary loss, etc.&lt;/li&gt;
+  &lt;li&gt;LMs capture: structure of the text, syntax, meter, hierarchical relation (e.g. coherence, syntax, POS tagging, constituents).&lt;/li&gt;
+  &lt;li&gt;No indication of performance ceiling: fine-tuning LMs will become commonplace in NLP.&lt;/li&gt;
+  &lt;li&gt;Future directions: True multilingual NLP, more challenging problems (NLU, common sense inference), better interpretation of LMs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details, check the &lt;a href=&quot;https://drive.google.com/open?id=1kmNAwrSlFYo0cN_DcURMOArBwe9FxWxR&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;day-2-november-1st-2018&quot;&gt;Day 2: November 1&lt;sup&gt;st&lt;/sup&gt;, 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;tutorial-4--deep-latent-variable-models-of-natural-language&quot;&gt;Tutorial 4:  Deep Latent Variable Models of Natural Language&lt;/h2&gt;
+
+&lt;p&gt;The tutorial was presented by Yoon Kim, Sam Wiseman, and Alexander Rush from Harvard NLP Group.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tractable inference over the latent variables: including neural extensions of tagging and parsing models.&lt;/li&gt;
+  &lt;li&gt;Non-tractable inference over the latent variables: restricted to continuous latent variables.&lt;/li&gt;
+  &lt;li&gt;Overview of recent developments in neural variational inference (e.g. auto-encoders), the challenges they undertake and the best practices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link to the resources shared as part of the tutorial &lt;a href=&quot;http://nlp.seas.harvard.edu/latent-nlp-tutorial.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;workshop-2-conll&quot;&gt;Workshop 2: CoNLL&lt;/h2&gt;
+
+&lt;h3 id=&quot;invited-talk-semantic-spaces-across-diverse-languages&quot;&gt;Invited talk: Semantic spaces across diverse languages&lt;/h3&gt;
+
+&lt;p&gt;Presentation by Asifa Majid (University of York).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Natural languages are NOT equally expressible: some concepts exist in one language but not in another, e.g. there are 421 words for snow in Scottish.&lt;/li&gt;
+  &lt;li&gt;Culture and language shape our internal representation of concepts / perception of the world:
+    &lt;ul&gt;
+      &lt;li&gt;If you ask speakers of different languages to color in different body parts in a picture, the body parts that are associated with each term depend on the language.&lt;/li&gt;
+      &lt;li&gt;When most languages lack terms describing specific scents and odors. In contrast, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Jahai_people&quot;&gt;Jahai have&lt;/a&gt; half a dozen terms for different qualities of smell.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Interesting to incorporate insights from psycholinguistics in how we model words across languages and different cultures, as cross-lingual embeddings have mostly focused on word-to-word alignment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Comparing Models of Associative Meaning: An Empirical Investigation of Reference in Simple Language Games&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://arxiv.org/abs/1810.03717&quot;&gt;paper&lt;/a&gt; was written by Judy Hanwen Shen, Matthias Hofer, Bjarke Felbo and Roger Levy. It presents the nature of the lexical resources that speakers and listeners can bring to bear in achieving reference through associative meaning alone.&lt;/p&gt;
+
+&lt;h3 id=&quot;sequence-classification-with-human-attention-special-paper-award&quot;&gt;Sequence Classification with Human Attention (special paper award)&lt;/h3&gt;
+
+&lt;p&gt;This &lt;a href=&quot;http://aclweb.org/anthology/K18-1030&quot;&gt;paper&lt;/a&gt; was written by Maria Barrett, Joachim Bingel, Nora Hollenstein, Marek Rei and Anders Søgaard. It highlights the fact that human attention provides a good inductive bias on many attention functions in NLP. They use estimated human attention, by eye tracking, corpora to regularize the attention in RNNs.&lt;/p&gt;
+
+&lt;h2 id=&quot;tutorial-6-deep-chit-chat-deep-learning-for-chatbots&quot;&gt;Tutorial 6: Deep Chit-Chat: Deep Learning for Chatbots&lt;/h2&gt;
+
+&lt;p&gt;This tutorial was presented by Wei Wu (Microsoft) and Rui Yan (Peking University).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motivation:
+    &lt;ul&gt;
+      &lt;li&gt;Hot subject both in academia (e.g. the Alexa Prize) and industry (&lt;em&gt;Virtual Assistants&lt;/em&gt;: MS Cortana, Apple Siri, Baidu Duer / &lt;em&gt;Smart speakers&lt;/em&gt;: Amazon Alexa, Google Home / &lt;em&gt;Social Bot and customer service&lt;/em&gt;)&lt;/li&gt;
+      &lt;li&gt;54% of conversations in chatbots are chit-chat (Study performed in Japan).&lt;/li&gt;
+      &lt;li&gt;Chit-chat is fundamentally different from goal oriented chatbots: open domain conversations should be relevant and diverse to keep the user engaged.&lt;/li&gt;
+      &lt;li&gt;Services (e.g. Recommendation, search, Q&amp;amp;A) are connected via chat in chatbots.&lt;/li&gt;
+      &lt;li&gt;Task oriented vs Non-task oriented chatbots.&lt;/li&gt;
+      &lt;li&gt;Non task oriented chatbots are based on retrieval based methods or generation based methods.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deep learning for NLP :
+    &lt;ul&gt;
+      &lt;li&gt;Word embedding: Word2Vec (CBOW, Skip-Gram), Glove, Fasttext.&lt;/li&gt;
+      &lt;li&gt;Sentence embedding.&lt;/li&gt;
+      &lt;li&gt;Application in dialogue modeling (seq2seq with attention).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Retrieval based chatbots:
+    &lt;ul&gt;
+      &lt;li&gt;Message-Response matching for single turn response selection.&lt;/li&gt;
+      &lt;li&gt;Context-Response matching for multi-turn response selection.&lt;/li&gt;
+      &lt;li&gt;Merging research directions: matching with better representations, matching with unlabeled data.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Generation based chatbots:
+    &lt;ul&gt;
+      &lt;li&gt;Single-turn generation: seq2seq, attention, bidirectional (MT inspiration).&lt;/li&gt;
+      &lt;li&gt;Multi-turn generation: Hierarchical context modeling.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Many other subjects include: diversity in conversations, content introducing, topics and emotion in conversations, persona in chat, reinforcement and adversarial learning in conversations.&lt;/li&gt;
+  &lt;li&gt;Evaluation metrics for conversations: Weak correlation between human and automatic evaluations (BLEU, information, e.g. entropy and perplexity, diversity, average response length, ADEM, RUBER).&lt;/li&gt;
+  &lt;li&gt;Future trends: Learning methods and representations, reasoning in dialogues (context based, knowledge, and common sense), X-grounded dialogues (labels, multimodal, texts), evaluation and benchmark data sets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;day-3-november-2nd-2018&quot;&gt;Day 3: November 2&lt;sup&gt;nd&lt;/sup&gt;, 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;opening-remarks&quot;&gt;Opening remarks&lt;/h2&gt;
+
+&lt;p&gt;Presentation of the conference key numbers, program and organization details.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EMNLP 2018 is HUGE:
+    &lt;ul&gt;
+      &lt;li&gt;2.1k+ submitted papers (+46% increase over 2017): 549 accepted papers: 24.6% acceptance rate.&lt;/li&gt;
+      &lt;li&gt;79 demo submissions (40% increase over 2017): 29 accepted demos (40% acceptance rate).&lt;/li&gt;
+      &lt;li&gt;2.5K attendees: &amp;gt;100% increase over 2017.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EMNLP in numbers:
+    &lt;ul&gt;
+      &lt;li&gt;14 workshops, 6 tutorials, 351 long paper presentations, 198 short paper presentations, 10 TACL paper presentations, 29 demo presentations.&lt;/li&gt;
+      &lt;li&gt;60 area chairs, 1436 long/short papers reviewers, 150 demo paper reviewers.&lt;/li&gt;
+      &lt;li&gt;Gender diversity: 74.7% male reviewers, 68.3% male area/program chairs.&lt;/li&gt;
+      &lt;li&gt;4 plenaries: 3 keynotes + Best papers awards.&lt;/li&gt;
+      &lt;li&gt;11 parallel sessions: 4 oral sessions, 1 poster session.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Companies: Bloomberg, Google, Facebook, Salesforce, Apple, ASAPP, Amazon, Baidu, Grammarly, Naver Labs Europe, Ku Leuven, FWO, Megagon Labs, Huawei, eBay, Microsoft, Naver Line, Oracle, PolyAI, Sogou, YITI, Duolingo, Nuance, Shannon.ai, NextAI, textkernel, Allen Institute for AI, text IQ, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keynote-i-truth-or-lie-spoken-indicators-of-deception-in-speech&quot;&gt;Keynote I: Truth or Lie? Spoken Indicators of Deception in Speech&lt;/h2&gt;
+
+&lt;p&gt;This keynote was presented by Julia Hirschberg (Columbia University). The key ideas are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creation of a cross-cultural deception corpus: 340 subjects balanced by native language and gender.&lt;/li&gt;
+  &lt;li&gt;Hard to control potential indicators of deception.&lt;/li&gt;
+  &lt;li&gt;Features such as gender, ethnicity, culture and personality should be included in the models.&lt;/li&gt;
+  &lt;li&gt;Other features include: text-based, speech-based, syntactic features, personality features, etc.&lt;/li&gt;
+  &lt;li&gt;Classifiers: DNNS, BLSTMs, Hybrid methods.&lt;/li&gt;
+  &lt;li&gt;Conclusions include: Both humans and classifiers classify long answers as lies.&lt;/li&gt;
+  &lt;li&gt;The project is sponsored by the US government.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Find more on the &lt;a href=&quot;https://drive.google.com/file/d/17Ke40bHHnUyNrdA4twcyKI17D_B22Oim/view?usp=sharing&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;1a-social-applications-i&quot;&gt;1A: Social Applications I&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Privacy-preserving Neural Representations of Text&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1001&quot;&gt;paper&lt;/a&gt; deals with adversarial privacy attacks on deep learning NLP systems. The idea is to attack hidden layers in a NN to get information about the input. The authors investigate the tradeoff between the utility and the privacy of the hidden representations and suggest defense methods based on the alteration of training objectives.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Adversarial Removal of Demographic Attributes from Text Data&lt;/span&gt;&lt;/em&gt;: In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1002&quot;&gt;paper&lt;/a&gt;, the authors show that demographic information is encoded in intermediate representations and can alter classifiers’ decisions. They suggest removing these attributes using adversarial training, then retraining high level classifiers. They conclude that adversarial training is not enough to reach invariant representation of sensitive attributes.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning&lt;/span&gt;&lt;/em&gt;: To detect fake news, the trend is to use external sources, which requires extensive feature modeling. This &lt;a href=&quot;http://aclweb.org/anthology/D18-1003&quot;&gt;paper&lt;/a&gt; suggests a NN, which judiciously aggregates external knowledge and provides human readable explanations for the model’s results.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;It’s going to be okay: Measuring Access to Support in Online Communities&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1004&quot;&gt;paper&lt;/a&gt; analyzes the accessibility to online support, when revealing one’s gender. The authors present a data set and a method to assess accessibility to support on online platforms. Moreover, they suggest a strategy to infer gender from text and usernames.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Detecting Gang-Involved Escalation on Social Media Using Context&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1005&quot;&gt;paper&lt;/a&gt; presents a method to detect expressions of violence and grief on social media. The authors use a domain specific unlabeled corpus and present a contextual and emotional representation of a users’ generated content. They made the collected data available upon request.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2c-multilingual-methods-i&quot;&gt;2C: Multilingual Methods I&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Distant Supervision from Disparate Sources for Low-Resource Part-of-Speech Tagging&lt;/span&gt;&lt;/em&gt;: The &lt;a href=&quot;http://aclweb.org/anthology/D18-1061&quot;&gt;paper&lt;/a&gt; introduces a cross-lingual neural POS tagger, by leveraging annotation projection, instance selection, tag dictionaries, morphological lexicons and distributed representations, without access to any golden data.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Unsupervised Bilingual Lexicon Induction via Latent Variable Models&lt;/span&gt;&lt;/em&gt;: Many works on bilingual lexicons extraction are based on aligning monolingual word embeddings. This &lt;a href=&quot;http://aclweb.org/anthology/D18-1062&quot;&gt;paper&lt;/a&gt; suggests using latent variable models and adversarial training to do so. The method was tested on several language pairs.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Learning Unsupervised Word Translations without Adversaries&lt;/span&gt;&lt;/em&gt;: The SOTA of unsupervised bilingual dictionaries induction use adversarial methods (thus suffer from instability and hyper parameters sensitivity). This &lt;a href=&quot;http://aclweb.org/anthology/D18-1063&quot;&gt;paper&lt;/a&gt; presents a statistical method to unsupervised dictionaries extraction with adversarial training.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Adversarial Training for Multi-task and Multi-lingual Joint Modeling of Utterance Intent Classification&lt;/span&gt;&lt;/em&gt;: The problem with joint models is that shared networks learn the majority data set features. To solve this, the &lt;a href=&quot;http://aclweb.org/anthology/D18-1064&quot;&gt;paper&lt;/a&gt; suggests training language-specific task adversarial networks and task-specific language adversarial networks. The goal is to purge language specific and task specific dependencies. The method is tested on 2 languages and 3 tasks.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Surprisingly Easy Hard-Attention for Sequence to Sequence Learning&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1065&quot;&gt;paper&lt;/a&gt; shows that beam approximation of joint distribution between attention and output is efficient for seq2seq learning. The method combines sharp focus in hard attention and implementation ease of soft attention.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3a-machine-translation-i&quot;&gt;3A: Machine Translation I&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1100&quot;&gt;paper&lt;/a&gt; presents a data augmentation technique for NMT. It consists of randomly replacing words in both the source sentence and the target sentence with other random words from their corresponding vocabularies.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1101&quot;&gt;paper&lt;/a&gt; presents a word by word translation strategy that uses cross-lingual word embeddings. For context encoding, they suggest using a language model and for word reordering, they use a denoising autoencoder. An advantage of this method is not using iterative approaches, such as back-translation.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Decipherment of Substitution Ciphers with Neural Language Models&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1102&quot;&gt;paper&lt;/a&gt; proposes a “beam search algorithm that scores the entire candidate plaintext at each step of the decipherment using a neural LM”. The authors suggest augmenting “beam search with a novel rest cost estimation that exploits the prediction power of a neural LM”.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Rapid Adaptation of Neural Machine Translation to New Languages&lt;/span&gt;&lt;/em&gt;: The main idea about this &lt;a href=&quot;http://aclweb.org/anthology/D18-1103&quot;&gt;paper&lt;/a&gt; is using high resource languages to train what the authors call “seed models”, then fine-tuning on low resource languages. They suggest jointly training similar languages to avoid overfitting on LRLs. Findings include that multilingual models perform well on LRLs, even when the training data doesn’t present examples in these languages.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Compact Personalized Models for Neural Machine Translation&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1104&quot;&gt;paper&lt;/a&gt; shows that it is possible to freeze the majority of the models parameters when adapting a translation model, with no reduction in performance. To ensure the sparsity of the tensors’ offsets, the authors suggest using group lasso regularization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4a-language-models&quot;&gt;4A: Language Models&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1149&quot;&gt;paper&lt;/a&gt; presents an iterative algorithm that considers any sequence generation as a latent variable model and refines it using a denoising approach. The algorithm was tested using the transformer model on two different tasks, machine translation and image caption generation.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Large Margin Neural Language Model&lt;/span&gt;&lt;/em&gt;: In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1150&quot;&gt;paper&lt;/a&gt;, the authors suggest using a large margin criterion in LM training instead of perplexity minimization. The main idea is to enlarge the margin between good vs bad sequences in a task-specific sense.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Targeted Syntactic Evaluation of Language Models&lt;/span&gt;&lt;/em&gt;: This is a data set &lt;a href=&quot;http://aclweb.org/anthology/D18-1151&quot;&gt;paper&lt;/a&gt;. The authors present a benchmark data set to evaluate the “grammaticality” of the predictions of a LM. They conclude that there is considerable room for improvement in syntax learning using LMs.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Rational Recurrences&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1152&quot;&gt;paper&lt;/a&gt; shows that RNNs have a connection to WFSAs, the same as CNNs (previously demonstrated). The authors try to transfer intuitions from classical models like WFSAs into neural network architectures and design.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Efficient Contextualized Representation: Language Model Pruning for Sequence Labeling&lt;/span&gt;&lt;/em&gt;: LMs are commonly used for various NLP tasks, due to the huge size of the available training data. However, large LMs present heavy computation constraints, during the inference. Thus, the &lt;a href=&quot;http://aclweb.org/anthology/D18-1153&quot;&gt;paper&lt;/a&gt; presents an approach to LM compression, which keeps only useful information for a specific task.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;day-4-november-3rd-2018&quot;&gt;Day 4: November 3&lt;sup&gt;rd&lt;/sup&gt;, 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;5c-ir--text-mining&quot;&gt;5C: IR / Text Mining&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Improved Semantic-Aware Network Embedding with Fine-Grained Word Alignment&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1209&quot;&gt;paper&lt;/a&gt; introduces a “word-by-word alignment  framework  that  measures  the  compatibility of embeddings between word pairs, and then  adaptively  accumulates  these  alignment features  with  a  simple  yet  effective  aggregation  function”.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Learning Context-Sensitive Convolutional Filters for Text Processing&lt;/span&gt;&lt;/em&gt;: In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1210&quot;&gt;paper&lt;/a&gt;, the authors present an approach that uses a small meta network to learn context-aware convolutional filters for text processing. This network encodes the contextual information in “input-aware” filters.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Deep Relevance Ranking Using Enhanced Document-Query Interactions&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1211&quot;&gt;paper&lt;/a&gt; presents a document relevance ranking model, which is obtained by augmenting DRMM with rich context encodings.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Learning Neural Representation for CLIR with Adversarial Framework&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1212&quot;&gt;paper&lt;/a&gt; presents a new cross-lingual IR model, built using adversarial learning.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;AD3: Attentive Deep Document Dater&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1213&quot;&gt;paper&lt;/a&gt; presents an attention-based neural document  dating  system  which  utilizes  both  context  and  temporal  information  in  documents.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;6d-multilingual-methods-ii&quot;&gt;6D: Multilingual Methods II&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Sentence Compression for Arbitrary Languages via Multilingual Pivoting&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1267&quot;&gt;paper&lt;/a&gt; leverages bilingual corpora to perform sentence compression. The method consists of translating a source string into a foreign language and then back-translating it into the source language while controlling the translation length.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Unsupervised Cross-lingual Transfer of Word Embedding Spaces&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1268&quot;&gt;paper&lt;/a&gt; deals with learning mapping functions between embedding spaces of different languages. It proposes an unsupervised learning approach that does not require any cross-lingual labeled data. Instead, the authors suggest optimizing the transformation functions in both directions simultaneously based on distributional matching and the minimization of the back-translation losses.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;XNLI: Evaluating Cross-lingual Sentence Representations&lt;/span&gt;&lt;/em&gt;: This is a data set &lt;a href=&quot;http://aclweb.org/anthology/D18-1269&quot;&gt;paper&lt;/a&gt;: The authors open source a data set for NLI in 15 languages and present different baselines to perform cross-lingual NLI.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Joint Multilingual Supervision for Cross-lingual Entity Linking&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1270&quot;&gt;paper&lt;/a&gt; shows the limitations of XEL and the added value due to multilingual joint learning in low resource settings.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Fine-grained Coordinated Cross-lingual Text Stream Alignment for Endless Language Knowledge Acquisition&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1271&quot;&gt;paper&lt;/a&gt; presents a decipherment algorithm with diverse clues to decipher the networks for accurate text stream alignment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;7a-dialogue-ii&quot;&gt;7A: Dialogue II&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Session-level Language Modeling for Conversational Speech&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1296&quot;&gt;paper&lt;/a&gt; generalizes language models for  conversational  speech  recognition  to  allow them to operate across utterance  boundaries and speaker changes,  thereby capturing conversation-level  phenomena  such  as  adjacency  pairs,  lexical  entrainment,  and  topical coherence.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Towards Less Generic Responses in Neural Conversation Models: A Statistical Re-weighting Method&lt;/span&gt;&lt;/em&gt;: Seq2seq generation models tend to generate generic/dull responses. Thus, the authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1297&quot;&gt;paper&lt;/a&gt; propose a statistical re-weighting method that assigns different weights for the multiple responses of the same query, and trains the standard neural generation model with the weights.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Training Millions of Personalized Dialogue Agents&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1298&quot;&gt;paper&lt;/a&gt; suggests increasing the engagement level in conversational systems by making them more personalized. The authors open source a dataset of 5 million personas and 700 million persona-based dialogues and show that using personas improves the performance on end-to-end systems.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Towards Universal Dialogue State Tracking&lt;/span&gt;&lt;/em&gt;: The &lt;a href=&quot;http://aclweb.org/anthology/D18-1299&quot;&gt;paper&lt;/a&gt; introduces “StateNet”,  a universal dialogue state tracker: It is independent of the number of values, shares parameters across all slots,  and  uses  pre-trained  word  vectors  instead  of  explicit  semantic  dictionaries.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Semantic Parsing for Task Oriented Dialog using Hierarchical Representations&lt;/span&gt;&lt;/em&gt;: Dialog systems usually deal with one query (intent) at a time. In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1300&quot;&gt;paper&lt;/a&gt;, the authors suggest a hierarchical annotation scheme for semantic parsing that allows the representation of compositional queries. Furthermore, they release a dataset of 44k annotated queries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keynote-ii-understanding-the-news-that-moves-markets&quot;&gt;Keynote II: Understanding the News that Moves Markets&lt;/h2&gt;
+
+&lt;p&gt;This keynote was presented by Gideon Mann (Bloomberg). The key ideas are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The talk deals with financial technology, the news that moves the markets, computer things, etc.&lt;/li&gt;
+  &lt;li&gt;The importance of real time NLP on news data to understand and influence markets: speed and precision requirements.&lt;/li&gt;
+  &lt;li&gt;News generation on-demand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Find more on the &lt;a href=&quot;https://drive.google.com/file/d/183r_3X3yzDhEWM43e2pOoS_w3kUxJbaR/view?usp=sharing&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;8a-text-categorization&quot;&gt;8A: Text Categorization&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Zero-shot User Intent Detection via Capsule Neural Networks&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1348&quot;&gt;paper&lt;/a&gt; aims to solve the annotation problem in intents’ detection, in order to work on intents where no labeled utterances are available. Thus, the authors propose two   capsule-based   architectures: INTENT-CAPSNET (extracts semantic features from utterances and aggregates them to discriminate existing  intents)  and  INTENTCAPSNET-ZSL (gives  INTENT-CAPSNET the  zero-shot learning  ability  to  discriminate  emerging  intents via knowledge transfer from existing intents).&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Hierarchical Neural Networks for Sequential Sentence Classification in Medical Scientific Abstracts&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1349&quot;&gt;paper&lt;/a&gt; suggests a hierarchical sequential labeling network to make use of the contextual information within surrounding sentences and help classify the current sentence.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Investigating Capsule Networks with Dynamic Routing for Text Classification&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1350&quot;&gt;paper&lt;/a&gt; shows that capsule networks exhibit significant improvement when transferring single-label  to  multi-label text classification over the competitors.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Topic Memory Networks for Short Text Classification&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1351&quot;&gt;paper&lt;/a&gt; proposes topic memory networks for short text classification with a novel topic memory mechanism to encode latent topic representations indicative of class labels.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Few-Shot and Zero-Shot Multi-Label Learning for Structured Label Spaces&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1352&quot;&gt;paper&lt;/a&gt; perform a fine-grained evaluation to explain how state-of-the-art methods perform on infrequent labels.  They also develop few- and zero-shot methods for multi-label text classification when there is a known structure over the label space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;day-5-november-4th-2018&quot;&gt;Day 5: November 4&lt;sup&gt;th&lt;/sup&gt;, 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;9b-sentiment-i&quot;&gt;9B: Sentiment I&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Sentiment Classification towards Question-Answering with Hierarchical Matching Network&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1401&quot;&gt;paper&lt;/a&gt; proposes a novel task/method to address QA sentiment analysis. The authors create a high-quality annotated corpus with specially-designed annotation guidelines for QA-style sentiment classification.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Cross-topic Argument Mining from Heterogeneous Sources&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1402&quot;&gt;paper&lt;/a&gt; propose a new sentential annotation scheme that is reliably applicable by crowd workers to arbitrary Web texts. They also open source annotations for over 25k instances covering 8 controversial topics.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction and They Are Both Weakly Supervised&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1403&quot;&gt;paper&lt;/a&gt; combines two weakly supervised components to identify salient opinions and form extractive summaries from multiple reviews.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;CARER: Contextualized Affect Representations for Emotion Recognition&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1404&quot;&gt;paper&lt;/a&gt; proposes a semi-supervised, graph-based algorithm to produce rich structural descriptors which serve as the building blocks for constructing contextualized affect representations from text.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;[TACL] Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://emnlp2018.org/downloads/tacl-papers/EMNLP-TACL04.pdf&quot;&gt;paper&lt;/a&gt; proposes an Adversarial Deep Averaging Network (ADAN) to transfer the knowledge learned from labeled data on a resource-rich source language to low-resource languages where only unlabeled data exists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;10a-question-answering-iii&quot;&gt;10A: Question Answering III&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1452&quot;&gt;paper&lt;/a&gt; address  jointly  two  tasks for Question Answering  in  community  forums: given  a  new  question, find  related  existing  questions  AND find  relevant  answers to this new question.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;What Makes Reading Comprehension Questions Easier&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1453&quot;&gt;paper&lt;/a&gt; investigate what makes questions easier across recent 12  MRC  datasets  with  three  question  styles (answer  extraction,   description,   and  multiple  choice).&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Commonsense for Generative Multi-Hop Question Answering Tasks&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1454&quot;&gt;paper &lt;/a&gt; focus on a challenging multi-hop generative task (NarrativeQA), which requires the model to reason, gather, and synthesize disjoint pieces of information within the context  to  generate  an  answer.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Open Domain Question Answering Using Early Fusion of Knowledge Bases and Text&lt;/span&gt;&lt;/em&gt;: The authors of this &lt;a href=&quot;http://aclweb.org/anthology/D18-1455&quot;&gt;paper&lt;/a&gt; investigate QA over the combination of a KB and entity-linked text, which is appropriate when an incomplete KB is available with a large text corpus.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;A Nil-Aware Answer Extraction Framework for Question Answering&lt;/span&gt;&lt;/em&gt;: In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1456&quot;&gt;paper&lt;/a&gt;, the authors focus on developing QA systems that can extract an answer for a question if and only if the associated passage contains an answer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keynote-iii-the-moment-of-meaning-and-the-future-of-computational-semantics&quot;&gt;Keynote III: The Moment of Meaning and the Future of Computational Semantics&lt;/h2&gt;
+
+&lt;p&gt;This keynote was presented by Johan Bos (University of Groningen). The key ideas are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motivations include: Future language technology requires semantic interpretation (Explainable NLP) and better MT evaluation.&lt;/li&gt;
+  &lt;li&gt;Integrating lexical with formal semantics, language neutral semantic annotation and multilingual models.&lt;/li&gt;
+  &lt;li&gt;Future directions for semantics:
+    &lt;ul&gt;
+      &lt;li&gt;Computational semantics: more resources for inference, explainable NLP and thinking more “multilingual”.&lt;/li&gt;
+      &lt;li&gt;Adding meaning to MT: outperform BLEU and verify translation with semantic parsing.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Find more on the &lt;a href=&quot;https://drive.google.com/file/d/1xr8bnf1VnUZP9Ew1h8fjKCEs5InHhNps/view?usp=sharing&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;best-paper-awards&quot;&gt;Best Paper Awards&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Best Long papers:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Linguistically-Informed Self-Attention for Semantic Role Labeling&lt;/span&gt;&lt;/em&gt;: In this &lt;a href=&quot;http://aclweb.org/anthology/D18-1548&quot;&gt;paper&lt;/a&gt;, the authors present linguistically-informed self-attention (LISA): a neural network model that combines multi-head self-attention with multi-task learning across dependency parsing, part-of-speech tagging, predicate detection and SRL.&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Phrase-Based &amp;amp; Neural Unsupervised Machine Translation&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1549&quot;&gt;paper&lt;/a&gt; investigates how to learn to translate when having access to only large monolingual corpora in each language. The authors propose two model variants, a neural and a phrase-based model.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Best short paper:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;How Much Reading Does Reading Comprehension Require? A Critical Investigation of Popular Benchmarks&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1546&quot;&gt;paper&lt;/a&gt; gives baselines for  the  bAbI,  SQuAD,  CBT,  CNN,  and  Who-did-What datasets,  finding that question- and passage-only  models  often  perform  surprisingly  well.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Best resource paper:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling&lt;/span&gt;&lt;/em&gt;: This &lt;a href=&quot;http://aclweb.org/anthology/D18-1547&quot;&gt;paper&lt;/a&gt; introduces the Multi-Domain Wizard-of-Oz dataset (MultiWOZ), a fully-labeled collection of human-human written conversations spanning over multiple domains and topics.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;other-resources&quot;&gt;Other resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blackboxnlp.github.io/&quot;&gt;Link&lt;/a&gt; to the “Black Box NLP” tutorial.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/allenai/writing-code-for-nlp-research-emnlp2018&quot;&gt;Link&lt;/a&gt; to the “Writing Code for NLP Research” tutorial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Blog posts:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sebastian Ruder: &lt;a href=&quot;http://ruder.io/emnlp-2018-highlights/&quot;&gt;EMNLP 2018 Highlights: Inductive bias, cross-lingual learning, and more.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Patrick Lewis: &lt;a href=&quot;https://www.patricklewis.io/post/emnlp2018/&quot;&gt;EMNLP 2018&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;i&gt;This article was shared privately on 2018-12-05 and publicly on 2024-05-19.&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">In this post, I share my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31th to November 4th 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2nd to November 3rd 2018.</summary></entry><entry><title type="html">Building Parallel Corpora Using Cross-Lingual BOW</title><link href="/Building-Parallel-Corpora-CLBOW" rel="alternate" type="text/html" title="Building Parallel Corpora Using Cross-Lingual BOW" /><published>2018-07-13T07:25:36+00:00</published><updated>2018-07-13T07:25:36+00:00</updated><id>/Building-Parallel-Corpora-CLBOW</id><content type="html" xml:base="/Building-Parallel-Corpora-CLBOW">&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
+Consequently, there has been many works suggesting different methods to build
+bilingual corpora, leading to the construction of reliable training datasets for
+machine translation systems.&lt;/p&gt;
+
+&lt;p&gt;However, the problem is still prominent for the below use-cases:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Low-resource setup: Although for some language pairs, we have parallel datasets with a convenient size (e.g. around 50M sentences for French - English), this is not the case for all language pairs. Indeed, low resource languages do not have as much parallel data making it hard to
+train reliable translation models to and from these languages.&lt;/li&gt;
+  &lt;li&gt;Specialization setup: Furthermore, machine translation is sensitive to context. Thus, any available specialized data can have a strong influence on the model’s performance for a specific domain. For instance, using medical data when training the model enhances its performance on prescriptions’ translation. Note that there are various &lt;a href=&quot;https://arxiv.org/abs/1612.06140&quot;&gt;domain control&lt;/a&gt; strategies for machine translation, such as adding the domain tag as an additional feature or adding a special token to the sentence when training and translating; this is not, however, the core of this article.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Due to the aforementioned reasons, there is still room for designing and implementing solutions for building parallel corpora. In the following sections, I present a solution for matching multilingual documents in order to construct a parallel corpus.&lt;/p&gt;
+
+&lt;h2 id=&quot;clbow-cross-lingual-bag-of-words&quot;&gt;CLBOW: Cross-Lingual Bag-Of-Words&lt;/h2&gt;
+
+&lt;p&gt;When designing an algorithm to match cross-lingual documents, the first reflex is
+to represent all available documents in numerical vectors. However, to compare
+these documents, the vectorial representations should be language-independent
+or cross-lingual, meaning that semantically similar documents should be close
+in the multidimensional representation space.&lt;/p&gt;
+
+&lt;p&gt;Although most recent research &lt;a href=&quot;https://arxiv.org/abs/1710.04087&quot;&gt;works&lt;/a&gt; focus on multilingual word embeddings as a numerical representation of text data, here we present a generalization of
+Bag-Of-Words to a cross-lingual setup, where we represent all documents in the same space irrespectively of their language. Below is the explicit implementation of the algorithm:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/algo1.png&quot; alt=&quot;Implementation of CLBOW: Cross-Lingual Bag of Words&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Illustration of Cross-Lingual Bag-Of-Words (CLBOW):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cbow.png&quot; alt=&quot;Illustration of CLBOW: Cross-Lingual Bag-Of-Words&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In the above illustration, the decoding of only two languages is presented for simplicity purposes; nevertheless the suggested implementation is extended to many languages.&lt;/li&gt;
+  &lt;li&gt;Furthermore, it can handle polysemy since at each decoding step t, not only one translation of the word wt is considered but its different translations.&lt;/li&gt;
+  &lt;li&gt;This version of BOW can provide both binary and numerical representation of the documents. By numerical, I refer to the extension of TF-IDF (Term Frequency - Inverse Document Frequency) to a cross-lingual setup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application-to-parallel-corpora-construction&quot;&gt;Application to parallel corpora construction&lt;/h2&gt;
+&lt;p&gt;Thanks to the previous algorithm, cross-lingual vectorial representations of the documents are calculated. Afterwards, a search for the closest document of a different language is performed using the minimization of the cosine distance and with regards to a threshold corresponding to the typical length ratio for the language pair. For instance, this threshold is equal to 1.5 for French-English bilingual corpora. A maximum accepted distance between a document and a candidate translated version is also considered, to discriminate documents having the same template (headers, footers, etc.). In my various experiments, this threshold is equal to 0.6.&lt;/p&gt;
+
+&lt;p&gt;Using this method, classes of equivalence representing each the multilingual
+versions of the same document are retrieved. For example, a class of equivalence
+can be represented as the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'fr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Regle FR 29-01-2018.pdf'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+ &lt;span class=&quot;s&quot;&gt;'en'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'CS1548325.pdf'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+ &lt;span class=&quot;s&quot;&gt;'pt'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Regra 29-01-2018.pdf'&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'fr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Doc 12052005.pdf'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'en'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'To print.pdf'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'de'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'pr12052005.pdf'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Below is the detailed algorithm:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/algo2.png&quot; alt=&quot;Multilingual document matching&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To build bilingual corpora, I consider sequentially pairs of languages. Then on each pair of documents, I apply sentence alignment using the algorithm &lt;a href=&quot;http://mt-archive.info/AMTA-2010-Sennrich.pdf&quot;&gt;BLEUAlign&lt;/a&gt;. This will provide a bilingual parallel corpus for each data source relevant to a specific domain. These corpora are then used to train and specialize machine translation systems and using them enabled a good enhancement in &lt;a href=&quot;https://www.aclweb.org/anthology/P02-1040&quot;&gt;BLEU&lt;/a&gt; score. Generally, if ∆BLEU is the difference between the BLEU on a standard dataset and a specialized dataset of the general model, you should expect to gain around ∆BLEU on the specialized dataset using the augmented model.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The here-presented pipeline enabled the construction of a specialized bilingual corpus, that I used to enhance the performance of translation models both on standard datasets and on specialized data (financial, medical, etc.). Other improvements are however to be tested in the near future, including neural encoding of multilingual documents.&lt;/p&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">Training machine translation models requires a huge amount of parallel data. Consequently, there has been many works suggesting different methods to build bilingual corpora, leading to the construction of reliable training datasets for machine translation systems.</summary></entry><entry><title type="html">Clause Augmentation for Better NMT</title><link href="/Clause-Augmentation-for-Better-NMT" rel="alternate" type="text/html" title="Clause Augmentation for Better NMT" /><published>2018-04-01T07:25:36+00:00</published><updated>2018-04-01T07:25:36+00:00</updated><id>/Clause-Augmentation-for-Better-NMT</id><content type="html" xml:base="/Clause-Augmentation-for-Better-NMT">&lt;p&gt;Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;eos&amp;gt;&lt;/code&gt; will not be high enough to stop the output generation when translating a short sequences.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Illustration of n-grams repetition on clauses translation:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; et il croit depuis lors a un taux de 5 %&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Translation:&lt;/strong&gt; since then and since then at 5 % at 5 %&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To solve this problem, a possible solution is augmenting the training parallel corpus with sequences of a smaller length, typically one-word examples (using bilingual dictionaries) and sub-sentences. To generate the sub-sentences, two important steps are considered:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First, detect and segment clauses in long sentences.&lt;/li&gt;
+  &lt;li&gt;Second, retrieve the clauses exact translation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;clause-detection-and-segmentation&quot;&gt;Clause detection and segmentation&lt;/h2&gt;
+&lt;p&gt;In neural machine translation, sentences with more that 50 tokens are usually dropped. According to many research &lt;a href=&quot;https://arxiv.org/abs/1409.0473&quot;&gt;papers&lt;/a&gt;, sentences with such length harm the performance. As a consequence, an approach is suggested to segment these sentences to clauses and thus use them while training instead of simply dropping them. The first task is detecting clauses in long sentences. To do so, linguistic rules, specific to each language that mark the beginning / end of a clause, are needed.
+These rules are formulated within a Treebank.&lt;/p&gt;
+
+&lt;p&gt;In linguistics, a treebank is a syntactic or semantic sentence structure annotator. The introduction of the first parsed corpora in the 90s, revolutionized computational linguistics, particularly after publishing &lt;a href=&quot;https://repository.upenn.edu/cgi/viewcontent.cgi?article=2068&amp;amp;context=cis_reports&quot;&gt;Penn Treebank&lt;/a&gt;, the first large-scale treebank. Indeed, annotated treebank data has been crucial in syntactic research to test linguistic theories of sentence structure. In addition, there are variants of treebanks, including phrase structure annotators and dependency structure annotators. Note that in these experiments, phrase structure annotators are used.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/anno.jpg&quot; alt=&quot;Variants of syntactic treebanks&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this experiment deals with French to English translation scenario, a French Treebank is needed. Due to license constraints and the need for phrase annotators, Paris 7 French Treebank was chosen. This Treebank was initiated in 1997, with the collaboration of IUF, CNRS and CNRTL. It consists of 1 million words of the newspaper Le Monde (1989-1995). The full list of the generated tags is accessible &lt;a href=&quot;http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clauses segmentation:&lt;/strong&gt; The first step is identifying the usually dropped sentences, those with more than 50 tokens (words). Afterwards, these sentences are annotated each with phrase tags using the French treebank. Below is an example for both French and English:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tree.png&quot; alt=&quot;Clause detection and segmentation: French and English examples&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To select the clauses, specific tags are selected:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Selected tags for English:
+    &lt;ul&gt;
+      &lt;li&gt;S: simple declarative clause, i.e. one that is not introduced by a subordinating conjunction or a wh-word and that does not exhibit subject-verb inversion.&lt;/li&gt;
+      &lt;li&gt;SBAR: Clause introduced by a subordinating conjunction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Selected tags for French:
+    &lt;ul&gt;
+      &lt;li&gt;Ssub: subordinate clause (“completive”, indirect interrogative, circumstantial subordinate)&lt;/li&gt;
+      &lt;li&gt;Sint: clause “conjuguee interne” (coordinated, direct speech, incise)&lt;/li&gt;
+      &lt;li&gt;PP: prepositional phrase&lt;/li&gt;
+      &lt;li&gt;Srel: relative proposition (starting with a relative pronoun)&lt;/li&gt;
+      &lt;li&gt;COORD: coordinated phrase&lt;/li&gt;
+      &lt;li&gt;VPinf: infinitive proposition (starting with a preposition)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using these tags, the long sentences are segmented to the clauses that form them. So, whenever a new tag is encountered, when visiting the different nodes of the parsing tree, a new clause is generated. This segmentation step results in a corpus of short sequences in the source language. Now, the exact translations for these clauses have to be generated.&lt;/p&gt;
+
+&lt;h2 id=&quot;synthetic-translation-of-the-extracted-clauses&quot;&gt;Synthetic translation of the extracted clauses&lt;/h2&gt;
+&lt;p&gt;To translate the clauses, the original model can’t be used because it doesn’t handle short sequence translations and would generate n-gram repetition. However, in this section, a method allowing quality translation for sub-sentences is presented. Eventually, this proposed approach generates a bilingual corpus of short sequences / phrases.&lt;/p&gt;
+
+&lt;p&gt;Below are the different steps applied to get the clauses’ translation:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Using the original model, translate the original long sentences, from which we previously extracted the clauses.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Extract the attention weights generated by the previous translations. The attention weights are denoted αij , representing the contribution of word i on the source side in the translation of word j in the target side. Note that i ranges from 1 to length of the source sentence, here denoted n; j ranges from 1 to length of the target sentence, here denoted m. See below an example of attention weights generated with translation:*&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/Image1.png&quot; alt=&quot;Attention weights generated with translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Here the source sentence is “Nous esperons qu’ il s’agit la d’une preuve de sa pertinence politique.” and the target prediction is “We hope that this is proof of its political relevance.”. Each cell αij , where 1 ≤ i ≤ n, 1 ≤ j ≤ m: n being the length of the source sentence and m being the length of the target sentence, represents the contribution of target word j in the translation of the source word i. Note that the lighter the cell, the more important the attention weight. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Important remark:&lt;/strong&gt; Here, the matrix is predominantly &lt;strong&gt;diagonal&lt;/strong&gt;: this indicates how much the French and English languages are aligned. An example of the attention matrix corresponding to non-aligned languages (Japanese to English) can be seen in the below figure.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/Image12.png&quot; alt=&quot;Attention matrix of Japanese to English translation&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Furthermore, some &lt;strong&gt;anti-diagonal&lt;/strong&gt; sections in the matrix can be observed, these are due to the difference in the order of adjective compounds between French and English, e.g. “pertinence politique” is translated to “political relevance”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Apply the following algorithm to retrieve the clauses’ translation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/algo.png&quot; alt=&quot;Clauses synthetic translation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the thresholds 0.4 and 0.7 are selected after experiments on the alignment
+between French and English languages. See below an illustration of synthetic translation of the first clause “Nous esperons”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Image2.png&quot; alt=&quot;Illustration of synthetic translation of the first clause 'Nous esperons'&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that, in the graph on the right, the horizontal axis represents the position of words in the target sentence and the vertical axis represents the contribution of the corresponding target word in the translation of the clause (here: “Nous esperons”). The image below illustrates the &lt;em&gt;Information transfer through the source and target sentences:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/transfer.png&quot; alt=&quot;Information transfer through the source and target sentences.&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;model-training-with-clauses&quot;&gt;Model training with clauses&lt;/h2&gt;
+&lt;p&gt;Using the previously described processes, a bilingual corpus of clauses is constructed. However, in the following experiment, only 35,821 clauses are used, which makes around 3% of the available clauses. Furthermore, each set of clauses is concatenated to the corresponding corpus among the source (French) and the target (English). Afterwards, the two corpora are jointly randomized so that
+the clauses are not located just in the end of the data set, but spread along the corpus. Then, the model is retrained during 13 epochs with the baseline setup: 2.5 million parallel sentences, 4 bidirectional LSTM attentional encoder-decoder architecture with 500 as embedding size, 500 as number of hidden units and 5 as beam size.&lt;/p&gt;
+
+&lt;h2 id=&quot;results-and-discussion&quot;&gt;Results and discussion&lt;/h2&gt;
+&lt;p&gt;Below, I present the scores obtained using this method on WMT 2015 test set and on a test set of clauses out-of-sample.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Experiment       &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;WMT BLEU      &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Clauses BLEU&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Baseline       &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28.41      &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;49.73&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Augmented model      &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28.85      &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;58.31&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Quantitative discussion:&lt;/strong&gt; Integrating the clauses improves the performance with 0.44 BLEU on WMT 2015 and 8.58 BLEU on a test set of clauses. Note that in this experiment, only 3% of the available clauses are used. &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Qualitative discussion:&lt;/strong&gt; Integrating the clauses has an influence mostly on translating short sequences. The method was suggested to solve the problem of n-gram repetition and indeed it did. Below is an example illustrating how the augmented model translates short sequences:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; et il croit depuis lors a un taux de 5 % &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Baseline translation:&lt;/strong&gt; since then and since then at 5 % at 5 % &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Augmented model:&lt;/strong&gt; and it has been growing since then at a rate of 5 % &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Taycir Yahmed</name></author><summary type="html">Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token &amp;lt;eos&amp;gt; will not be high enough to stop the output generation when translating a short sequences.</summary></entry></feed>

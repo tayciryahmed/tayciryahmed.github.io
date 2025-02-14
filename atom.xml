@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Software Engineer, Machine Learning</description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>Mastering the Tech Interview: A Comprehensive Guide to Success</title>
+        
+          <description>&lt;p&gt;Throughout my career, I have gained extensive experience in technical interviews, having been on both sides of the process – as an interviewer and an interviewee. I have had the privilege of interviewing at renowned companies such as Amazon, Apple, Google, Microsoft, and LinkedIn, among others. During these interactions, I have achieved an onsite-to-offer conversion rate exceeding 80%.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 27 May 2024 10:30:36 +0000</pubDate>
+        <link>
+        /tech-interviews-guide</link>
+        <guid isPermaLink="true">/tech-interviews-guide</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>ACL 2020 Highlights: Interpretability, Evaluation and more.</title>
+        
+          <description>&lt;p&gt;This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Jul 2020 21:03:36 +0000</pubDate>
+        <link>
+        /acl2020</link>
+        <guid isPermaLink="true">/acl2020</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>ACL 2019 Highlights</title>
+        
+          <description>&lt;p&gt;This post discusses highlights of the main conference of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL 2019). Note that these notes are written with business applications in mind.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Aug 2019 21:03:36 +0000</pubDate>
+        <link>
+        /acl2019</link>
+        <guid isPermaLink="true">/acl2019</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>mcQA - Multiple Choice Question Answering</title>
+        
+          <description>&lt;p&gt;mcQA is a multiple choice question answering python library, using Language Models.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 10 Jul 2019 07:25:36 +0000</pubDate>
+        <link>
+        /mcQA</link>
+        <guid isPermaLink="true">/mcQA</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>EMNLP 2018 Highlights</title>
+        
+          <description>&lt;p&gt;In this post, I share my notes from the conference on Empirical Methods for Natural Language Processing, which took place in Brussels, Belgium, from October 31&lt;sup&gt;th&lt;/sup&gt; to November 4&lt;sup&gt;th&lt;/sup&gt; 2018. The tutorials, workshops and collocated conferences took place on the first two days. The main conference took place from November 2&lt;sup&gt;nd&lt;/sup&gt; to November 3&lt;sup&gt;rd &lt;/sup&gt;2018.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 Dec 2018 10:25:36 +0000</pubDate>
+        <link>
+        /emnlp2018</link>
+        <guid isPermaLink="true">/emnlp2018</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Building Parallel Corpora Using Cross-Lingual BOW</title>
+        
+          <description>&lt;p&gt;Training machine translation models requires a huge amount of parallel data.
+Consequently, there has been many works suggesting different methods to build
+bilingual corpora, leading to the construction of reliable training datasets for
+machine translation systems.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 Jul 2018 07:25:36 +0000</pubDate>
+        <link>
+        /Building-Parallel-Corpora-CLBOW</link>
+        <guid isPermaLink="true">/Building-Parallel-Corpora-CLBOW</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Clause Augmentation for Better NMT</title>
+        
+          <description>&lt;p&gt;Most public parallel corpora are formed of long sentences. Consequently, neural translation models tend to generate a long output with n-grams repetition, even when they are exposed to a short sequence or a one-word example. This causes the repetition problem, explained by the fact that none of the neurons learns the representation of length, thus the model generates a long sequence by default. In other terms, the probability of appearance of the end-of-sentence token &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;eos&amp;gt;&lt;/code&gt; will not be high enough to stop the output generation when translating a short sequences.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Apr 2018 07:25:36 +0000</pubDate>
+        <link>
+        /Clause-Augmentation-for-Better-NMT</link>
+        <guid isPermaLink="true">/Clause-Augmentation-for-Better-NMT</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>ACL 2020 Highlights: Interpretability, Evaluation and more.</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Software Engineer, Machine Learning" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png?" type="image/png" />
+    <link rel="canonical" href="/acl2020" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Taycir Yahmed" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ACL 2020 Highlights: Interpretability, Evaluation and more." />
+    <meta property="og:description" content="This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions. For the first time ever, this" />
+    <meta property="og:url" content="/acl2020" />
+    <meta property="og:image" content="/assets/images/seattle.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2020-07-17T21:03:36+00:00" />
+    <meta property="article:modified_time" content="2020-07-17T21:03:36+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ACL 2020 Highlights: Interpretability, Evaluation and more." />
+    <meta name="twitter:description" content="This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions. For the first time ever, this" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="/assets/images/seattle.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Taycir Yahmed" />
+    <meta name="twitter:site" content="@TaycirYahmed" />
+    <meta name="twitter:creator" content="@TaycirYahmed" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Taycir Yahmed",
+        "logo": "/"
+    },
+    "url": "/acl2020",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/seattle.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/acl2020"
+    },
+    "description": "This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions. For the first time ever, this"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="ACL 2020 Highlights: Interpretability, Evaluation and more." href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/">Taycir Yahmed</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-arabic-nlp" role="menuitem"><a href="https://abjed.github.io/Arabic-NLP-resources/">Arabic NLP Resources</a></li>
+    <li class="nav-arabic-terms" role="menuitem"><a href="https://abjed.github.io/Arabic-Scientific-Technical-Terms/">Arabic Scientific and Technical Terms</a></li>
+    <!--<li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>-->
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TaycirYahmed" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://www.linkedin.com/in/taycir" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path fill="#FFFFFF" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" /></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://github.com/tayciryahmed" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+</svg>
+</a>
+            
+        </div>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="17 July 2020">17 July 2020</time>
+                    
+                </section>
+                <h1 class="post-full-title">ACL 2020 Highlights: Interpretability, Evaluation and more.</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/assets/images/seattle.jpg)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>This post discusses highlights of the main conference of the 2020 Annual Meeting of the Association for Computational Linguistics (ACL 2020). The conference accepted 779 papers with an acceptance rate of 22.7%, had 25 tracks along with demo sessions, virtual meetups and mentoring sessions.</p>
+
+<p>For the first time ever, this year’s ACL conference has a special theme with a dedicated session and award: <strong>Taking Stock of Where We’ve Been and Where We’re Going</strong>. The theme surely highlights the current state of the field. Indeed, the NLP research community has been pushing boundaries in terms of performance (<a href="https://gluebenchmark.com/leaderboard/">GLUE</a> benchmark), innovative architectures (transformer, BERT &amp; co), quick access to SOTA (HuggingFace’s <a href="https://github.com/huggingface/transformers">transformers</a>) and model sizes (<a href="https://arxiv.org/abs/2005.14165">GPT-3:</a> 175B parameters). As declared by <a href="https://twitter.com/ClementDelangue/status/1283411618395815936">Clement Delangue</a>, Co-Founder and CEO of HuggingFace: “NLP is going to be the most transformational tech of the decade!” But at this growth pace, ACL Program Co-Chairs deemed healthy for the research community to take a step back and reflect on the current state of the field, to avoid getting stuck in suboptimal solutions and consciously chart out the roadmap for future research directions.</p>
+
+<p>In addition to the insightful theme choice, the Co-Chairs introduced 4 additional tracks including: <a href="https://acl2020.org/blog/the-first-call-for-papers-is-out/"><strong>Ethics and NLP</strong> &amp; <strong>Interpretability and Analysis of Models for NLP</strong></a>. Indeed, after many sessions and workshops in the previous *CL events, the community is making it clear that responsible and ethical models are crucial as more NLP models are deployed in production and driving decisions that impact people’s lives. Moreover, as research works continue to push performance boundaries, interpreting and analysing models have become more relevant in order to understand the models inner mechanisms and learn about the secret ingredients for their performance.</p>
+
+<p>We can see in the box-plot of views by area, sorted by median (credit: Yoav Goldberg) below, that the most popular tracks in ACL 2020 are (1) Interpretability and Analysis of Models for NLP, (2) Theme, (3) Cognitive Modeling and Psycholinguistics and (4) Ethics and NLP.</p>
+
+<p><img src="/assets/images/acl2020graph.png" alt="Views box-plot by area, sorted by median (by Yoav Goldberg)" width="600" /></p>
+
+<p><em>Note that the graph corresponds to a <a href="https://twitter.com/yoavgo/status/1282459579339681792">snapshot</a> of the views on Jul 13, 2020. For readability, 3 outliers were removed with 416 (Linzen et al), 533 (Gururangan et al) and 970 (Bender and Koller) views.</em></p>
+
+<p>Below are the topics on which I focused this year:</p>
+
+<ul>
+  <li>Theme and Robust Evaluation</li>
+  <li>Analysis and Interpretability</li>
+</ul>
+
+<h2 id="theme-and-robust-evaluation">Theme and Robust Evaluation</h2>
+
+<p>The theme <em>Taking Stock of Where We’ve Been and Where We’re Going</em> illustrates the desire of the NLP community to make sure the current trend of training Machine Learning models to solve NLP problems, does not lead to a locally optimal state of the field’s progress. This takes us back to the 90s, when introducing statistical methods to computational linguistics raised discussions between protagonists from both sides claiming the advantages of each approach. But, this is still a very interesting approach, since taking this step back to reflect on what the community needs to tackle, should put it back on track to building more insightful and fair models. As a matter of fact, during the past year, we have seen a trend of training ever bigger transformers on ever bigger datasets to break benchmark leaderboards, in a metrics-obsessed approach to research. This trend comes with its costs, financial (training <a href="https://arxiv.org/abs/2005.14165">GPT-3</a> would cost $4.6M on a tesla V100 cloud instance), but also environmental and ethical. Indeed, so few groups have access to as much computational power and resources, which narrows the research competition. It also raises the question if bigger-is-better a scientific approach. To <a href="https://twitter.com/fchollet/status/1122330598968705025">quote</a> François Chollet: “Training ever bigger convnets and LSTMs on ever bigger datasets gets us closer to Strong AI – in the same sense that building taller towers gets us closer to the moon”. Though, it is agreed upon that these methods are the result of impressive engineering achievements, e.g. <a href="https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/">Turing-NLG</a> is the result of developing <a href="https://github.com/microsoft/DeepSpeed"><code class="highlighter-rouge">DeepSpeed</code></a>, a deep learning optimization library for distributed training. Moreover, they are promising methodologies for zero, one and few shots learning, which is useful for many NLP applications. Nonetheless, the community is clearly having an existential moment and doing some introspection to bypass this metrics-driven paradigm, in the quest to achieve human NLP ability in machines. Indeed, several talks argue that focusing on metrics drives us away from real linguistic challenges in the distribution’s tail and that models, though beat human performance with respect to metrics, are unable to handle trivial examples for the human mind. For instance, <a href="https://www.aclweb.org/anthology/2020.acl-main.463.pdf">Bender and Koller</a> show in their <em>theme winning</em> paper that meaning cannot be learnt from form. As a consequence, “the language modeling task, because it only uses form as training data, cannot in principle lead to learning of meaning”. They also shared a word of caution in their talk about using terms like “comprehension”, “understanding” and “meaning” when describing models capabilities.</p>
+
+<p>Over the last few years, the main paradigm of many research papers has been to train large scale models and evaluate them on test sets that are similar to the training sets, leading many to believe that we are solving datasets not tasks. Indeed, in her keynote Kathy McKeown emphasizes that leaderboards are not always helpful to advance the field, because benchmarks capture the head of the distribution whereas the most challenging aspects are in its tail. The keynote goes through the present, past and future of the field as perceived by some of the most renowned NLP researchers. In particular, McKeown tries to depict the current state of the field being dominated by the achievements of deep neural networks. As a matter of fact, DNNs enable us to robustly solve many applications compared to other models and ensure a good performance using simpler models for tasks like machine translation, summarization and dialogue, making it simpler to deploy, build and democratize AI. Other researchers also praise the ingenuity of the attention mechanism and the success of generative models compared to n-gram approaches, in addition to the undeniable success of DNN in NLP benchmarks and representation learning. But, if we take a step back to the past of NLP to visualize the bigger picture, we find that the field used to rely extensively on looking at individual examples and little details. The evaluation used to be limited to manually examining outputs at a small scale and seek relevant conclusions in the distribution’s tail. Thus, McKeown puts the building blocks for the future by inviting the research community to focus on tasks that cannot be solved by deep learning or those for which we need to develop new methods. She also called for bringing data back to NLP by looking closely at examples, carefully analyzing them, and solving challenging problems that matter not just for which we have pre-built data sets. As for language generation, she points out that neural generators do not speak with purpose, say what they mean, choose words, form sentence structures intentionally or plan long text, like humans do. Finally, she concluded with the importance of the interdisciplinary parts of language, and advised that we should put more effort into the interpretability and analysis of outputs.</p>
+
+<p>Along with the theme, evaluation is an important track in ACL 2020 with numerous thought-provoking papers. Many tackled the need to look at the data and analyze the errors when evaluating models. In her Lifetime Achievement Award speech, Bonnie Webber suggests that even something as trivial as looking at both precision and recall instead of F1 score can help in understanding the model’s weaknesses and strengths. In machine translation, for instance, it has been a common practice to compare machine outputs to human translations and calculate the BLEU score (dating back to 2002). However, in recent years, many works suggest the inadequacy of such a metric and call for more robust evaluation of machine translation systems. <a href="https://www.aclweb.org/anthology/2020.acl-main.448/">Mathur et al.</a> highlight potential problems in the current best practices for assessing evaluation metrics and show that current methods are highly sensitive to the used translations. In addition, the overall best paper by <a href="https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf">Ribeiro et al.</a> shows that while evaluating generalization via held-out test sets is useful, it has drawbacks including the overestimation of a model’s capability and the inability to determine its pain points. Thus, they propose a more comprehensive evaluation methodology which is model and task-agnostic, inspired from unit testing in software engineering and dubbed CheckList. The approach illustrates the behavioral testing principle of “decoupling testing from implementation” by treating the model as a black box, allowing the comparison of different models trained on different data sets. The authors also <a href="https://github.com/marcotcr/checklist">provide</a> templates and other abstractions, allowing the users to generate a large number of test cases easily.</p>
+
+<h2 id="analysis-and-interpretability">Analysis and Interpretability</h2>
+
+<p>Interpretability is absolutely essential to natural language processing, in order to understand models but also make applications more robust, fair and reliable. Indeed, the end-to-end fashion is predominant in language applications, requiring more efforts on accountability, trust, bias, and <a href="https://en.wikipedia.org/wiki/Right_to_explanation">right to explanation</a>. The Interpretability and Analysis in Neural NLP <a href="https://slideslive.com/38928626/interpretability-and-analysis-in-neural-nlp">tutorial</a> by Belinkov, Gehrmann and Pavlick gives an overview of the toolbox of interpretability. First, structural analysis suggests ways to understand what the model has learnt in its internal representations. The main approach is to use probing classifiers, which prove that a layer from a network trained to do a task A can predict a feature B. For example, A can be machine translation and B some linguistic features such as POS or morphological tags. Another idea is to change the activations so that the verb’s tense is changed, and afterwards measure the probability of predicting the pronouns he/she to check for gender bias. Although straightforward, these classifiers can be hard to evaluate, because there is no clear performance level for benchmarking, one can use SOTA or simply baselines. There is also recent work evaluating probing classifiers using code length, i.e. the number of bits to encode the probe. Another limitation of structural analysis can be the lack of causality or correlation between the probe and original model. As for behavioral analysis, they highlight tail phenomena through fine-grained checks and reward models that handle these hard exemples. This approach actually has a long history since the 90s, with ideas like designing test sets that are more adapted to ensure the model does not simply learn some artifacts. To do so, we can select test examples that are less likely to appear in train or simply replace words in sentences. The goal of this method is to make sure the models’ behavior is consistent with the examples they are given, and determine if the model fails in systematic ways. Besides, it is agnostic to the model’s structure and type since it focuses on creating challenge sets or probing sets, showcasing subject verb agreement, negation, antonyms, and other linguistic aspects. To design the challenge dataset, three methods are suggested. First, we can consider tight control by selecting pairs that are the same except for the phenomena we want to study, e.g. gender, negation or conjugation. Second, there is loose control by selecting many examples that illustrate a phenomena, then averaging on this set of interest. Third, we can choose adversarial examples with the objective of tricking the model. In addition, we can either construct these sets manually by having the models predict samples, then construct hard ones to trick it; or in a semi automatic fashion by filtering from an existing corpora, or in a complete automatic way. Nonetheless, these methods present limitations since they don’t determine if the models failure is due to its structure or the training data. Last but not least, there is visualization analysis, which allow us to understand the models, debug them, generate and test hypotheses about their behavior. However, these methods are harder to open source since they usually depend on the use case.</p>
+
+<p>For the first time ever, ACL co-chairs introduced the “Interpretability and Analysis” track this year, yet it accepted an impressive number of 36 papers. Among these papers, a common observation is that looking at attention weights has gone out of fashion. In contrast, many works demonstrate that attention weights do not provide reliable explanations. For instance, <a href="https://www.aclweb.org/anthology/2020.acl-main.432">Pruthi et al.</a> cast doubt on attention’s reliability as a tool for auditing algorithms and proved that it can deceive humans into thinking that a model is unbiased with regards to gender even though it is biased. Besides, <a href="https://www.aclweb.org/anthology/2020.acl-main.312">Sun et al.</a> make the observation that some words receive higher attention weights whilst other relevant words don’t receive high weights and if attention weights are not so interpretable, this does not lead to bad performance. Other papers suggest approaches such as providing the training examples that influenced the prediction the most as an explanation. <a href="https://www.aclweb.org/anthology/2020.acl-main.492">Han et al.</a> mention that we usually use gradients, saliency maps, Lime or attention for explanations. They suggest using influence functions which are basically the product of saliency maps with the gradient, and show that these functions are consistent for NLI and sentiment analysis and help identifying artifacts in the training set. In addition, some papers include human users in the interpretability process. On the one hand, <a href="https://www.aclweb.org/anthology/2020.acl-main.491">Hase and Bansal</a> measure the effect of an explainability method as its effect on Simulatability: “A model is simulatable when users can predict its outputs”. They evaluate several explanation methods, such as feature importance, case-based and latent space traversal; and conclude that Lime is a good approach for tabular data. On the other hand, <a href="https://www.aclweb.org/anthology/2020.acl-main.494">Chen et al.</a> suggest a hierarchical explanation of a model’s predictions by splitting the sequence at the lowest point given a score measuring the words interactions. The method proves to be better than shapley and lime in terms of coherence between human predictions given explanations and the model’s predictions. They argue that the previous methods are token based, thus we need a higher level explanation. Moreover, faithfulness is an important aspect required in interpretability methods. <a href="https://www.aclweb.org/anthology/2020.acl-main.386">Jacovi and Goldberg</a> list the multiple attributes we would like in an interpretation: readability (easy to understand), plausibility (can convince us of the result) and faithfulness (accurately describe the true reasoning of the model). They note that there is clearly a trade-off between faithfulness and readability: NN activations are faithful but not readable. Furthermore, the authors offer three guidelines for faithful interpretations: (1) Faithfulness is not Plausibility, (2) Evaluating interpretation using human input is plausibility not faithfulness, and (3) Claims are just claims until tested. They also state a list of assumptions that prove the interpretations are not faithful. For example, if models predict the same output, they have the same reasoning process, if a model makes a similar decision, its reasoning is similar, and that certain parts of the input can be significant to the decision independently from other parts. Furthermore, <a href="https://www.aclweb.org/anthology/2020.acl-main.382">Camburu et al.</a> note that generated natural language explanations are not necessarily faithful, i.e. they are inconsistent with the actual reasoning process of the model. They introduce a sanity checking framework for models robustness against generating inconsistent explanations. The main idea consists in training a reverse model ExplainAndPredictAttention that, given an explanation, generates the hypothesis then gets the explanation and checks if it is consistent with the original explanation. Last but not least, <a href="https://www.aclweb.org/anthology/2020.acl-main.408">DeYoung et al.</a> introduce a benchmark to evaluate interpretable models, with the hope to measure the progress of the field. The tasks range from classification (sentiment, claim verification, conditional classification, entailment e-snli) to question answering (boolean QA, common sense questions - multiple choice); while the metrics focus on plausibility and faithfulness.</p>
+
+<h2 id="see-also">See also</h2>
+<ul>
+  <li><a href="https://docs.google.com/document/d/1rQYAjY-jNKoQh8Z9-4NjqLF1_nAD7amr4sYH62eGPbU/edit#heading=h.lrgn79ao0for">Selection of papers from ACL-2020</a> by Yacine Jernite (HuggingFace)</li>
+  <li><a href="https://medium.com/@lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6">Interpretability and Analysis of Models for NLP @ ACL 2020</a> by Carolin Lawrence</li>
+  <li><a href="https://medium.com/analytics-vidhya/highlights-of-acl-2020-4ef9f27a4f0c">Highlights of ACL 2020</a> by Vered Shwartz (AI2 &amp; University of Washington)</li>
+  <li><a href="https://europe.naverlabs.com/blog/ten-emerging-topics-at-acl-2020/">Ten emerging topics at ACL 2020</a> by NAVER LABS</li>
+  <li><a href="https://towardsdatascience.com/knowledge-graphs-in-natural-language-processing-acl-2020-ebb1f0a6e0b1">Knowledge Graphs in Natural Language Processing @ ACL 2020</a> by Michael Galkin</li>
+</ul>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/taycir.jpg" alt="tayciryahmed" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/tayciryahmed">Taycir Yahmed</a></h4>
+                                
+                                    <p>Software Engineer, Maching Learning</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/tayciryahmed">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/tech-interviews-guide">
+                <div class="post-card-image" style="background-image: url(/assets/images/design.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/tech-interviews-guide">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">Mastering the Tech Interview: A Comprehensive Guide to Success</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/taycir.jpg" alt="Taycir Yahmed" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/tayciryahmed/">Taycir Yahmed</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/acl2019">
+                <div class="post-card-image" style="background-image: url(/assets/images/acl.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/acl2019">
+                <header class="post-card-header">
+                    
+
+                    <h2 class="post-card-title">ACL 2019 Highlights</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/taycir.jpg" alt="Taycir Yahmed" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/tayciryahmed/">Taycir Yahmed</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/favicon.png" alt="Taycir Yahmed icon" />
+            
+            <span>Taycir Yahmed</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">ACL 2020 Highlights: Interpretability, Evaluation and more.</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=ACL+2020+Highlights%3A+Interpretability%2C+Evaluation+and+more.&amp;url=https://tayciryahmed.github.ioacl2020"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://tayciryahmed.github.ioacl2020"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">Taycir Yahmed</a> &copy; 2025 Opinions are my own.</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://github.com/tayciryahmed" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://twitter.com/TaycirYahmed" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.linkedin.com/in/taycir" target="_blank" rel="noopener">LinkedIn</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65JD9XK4QH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65JD9XK4QH');
+</script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
